@@ -31,14 +31,14 @@ tags: [loop-engineering, opc]
 
 ## 六个零件
 
-| 零件 | 作用 | Hermes 对应 |
-|---|---|---|
-| **Automation** | 定时自动发现和调度 | `cronjob` |
-| **Worktree** | 隔离并行 agent 的工作目录 | `delegate_task` |
-| **Skill** | 固化项目知识 | `skill_manage` |
-| **Connector** | MCP 连接外部系统 | MCP Filesystem |
-| **Sub-agent** | 生成者与评判者分离 | `delegate_task` Maker-Checker |
-| **Memory** | 磁盘上的持久状态 | `memory` + `fact_store` + wiki |
+| 零件             | 作用               | Hermes 对应                      |
+| -------------- | ---------------- | ------------------------------ |
+| **Automation** | 定时自动发现和调度        | `cronjob`                      |
+| **Worktree**   | 隔离并行 agent 的工作目录 | `delegate_task`                |
+| **Skill**      | 固化项目知识           | `skill_manage`                 |
+| **Connector**  | MCP 连接外部系统       | MCP Filesystem                 |
+| **Sub-agent**  | 生成者与评判者分离        | `delegate_task` Maker-Checker  |
+| **Memory**     | 磁盘上的持久状态         | `memory` + `fact_store` + wiki |
 
 ## 五个动作
 
