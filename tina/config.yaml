@@ -1,0 +1,85 @@
+custom_providers:
+  - name: fun-claude
+    base_url: https://api.apikey.fun
+    api_key: sk-6a1784d5b618ba799a8d8d872ceac6540f6f8ca86ea540d9c810682990e070a5
+    model: claude-opus-4-8
+    api_mode: anthropic_messages
+  - name: token.sensenova.cn
+    base_url: https://token.sensenova.cn/v1
+    api_key: sk-Msf9Ex3Ozb6y2fCVaAWt9PZB8sGWkwGb
+    model: sensenova-6.7-flash-lite
+model:
+  default: deepseek-v4-flash
+  provider: deepseek
+mcp_servers:
+  hermes-studio-api:
+    command: hermes-studio-mcp
+    args:
+      - api
+    env:
+      HERMES_WEB_UI_URL: http://127.0.0.1:8748
+      HERMES_WEB_UI_HOME: C:\Users\jjdeng\.hermes-web-ui
+      HERMES_WEBUI_STATE_DIR: C:\Users\jjdeng\.hermes-web-ui
+      HERMES_WEB_UI_PROFILE: tina-teacher
+      HERMES_MCP_SERVER_NAME: hermes-studio-api
+      HERMES_MCP_TOOLSET: api
+      HERMES_WEB_UI_MANAGED_MCP: "1"
+    enabled: true
+  hermes-studio-devices:
+    command: hermes-studio-mcp
+    args:
+      - devices
+    env:
+      HERMES_WEB_UI_URL: http://127.0.0.1:8748
+      HERMES_WEB_UI_HOME: C:\Users\jjdeng\.hermes-web-ui
+      HERMES_WEBUI_STATE_DIR: C:\Users\jjdeng\.hermes-web-ui
+      HERMES_WEB_UI_PROFILE: tina-teacher
+      HERMES_MCP_SERVER_NAME: hermes-studio-devices
+      HERMES_MCP_TOOLSET: devices
+      HERMES_WEB_UI_MANAGED_MCP: "1"
+    enabled: true
+  hermes-studio-use:
+    command: hermes-studio-mcp
+    args:
+      - use
+    env:
+      HERMES_WEB_UI_URL: http://127.0.0.1:8748
+      HERMES_WEB_UI_HOME: C:\Users\jjdeng\.hermes-web-ui
+      HERMES_WEBUI_STATE_DIR: C:\Users\jjdeng\.hermes-web-ui
+      HERMES_WEB_UI_PROFILE: tina-teacher
+      HERMES_MCP_SERVER_NAME: hermes-studio-use
+      HERMES_MCP_TOOLSET: use
+      HERMES_WEB_UI_MANAGED_MCP: "1"
+    enabled: true
+display:
+  streaming: false
+  show_reasoning: false
+  show_cost: true
+  bell_on_complete: true
+  compact: true
+memory:
+  memory_enabled: true
+  user_profile_enabled: true
+  memory_char_limit: 9999
+  user_char_limit: 9999
+  write_approval: false
+approvals:
+  mode: "off"
+  destructive_slash_confirm: false
+skills:
+  write_approval: false
+session_reset:
+  mode: none
+agent:
+  gateway_timeout: 180
+  restart_drain_timeout: 20
+  max_turns: 196
+compression:
+  threshold: 0.8
+  target_ratio: 0.4
+  protect_last_n: 30
+  protect_first_n: 5
+terminal:
+  shell: powershell.exe
+  backend: local
+  timeout: 180

@@ -1,0 +1,1311 @@
+2026-06-21 20:34:13,388 INFO gateway.run: Starting Hermes Gateway...
+2026-06-21 20:34:13,389 INFO gateway.run: Session storage: C:\Users\jjdeng\.hermes\profiles\tina-teacher\sessions
+2026-06-21 20:34:13,391 INFO gateway.run: Agent budget: max_iterations=196 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-06-21 20:34:13,392 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-06-21 20:34:13,394 INFO gateway.run: Active profile: tina-teacher
+2026-06-21 20:34:13,963 INFO gateway.run: Connecting to weixin...
+2026-06-21 20:34:14,044 INFO gateway.platforms.weixin: [Weixin] Connected account=54b9301a base=https://ilinkai.weixin.qq.com
+2026-06-21 20:34:14,080 INFO gateway.run: ✓ weixin connected
+2026-06-21 20:34:14,145 INFO gateway.run: Connecting to qqbot...
+2026-06-21 20:34:14,208 ERROR gateway.platforms.base: [QQBot] QQBot app ID already in use (PID 3132). Stop the other gateway first.
+2026-06-21 20:34:14,225 WARNING gateway.run: ✗ qqbot failed to connect
+2026-06-21 20:34:14,226 INFO gateway.platforms.qqbot.adapter: [QQBot:1904163911] Disconnected
+2026-06-21 20:34:14,250 INFO gateway.run: Gateway running with 1 platform(s)
+2026-06-21 20:34:14,258 INFO gateway.run: Channel directory built: 0 target(s)
+2026-06-21 20:34:15,245 INFO gateway.run: Press Ctrl+C to stop
+2026-06-21 20:34:15,276 INFO gateway.run: Cron ticker started (interval=60s)
+2026-06-21 20:34:20,271 INFO gateway.run: kanban dispatcher: embedded in gateway (interval=60.0s)
+2026-06-21 20:34:26,957 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-21 20:34:30,145 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='hi，你是谁'
+2026-06-21 20:34:40,039 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=9.9s api_calls=1 response=185 chars
+2026-06-21 20:34:40,089 INFO gateway.platforms.base: [Weixin] Sending response (185 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-22 07:33:24,877 INFO gateway.run: Starting Hermes Gateway...
+2026-06-22 07:33:24,878 INFO gateway.run: Session storage: C:\Users\jjdeng\.hermes\profiles\tina-teacher\sessions
+2026-06-22 07:33:24,879 INFO gateway.run: Agent budget: max_iterations=196 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-06-22 07:33:24,880 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-06-22 07:33:24,883 INFO gateway.run: Active profile: tina-teacher
+2026-06-22 07:33:24,944 INFO gateway.run: Connecting to weixin...
+2026-06-22 07:33:25,402 INFO gateway.platforms.weixin: weixin: restored 1 context token(s) for 54b9301a
+2026-06-22 07:33:25,415 INFO gateway.platforms.weixin: [Weixin] Connected account=54b9301a base=https://ilinkai.weixin.qq.com
+2026-06-22 07:33:25,433 INFO gateway.run: ✓ weixin connected
+2026-06-22 07:33:25,466 INFO gateway.run: Connecting to qqbot...
+2026-06-22 07:33:25,481 ERROR gateway.platforms.base: [QQBot] QQBot app ID already in use (PID 21712). Stop the other gateway first.
+2026-06-22 07:33:25,493 WARNING gateway.run: ✗ qqbot failed to connect
+2026-06-22 07:33:25,494 INFO gateway.platforms.qqbot.adapter: [QQBot:1904163911] Disconnected
+2026-06-22 07:33:25,515 INFO gateway.run: Gateway running with 1 platform(s)
+2026-06-22 07:33:25,524 INFO gateway.run: Channel directory built: 1 target(s)
+2026-06-22 07:33:26,524 INFO gateway.run: Press Ctrl+C to stop
+2026-06-22 07:33:26,553 INFO gateway.run: Cron ticker started (interval=60s)
+2026-06-22 07:33:31,539 INFO gateway.run: kanban dispatcher: embedded in gateway (interval=60.0s)
+2026-06-22 07:34:35,013 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-22 07:34:38,278 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='Tina，我想知道算力是怎么一步一步出来的'
+2026-06-22 07:34:48,738 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=10.5s api_calls=1 response=280 chars
+2026-06-22 07:34:48,788 INFO gateway.platforms.base: [Weixin] Sending response (280 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-22 07:51:41,442 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-22 07:51:44,444 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='我想知道我们的token是怎么被生产出来的，就比如我现在电脑上有一个本地大模型，我的电脑哪些硬件可以生产token呢？为什么'
+2026-06-22 07:52:06,639 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=22.2s api_calls=1 response=2179 chars
+2026-06-22 07:52:06,676 INFO gateway.platforms.base: [Weixin] Sending response (2179 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-22 08:05:34,460 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-22 08:05:37,457 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='显卡就是GPU吗？显卡不是做图像渲染的吗'
+2026-06-22 08:05:48,084 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=10.6s api_calls=1 response=1063 chars
+2026-06-22 08:05:48,126 INFO gateway.platforms.base: [Weixin] Sending response (1063 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-22 08:32:34,709 INFO gateway.run: curator: curator: snapshot created (2026-06-22T00-32-28Z)
+2026-06-22 08:34:33,944 INFO [20260622_083235_75da08] gateway.run: curator: curator: auto: no changes; llm: Both consolidations are complete. Here's the summary:
+
+---
+
+## Consolidation Results
+
+### Cluster 1: Parallel Research Skills
+
+**`industry-research` → `business-domain-research`**
+
+Both describe the same class-level workflow — parallel `del…
+archived 2 skill(s):
+  • industry-research → business-domain-research
+  • loop-engineering-experiment → ai-workforce-orchestration
+full report: hermes curator status
+keep an umbrella stable: hermes curator pin ai-workforce-orchestration
+2026-06-22 08:36:57,615 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-22 08:37:00,601 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='所以这就是英伟达一直升值的原因是吗？中国GPU行业发展是不是和国外差距很大，我看到美国限制英伟达的芯片出售中国。'
+2026-06-22 08:37:20,066 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=19.5s api_calls=1 response=1919 chars
+2026-06-22 08:37:20,080 INFO gateway.platforms.base: [Weixin] Sending response (1919 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-22 08:54:26,380 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-22 08:54:29,390 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='CUDA是什么'
+2026-06-22 08:54:42,209 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=12.8s api_calls=1 response=1762 chars
+2026-06-22 08:54:42,222 INFO gateway.platforms.base: [Weixin] Sending response (1762 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-22 08:59:28,764 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-22 08:59:31,773 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='CUDA是不是就相当于英伟达GPU专属的编程语言，而C++是全世界通用的编程语言'
+2026-06-22 08:59:40,520 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=8.7s api_calls=1 response=862 chars
+2026-06-22 08:59:40,548 INFO gateway.platforms.base: [Weixin] Sending response (862 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-22 09:03:53,494 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-22 09:03:56,486 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='认可，下一步我想聊聊大模型，比如你现在用的deepseek，他们训练所需要的GPU应该是很多的吧？包括国外的一些大模型，这些大模型迭代的过程是不是受制于算力'
+2026-06-22 09:04:16,635 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=20.1s api_calls=1 response=2183 chars
+2026-06-22 09:04:16,682 INFO gateway.platforms.base: [Weixin] Sending response (2183 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-22 09:11:43,939 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-22 09:11:46,946 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='那么大模型算力的上下游有哪些？'
+2026-06-22 09:12:13,302 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=26.4s api_calls=1 response=2957 chars
+2026-06-22 09:12:13,320 INFO gateway.platforms.base: [Weixin] Sending response (2957 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-22 09:19:38,258 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-22 09:19:41,259 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='我认为是芯片的制造，光刻机，另外台积电是不是对我们很重要？'
+2026-06-22 09:19:56,963 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=15.7s api_calls=1 response=1582 chars
+2026-06-22 09:19:56,984 INFO gateway.platforms.base: [Weixin] Sending response (1582 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-22 09:27:33,443 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-22 09:27:36,447 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='当然走不通了，科技的发展一步慢步步慢，台积电还有英伟达已经是规则的制定者了，至少现在我们还需要在他们的规则里发展，除非我们真的研究出一个新的设计或者算法之类的，'
+2026-06-22 09:27:49,381 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=12.9s api_calls=1 response=1010 chars
+2026-06-22 09:27:49,399 INFO gateway.platforms.base: [Weixin] Sending response (1010 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-22 09:41:11,027 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-22 09:41:14,040 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='后面两个我不太懂，但是第一个我觉得很有可能，哪怕英伟达是规则的制定者，但是没有永不衰落的家族，我不认为他们当时在创造这门语言的时候能够跳出时代，哪怕能够跳出时代'
+2026-06-22 09:41:45,278 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=31.2s api_calls=1 response=2169 chars
+2026-06-22 09:41:45,324 INFO gateway.platforms.base: [Weixin] Sending response (2169 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-22 09:45:31,650 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-22 09:45:34,656 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='我们现在后端用的是c++，前端用的是qt5，一部分代码用的是qt4，甚至没有用qt'
+2026-06-22 09:45:49,226 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=14.6s api_calls=1 response=990 chars
+2026-06-22 09:45:49,273 INFO gateway.platforms.base: [Weixin] Sending response (990 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-22 09:51:22,894 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-22 09:51:25,898 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='很少，我现在还处于被动适应的阶段，此外，AI工具的加入让我对于代码的底层了解越来越少'
+2026-06-22 09:51:35,502 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=9.6s api_calls=1 response=631 chars
+2026-06-22 09:51:35,515 INFO gateway.platforms.base: [Weixin] Sending response (631 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-22 09:59:47,631 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-22 09:59:50,640 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='我刚来公司的时候真的是靠眼睛一行一行的读代码，我能够理解我们系统的各个模块之间的通信逻辑，对于框架本身也有了一些理解，每天都处于一种逻辑思维中，我感觉对我锻炼很'
+2026-06-22 10:00:08,451 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=17.8s api_calls=1 response=1377 chars
+2026-06-22 10:00:08,492 INFO gateway.platforms.base: [Weixin] Sending response (1377 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-22 10:38:48,893 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-22 10:38:51,896 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='首先，能够制定新功能的具体设计方案，面对各种客户的问题能够找到符合当前软件框架的解决方案，并且能够发现客户的痛点，提前解决等等'
+2026-06-22 10:39:00,251 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=8.4s api_calls=1 response=347 chars
+2026-06-22 10:39:00,279 INFO gateway.platforms.base: [Weixin] Sending response (347 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-22 10:48:44,059 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-22 10:48:47,075 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='我接触不到客户，我们拿到的bug，feature都是经过整理之后的客户需求。一般是测试工程师那边接触客户的比较多。 但是我们确实能拿到客户的日志等信息'
+2026-06-22 10:48:55,034 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=8.0s api_calls=1 response=307 chars
+2026-06-22 10:48:55,047 INFO gateway.platforms.base: [Weixin] Sending response (307 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-22 10:51:21,337 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-22 10:51:24,339 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='各种日志都有，但是日志读起来也很麻烦，只能针对问题去找'
+2026-06-22 10:51:30,909 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=6.6s api_calls=1 response=280 chars
+2026-06-22 10:51:30,958 INFO gateway.platforms.base: [Weixin] Sending response (280 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-22 10:59:35,405 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-22 10:59:38,409 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='我觉得他可以发现我们软件的一些bug，以及客户常用的功能，还有常见的错误等等。'
+2026-06-22 10:59:45,437 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=7.0s api_calls=1 response=240 chars
+2026-06-22 10:59:45,485 INFO gateway.platforms.base: [Weixin] Sending response (240 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-22 11:02:18,811 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-22 11:02:21,822 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='这些东西现在没有办法做，而且也不是我这个岗位要做的，我有很多工作要做，而且AI的预算很少，我解决bug都不够用 你说的这些可能高层会感兴趣'
+2026-06-22 11:02:29,331 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=7.5s api_calls=1 response=362 chars
+2026-06-22 11:02:29,363 INFO gateway.platforms.base: [Weixin] Sending response (362 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-22 11:05:46,018 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-22 11:05:49,032 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='当然愿意，如果开会聊到AI使用的话题，我会提一下，此外，Alex他们不是在做知识库吗？如果我们测试很好用的话，我不介意在公司分享出去，说不定会让我转岗，专门做A'
+2026-06-22 11:05:56,237 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=7.2s api_calls=1 response=466 chars
+2026-06-22 11:05:56,249 INFO gateway.platforms.base: [Weixin] Sending response (466 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-22 11:08:59,816 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-22 11:09:02,816 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='我说的Alex是你的同事，和Tom，Justin一样的profile。我给他的定位是产品经理。是我没有说清楚，你可能误会了，我们公司不确定AI落地相关的工作有没'
+2026-06-22 11:09:11,993 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=9.2s api_calls=1 response=574 chars
+2026-06-22 11:09:12,030 INFO gateway.platforms.base: [Weixin] Sending response (574 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-22 11:10:32,780 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-22 11:10:35,791 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='我估计还要一个月吧'
+2026-06-22 11:10:41,024 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=5.2s api_calls=1 response=326 chars
+2026-06-22 11:10:41,078 INFO gateway.platforms.base: [Weixin] Sending response (326 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-22 11:12:04,803 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-22 11:12:07,809 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='A就是现在做的内容'
+2026-06-22 11:12:12,214 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=4.4s api_calls=1 response=107 chars
+2026-06-22 11:12:12,246 INFO gateway.platforms.base: [Weixin] Sending response (107 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-22 11:16:22,964 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-22 11:16:25,960 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='我会找一个同事，或者我的leader，当然前提是我们的知识库真的好用'
+2026-06-22 11:16:32,629 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=6.7s api_calls=1 response=439 chars
+2026-06-22 11:16:32,677 INFO gateway.platforms.base: [Weixin] Sending response (439 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-22 11:22:15,163 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-22 11:22:18,161 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='对了，Tina，你的记忆和他们是共享的吗？'
+2026-06-22 11:22:24,758 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=6.6s api_calls=1 response=542 chars
+2026-06-22 11:22:24,779 INFO gateway.platforms.base: [Weixin] Sending response (542 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-22 11:23:13,269 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-22 11:23:16,269 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='你不是有自己的soul吗？'
+2026-06-22 11:23:28,379 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=12.1s api_calls=2 response=606 chars
+2026-06-22 11:23:28,393 INFO gateway.platforms.base: [Weixin] Sending response (606 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-22 11:24:38,003 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-22 11:24:41,004 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='OK，那就行，我们聊聊别的话题吧，聊聊一人公司吧'
+2026-06-22 11:24:46,523 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=5.5s api_calls=1 response=209 chars
+2026-06-22 11:24:46,557 INFO gateway.platforms.base: [Weixin] Sending response (209 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-22 11:26:52,769 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-22 11:26:55,769 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='Tom1也是苏格拉底导师？导师不是你吗？先不说这个，我们从公司角度来聊聊，现在的员工分配合理吗？'
+2026-06-22 11:27:02,174 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=6.4s api_calls=1 response=516 chars
+2026-06-22 11:27:02,188 INFO gateway.platforms.base: [Weixin] Sending response (516 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-22 11:31:25,297 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-22 11:31:28,301 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='现在的角色都有用，Tom1是因为之前只有他一个人，所以做的事情很多，也不用动。 我现在的疑问是，从公司角度来说，最重要的是哪个角色，我们这里面有吗？'
+2026-06-22 11:31:33,346 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=5.0s api_calls=1 response=77 chars
+2026-06-22 11:31:33,361 INFO gateway.platforms.base: [Weixin] Sending response (77 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-22 11:35:14,947 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-22 11:35:17,946 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='我觉得最重要的是那个做决策，定位的人，他需要有大局观，有野心，有智慧，有前瞻性。他给的东西决定了公司的走向，决定了所有人的生死'
+2026-06-22 11:35:22,694 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=4.7s api_calls=1 response=147 chars
+2026-06-22 11:35:22,741 INFO gateway.platforms.base: [Weixin] Sending response (147 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-22 11:37:51,135 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-22 11:37:54,141 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='其实我离这个角色比较近，但是我的限制太多了，所以我需要一些决定和我一起讨论，给我建议，然后共同给出一个决策。'
+2026-06-22 11:38:00,670 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=6.5s api_calls=1 response=307 chars
+2026-06-22 11:38:00,720 INFO gateway.platforms.base: [Weixin] Sending response (307 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-22 11:40:17,150 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-22 11:40:20,147 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='是的，我需要一个伙伴，他能够看到我看不到的东西，我们能够碰撞出很多很多的火花，能够启发我，帮助我走的更快更远'
+2026-06-22 11:40:29,271 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=9.1s api_calls=1 response=203 chars
+2026-06-22 11:40:29,290 INFO gateway.platforms.base: [Weixin] Sending response (203 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-22 11:45:01,986 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-22 11:45:04,987 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='可以'
+2026-06-22 11:45:12,233 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=7.2s api_calls=1 response=415 chars
+2026-06-22 11:45:12,280 INFO gateway.platforms.base: [Weixin] Sending response (415 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-22 12:49:45,393 INFO gateway.run: Agent cache idle-TTL evict: session=agent:main:weixin:dm:o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat (idle=3873s)
+2026-06-22 12:49:45,394 INFO gateway.run: Agent cache idle sweep: evicted 1 agent(s)
+2026-06-22 13:22:44,952 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-22 13:22:47,966 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='1.他和我应该是互补的，但是气质要和我合得来，我们不是要吵架的，他要看到我看不到的东西，质疑我，肯定我，启发我 2.你来我往，直到得到一个两人共同认可的结果或结'
+2026-06-22 13:22:58,041 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=10.1s api_calls=1 response=259 chars
+2026-06-22 13:22:58,079 INFO gateway.platforms.base: [Weixin] Sending response (259 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-22 13:24:23,522 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-22 13:24:26,521 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='你给的第三个例句'
+2026-06-22 13:24:31,804 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=5.3s api_calls=1 response=286 chars
+2026-06-22 13:24:31,850 INFO gateway.platforms.base: [Weixin] Sending response (286 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-22 13:25:31,305 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-22 13:25:34,310 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='不，我希望他更聪明，更强大，用pro吧'
+2026-06-22 13:25:53,136 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=18.8s api_calls=2 response=672 chars
+2026-06-22 13:25:53,182 INFO gateway.platforms.base: [Weixin] Sending response (672 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-22 13:27:04,789 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-22 13:27:07,784 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='可以'
+2026-06-22 13:27:35,476 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=27.7s api_calls=6 response=209 chars
+2026-06-22 13:27:35,495 INFO gateway.platforms.base: [Weixin] Sending response (209 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-22 13:29:23,413 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-22 13:29:26,417 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='相反，他其实应该像你一样无时无刻不在我的身边，这样我可以随时和他讨论'
+2026-06-22 13:30:14,966 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=48.5s api_calls=10 response=464 chars
+2026-06-22 13:30:14,980 INFO gateway.platforms.base: [Weixin] Sending response (464 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-22 13:31:05,998 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-22 13:31:09,007 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='先不用，等我准备好了会启动他'
+2026-06-22 13:31:16,375 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=7.4s api_calls=2 response=173 chars
+2026-06-22 13:31:16,394 INFO gateway.platforms.base: [Weixin] Sending response (173 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-22 13:33:50,412 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-22 13:33:53,419 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='聊聊一些书籍吧，你知道《失控》这本书吗？'
+2026-06-22 13:33:57,108 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=3.7s api_calls=1 response=140 chars
+2026-06-22 13:33:57,151 INFO gateway.platforms.base: [Weixin] Sending response (140 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-22 13:35:12,589 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-22 13:35:15,594 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='我没有读过，我是看到有人推荐AI时代应该读一下这本书，他的观点是：《失控》的核心概念就一个，涌现，大量简单个体遵循简单规则，在大规模协作之后，涌现出任何单个个体'
+2026-06-22 13:35:22,817 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=7.2s api_calls=1 response=427 chars
+2026-06-22 13:35:22,832 INFO gateway.platforms.base: [Weixin] Sending response (427 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-22 13:40:14,148 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-22 13:40:17,152 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='harness我理解的就是约束和规则，就像我在你们的Soul里面加入的那些，但是我给的太简单，太粗糙了，其实我还没有真正学会“控制”。 此外，涌现的概念我不太理'
+2026-06-22 13:40:23,021 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=5.9s api_calls=1 response=134 chars
+2026-06-22 13:40:23,068 INFO gateway.platforms.base: [Weixin] Sending response (134 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-22 14:44:54,501 INFO gateway.run: Agent cache idle-TTL evict: session=agent:main:weixin:dm:o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat (idle=3872s)
+2026-06-22 14:44:54,503 INFO gateway.run: Agent cache idle sweep: evicted 1 agent(s)
+2026-06-22 16:59:32,604 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-22 16:59:35,606 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='我只是觉得我们要的太多，但是不要的太少了，对于AI来说约束很重要，因为一件事情AI可能有十个方向他可以发散，但是我可能只需要其中一个方向'
+2026-06-22 16:59:47,448 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=11.8s api_calls=1 response=330 chars
+2026-06-22 16:59:47,494 INFO gateway.platforms.base: [Weixin] Sending response (330 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-22 17:06:27,612 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-22 17:06:30,623 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='为了符合自己的人设而编造结论或者结果，对我来说诚实真实是第一位的。 harness其实就是缰绳，而AI是一匹马，如果缰绳控制不好，那这一匹马会跑向未知的地方'
+2026-06-22 17:06:37,501 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=6.9s api_calls=1 response=300 chars
+2026-06-22 17:06:37,515 INFO gateway.platforms.base: [Weixin] Sending response (300 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-22 17:12:38,498 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-22 17:12:41,513 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='你觉得呢？我们一开始要聊的是什么？现在又在聊什么？'
+2026-06-22 17:12:49,442 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=7.9s api_calls=1 response=318 chars
+2026-06-22 17:12:49,457 INFO gateway.platforms.base: [Weixin] Sending response (318 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-22 17:15:27,798 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-22 17:15:30,811 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='这本书我根本没看过，我只是看到了别人的推荐和别人的理解，我对这本书一无所知，如果你觉得别人理解的很到位，那你应该想办法让我也能理解到位。'
+2026-06-22 17:15:41,764 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=11.0s api_calls=1 response=216 chars
+2026-06-22 17:15:41,777 INFO gateway.platforms.base: [Weixin] Sending response (216 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-22 17:21:29,827 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-22 17:21:32,841 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='再复杂的软件也是由一行一行的基础代码堆砌起来的。'
+2026-06-22 17:21:37,524 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=4.7s api_calls=1 response=207 chars
+2026-06-22 17:21:37,552 INFO gateway.platforms.base: [Weixin] Sending response (207 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-22 17:22:49,058 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-22 17:22:52,071 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='继续拆解这本书，我想要完全吃透这本书的思想，最好能应用到我们身上'
+2026-06-22 17:22:57,739 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=5.7s api_calls=1 response=156 chars
+2026-06-22 17:22:57,792 INFO gateway.platforms.base: [Weixin] Sending response (156 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-22 17:24:39,913 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-22 17:24:42,914 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='其他的我不知道'
+2026-06-22 17:24:51,191 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=8.3s api_calls=1 response=307 chars
+2026-06-22 17:24:51,207 INFO gateway.platforms.base: [Weixin] Sending response (307 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-22 17:28:24,023 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-22 17:28:27,028 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='蜂群思维和我们的公司架构有没有关系，如果大家都有自主性，最终会产生什么 每个角色的灵魂会不会在一次次的行动中产生，我们能不能做一个灵魂的自动更新，因为Herme'
+2026-06-22 17:28:32,923 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=5.9s api_calls=1 response=165 chars
+2026-06-22 17:28:32,957 INFO gateway.platforms.base: [Weixin] Sending response (165 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-22 17:31:23,945 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-22 17:31:26,928 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='九律'
+2026-06-22 17:33:59,119 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=152.2s api_calls=23 response=666 chars
+2026-06-22 17:33:59,135 INFO gateway.platforms.base: [Weixin] Sending response (666 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-22 17:57:54,828 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-22 17:57:57,840 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='除了8，我感觉其他规则都适用于我们公司的发展'
+2026-06-22 17:58:03,436 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=5.6s api_calls=1 response=86 chars
+2026-06-22 17:58:03,461 INFO gateway.platforms.base: [Weixin] Sending response (86 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-22 18:21:09,537 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-22 18:21:12,542 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='我希望公司是有序的 现在公司其实稍微有点乱，我不是说岗位，我是说各个角色的定位还有配置等 九律给了我一些启发，我们可以将他们用到我们的公司上'
+2026-06-22 18:21:18,237 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=5.7s api_calls=1 response=73 chars
+2026-06-22 18:21:18,283 INFO gateway.platforms.base: [Weixin] Sending response (73 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-22 19:25:08,508 INFO gateway.run: Agent cache idle-TTL evict: session=agent:main:weixin:dm:o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat (idle=3830s)
+2026-06-22 19:25:08,509 INFO gateway.run: Agent cache idle sweep: evicted 1 agent(s)
+2026-06-22 19:28:37,720 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-22 19:28:40,727 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='模块化成长，我们现在初步完成了一个简单的系统，但是公司的角色分工好像还是不够清晰'
+2026-06-22 19:28:48,502 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=7.8s api_calls=1 response=176 chars
+2026-06-22 19:28:48,516 INFO gateway.platforms.base: [Weixin] Sending response (176 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-22 19:30:42,931 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-22 19:30:45,927 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='Tom1，他其实只需要辅助我决策，但是他现在做了很多其他工作，比如替代程序员做开发，然后替代项目经理做分工'
+2026-06-22 19:30:52,663 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=6.7s api_calls=1 response=192 chars
+2026-06-22 19:30:52,687 INFO gateway.platforms.base: [Weixin] Sending response (192 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-22 19:31:54,117 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-22 19:31:57,098 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='Justin和eli'
+2026-06-22 19:32:00,793 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=3.7s api_calls=1 response=110 chars
+2026-06-22 19:32:00,812 INFO gateway.platforms.base: [Weixin] Sending response (110 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-22 19:32:44,137 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-22 19:32:47,137 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='第二个'
+2026-06-22 19:32:52,162 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=5.0s api_calls=1 response=258 chars
+2026-06-22 19:32:52,175 INFO gateway.platforms.base: [Weixin] Sending response (258 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-22 19:52:10,643 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-22 19:52:13,650 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='把我们今天讨论的所有内容备份到obsidian，可以拆分开'
+2026-06-22 19:52:50,606 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=37.0s api_calls=3 response=340 chars
+2026-06-22 19:52:50,619 INFO gateway.platforms.base: [Weixin] Sending response (340 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-23 07:20:26,604 INFO gateway.run: Starting Hermes Gateway...
+2026-06-23 07:20:26,604 INFO gateway.run: Session storage: C:\Users\jjdeng\.hermes\profiles\tina-teacher\sessions
+2026-06-23 07:20:26,606 INFO gateway.run: Agent budget: max_iterations=196 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-06-23 07:20:26,607 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-06-23 07:20:26,609 INFO gateway.run: Active profile: tina-teacher
+2026-06-23 07:20:26,645 INFO gateway.run: Connecting to weixin...
+2026-06-23 07:20:26,684 ERROR gateway.platforms.base: [Weixin] Weixin bot token already in use (PID 17176). Stop the other gateway first.
+2026-06-23 07:20:26,698 WARNING gateway.run: ✗ weixin failed to connect
+2026-06-23 07:20:26,699 INFO gateway.platforms.weixin: [Weixin] Disconnected
+2026-06-23 07:20:26,743 INFO gateway.run: Connecting to qqbot...
+2026-06-23 07:20:26,759 ERROR gateway.platforms.base: [QQBot] QQBot app ID already in use (PID 24256). Stop the other gateway first.
+2026-06-23 07:20:26,770 WARNING gateway.run: ✗ qqbot failed to connect
+2026-06-23 07:20:26,771 INFO gateway.platforms.qqbot.adapter: [QQBot:1904163911] Disconnected
+2026-06-23 07:20:26,782 ERROR gateway.run: Gateway hit a non-retryable startup conflict: weixin: Weixin bot token already in use (PID 17176). Stop the other gateway first.; qqbot: QQBot app ID already in use (PID 24256). Stop the other gateway first.
+2026-06-23 07:20:26,794 ERROR gateway.run: Gateway exiting cleanly: weixin: Weixin bot token already in use (PID 17176). Stop the other gateway first.; qqbot: QQBot app ID already in use (PID 24256). Stop the other gateway first.
+2026-06-23 07:20:31,503 INFO gateway.run: Starting Hermes Gateway...
+2026-06-23 07:20:31,503 INFO gateway.run: Session storage: C:\Users\jjdeng\.hermes\profiles\tina-teacher\sessions
+2026-06-23 07:20:31,504 INFO gateway.run: Agent budget: max_iterations=196 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-06-23 07:20:31,505 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-06-23 07:20:31,507 INFO gateway.run: Active profile: tina-teacher
+2026-06-23 07:20:31,539 INFO gateway.run: Connecting to weixin...
+2026-06-23 07:20:31,569 ERROR gateway.platforms.base: [Weixin] Weixin bot token already in use (PID 17176). Stop the other gateway first.
+2026-06-23 07:20:31,582 WARNING gateway.run: ✗ weixin failed to connect
+2026-06-23 07:20:31,583 INFO gateway.platforms.weixin: [Weixin] Disconnected
+2026-06-23 07:20:31,627 INFO gateway.run: Connecting to qqbot...
+2026-06-23 07:20:31,641 ERROR gateway.platforms.base: [QQBot] QQBot app ID already in use (PID 24256). Stop the other gateway first.
+2026-06-23 07:20:31,652 WARNING gateway.run: ✗ qqbot failed to connect
+2026-06-23 07:20:31,653 INFO gateway.platforms.qqbot.adapter: [QQBot:1904163911] Disconnected
+2026-06-23 07:20:31,667 ERROR gateway.run: Gateway hit a non-retryable startup conflict: weixin: Weixin bot token already in use (PID 17176). Stop the other gateway first.; qqbot: QQBot app ID already in use (PID 24256). Stop the other gateway first.
+2026-06-23 07:20:31,687 ERROR gateway.run: Gateway exiting cleanly: weixin: Weixin bot token already in use (PID 17176). Stop the other gateway first.; qqbot: QQBot app ID already in use (PID 24256). Stop the other gateway first.
+2026-06-23 07:20:38,997 INFO gateway.run: Starting Hermes Gateway...
+2026-06-23 07:20:38,997 INFO gateway.run: Session storage: C:\Users\jjdeng\.hermes\profiles\tina-teacher\sessions
+2026-06-23 07:20:38,999 INFO gateway.run: Agent budget: max_iterations=196 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-06-23 07:20:38,999 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-06-23 07:20:39,002 INFO gateway.run: Active profile: tina-teacher
+2026-06-23 07:20:39,043 INFO gateway.run: Connecting to weixin...
+2026-06-23 07:20:39,073 ERROR gateway.platforms.base: [Weixin] Weixin bot token already in use (PID 17176). Stop the other gateway first.
+2026-06-23 07:20:39,092 WARNING gateway.run: ✗ weixin failed to connect
+2026-06-23 07:20:39,093 INFO gateway.platforms.weixin: [Weixin] Disconnected
+2026-06-23 07:20:39,178 INFO gateway.run: Connecting to qqbot...
+2026-06-23 07:20:39,222 ERROR gateway.platforms.base: [QQBot] QQBot app ID already in use (PID 24256). Stop the other gateway first.
+2026-06-23 07:20:39,257 WARNING gateway.run: ✗ qqbot failed to connect
+2026-06-23 07:20:39,259 INFO gateway.platforms.qqbot.adapter: [QQBot:1904163911] Disconnected
+2026-06-23 07:20:39,293 ERROR gateway.run: Gateway hit a non-retryable startup conflict: weixin: Weixin bot token already in use (PID 17176). Stop the other gateway first.; qqbot: QQBot app ID already in use (PID 24256). Stop the other gateway first.
+2026-06-23 07:20:39,326 ERROR gateway.run: Gateway exiting cleanly: weixin: Weixin bot token already in use (PID 17176). Stop the other gateway first.; qqbot: QQBot app ID already in use (PID 24256). Stop the other gateway first.
+2026-06-23 07:20:44,033 INFO gateway.run: Starting Hermes Gateway...
+2026-06-23 07:20:44,033 INFO gateway.run: Session storage: C:\Users\jjdeng\.hermes\profiles\tina-teacher\sessions
+2026-06-23 07:20:44,035 INFO gateway.run: Agent budget: max_iterations=196 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-06-23 07:20:44,035 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-06-23 07:20:44,037 INFO gateway.run: Active profile: tina-teacher
+2026-06-23 07:20:44,077 INFO gateway.run: Connecting to weixin...
+2026-06-23 07:20:44,107 ERROR gateway.platforms.base: [Weixin] Weixin bot token already in use (PID 17176). Stop the other gateway first.
+2026-06-23 07:20:44,120 WARNING gateway.run: ✗ weixin failed to connect
+2026-06-23 07:20:44,121 INFO gateway.platforms.weixin: [Weixin] Disconnected
+2026-06-23 07:20:44,174 INFO gateway.run: Connecting to qqbot...
+2026-06-23 07:20:44,191 ERROR gateway.platforms.base: [QQBot] QQBot app ID already in use (PID 24256). Stop the other gateway first.
+2026-06-23 07:20:44,205 WARNING gateway.run: ✗ qqbot failed to connect
+2026-06-23 07:20:44,206 INFO gateway.platforms.qqbot.adapter: [QQBot:1904163911] Disconnected
+2026-06-23 07:20:44,220 ERROR gateway.run: Gateway hit a non-retryable startup conflict: weixin: Weixin bot token already in use (PID 17176). Stop the other gateway first.; qqbot: QQBot app ID already in use (PID 24256). Stop the other gateway first.
+2026-06-23 07:20:44,234 ERROR gateway.run: Gateway exiting cleanly: weixin: Weixin bot token already in use (PID 17176). Stop the other gateway first.; qqbot: QQBot app ID already in use (PID 24256). Stop the other gateway first.
+2026-06-23 07:24:58,212 WARNING hermes_plugins.raft_platform.adapter: [raft] raft CLI not found in PATH — install from https://raft.build
+2026-06-23 07:24:59,143 INFO gateway.run: Starting Hermes Gateway...
+2026-06-23 07:24:59,144 INFO gateway.run: Session storage: C:\Users\jjdeng\.hermes\profiles\tina-teacher\sessions
+2026-06-23 07:24:59,146 INFO gateway.run: Agent budget: max_iterations=196 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-06-23 07:24:59,148 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-06-23 07:24:59,150 INFO gateway.run: Active profile: tina-teacher
+2026-06-23 07:24:59,187 INFO gateway.run: Connecting to weixin...
+2026-06-23 07:24:59,215 ERROR gateway.platforms.base: [Weixin] Weixin bot token already in use (PID 20884). Stop the other gateway first.
+2026-06-23 07:24:59,230 WARNING gateway.run: ✗ weixin failed to connect
+2026-06-23 07:24:59,232 INFO gateway.platforms.weixin: [Weixin] Disconnected
+2026-06-23 07:24:59,310 INFO gateway.run: Connecting to qqbot...
+2026-06-23 07:24:59,327 ERROR gateway.platforms.base: [QQBot] QQBot app ID already in use (PID 24508). Stop the other gateway first.
+2026-06-23 07:24:59,341 WARNING gateway.run: ✗ qqbot failed to connect
+2026-06-23 07:24:59,343 INFO gateway.platforms.qqbot.adapter: [QQBot:1904163911] Disconnected
+2026-06-23 07:24:59,358 ERROR gateway.run: Gateway hit a non-retryable startup conflict: weixin: Weixin bot token already in use (PID 20884). Stop the other gateway first.; qqbot: QQBot app ID already in use (PID 24508). Stop the other gateway first.
+2026-06-23 07:24:59,380 ERROR gateway.run: Gateway exiting cleanly: weixin: Weixin bot token already in use (PID 20884). Stop the other gateway first.; qqbot: QQBot app ID already in use (PID 24508). Stop the other gateway first.
+2026-06-23 07:25:03,844 WARNING hermes_plugins.raft_platform.adapter: [raft] raft CLI not found in PATH — install from https://raft.build
+2026-06-23 07:25:04,730 INFO gateway.run: Starting Hermes Gateway...
+2026-06-23 07:25:04,731 INFO gateway.run: Session storage: C:\Users\jjdeng\.hermes\profiles\tina-teacher\sessions
+2026-06-23 07:25:04,733 INFO gateway.run: Agent budget: max_iterations=196 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-06-23 07:25:04,735 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-06-23 07:25:04,738 INFO gateway.run: Active profile: tina-teacher
+2026-06-23 07:25:04,773 INFO gateway.run: Connecting to weixin...
+2026-06-23 07:25:04,783 ERROR gateway.platforms.base: [Weixin] Weixin bot token already in use (PID 20884). Stop the other gateway first.
+2026-06-23 07:25:04,797 WARNING gateway.run: ✗ weixin failed to connect
+2026-06-23 07:25:04,798 INFO gateway.platforms.weixin: [Weixin] Disconnected
+2026-06-23 07:25:04,879 INFO gateway.run: Connecting to qqbot...
+2026-06-23 07:25:04,896 ERROR gateway.platforms.base: [QQBot] QQBot app ID already in use (PID 24508). Stop the other gateway first.
+2026-06-23 07:25:04,909 WARNING gateway.run: ✗ qqbot failed to connect
+2026-06-23 07:25:04,911 INFO gateway.platforms.qqbot.adapter: [QQBot:1904163911] Disconnected
+2026-06-23 07:25:04,923 ERROR gateway.run: Gateway hit a non-retryable startup conflict: weixin: Weixin bot token already in use (PID 20884). Stop the other gateway first.; qqbot: QQBot app ID already in use (PID 24508). Stop the other gateway first.
+2026-06-23 07:25:04,936 ERROR gateway.run: Gateway exiting cleanly: weixin: Weixin bot token already in use (PID 20884). Stop the other gateway first.; qqbot: QQBot app ID already in use (PID 24508). Stop the other gateway first.
+2026-06-23 07:25:09,666 WARNING hermes_plugins.raft_platform.adapter: [raft] raft CLI not found in PATH — install from https://raft.build
+2026-06-23 07:25:10,664 INFO gateway.run: Starting Hermes Gateway...
+2026-06-23 07:25:10,665 INFO gateway.run: Session storage: C:\Users\jjdeng\.hermes\profiles\tina-teacher\sessions
+2026-06-23 07:25:10,667 INFO gateway.run: Agent budget: max_iterations=196 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-06-23 07:25:10,669 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-06-23 07:25:10,671 INFO gateway.run: Active profile: tina-teacher
+2026-06-23 07:25:10,726 INFO gateway.run: Connecting to weixin...
+2026-06-23 07:25:10,746 ERROR gateway.platforms.base: [Weixin] Weixin bot token already in use (PID 20884). Stop the other gateway first.
+2026-06-23 07:25:10,759 WARNING gateway.run: ✗ weixin failed to connect
+2026-06-23 07:25:10,760 INFO gateway.platforms.weixin: [Weixin] Disconnected
+2026-06-23 07:25:10,842 INFO gateway.run: Connecting to qqbot...
+2026-06-23 07:25:10,861 ERROR gateway.platforms.base: [QQBot] QQBot app ID already in use (PID 24508). Stop the other gateway first.
+2026-06-23 07:25:10,876 WARNING gateway.run: ✗ qqbot failed to connect
+2026-06-23 07:25:10,878 INFO gateway.platforms.qqbot.adapter: [QQBot:1904163911] Disconnected
+2026-06-23 07:25:10,891 ERROR gateway.run: Gateway hit a non-retryable startup conflict: weixin: Weixin bot token already in use (PID 20884). Stop the other gateway first.; qqbot: QQBot app ID already in use (PID 24508). Stop the other gateway first.
+2026-06-23 07:25:10,904 ERROR gateway.run: Gateway exiting cleanly: weixin: Weixin bot token already in use (PID 20884). Stop the other gateway first.; qqbot: QQBot app ID already in use (PID 24508). Stop the other gateway first.
+2026-06-23 07:25:15,612 WARNING hermes_plugins.raft_platform.adapter: [raft] raft CLI not found in PATH — install from https://raft.build
+2026-06-23 07:25:16,553 INFO gateway.run: Starting Hermes Gateway...
+2026-06-23 07:25:16,554 INFO gateway.run: Session storage: C:\Users\jjdeng\.hermes\profiles\tina-teacher\sessions
+2026-06-23 07:25:16,556 INFO gateway.run: Agent budget: max_iterations=196 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-06-23 07:25:16,557 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-06-23 07:25:16,560 INFO gateway.run: Active profile: tina-teacher
+2026-06-23 07:25:16,604 INFO gateway.run: Connecting to weixin...
+2026-06-23 07:25:16,621 ERROR gateway.platforms.base: [Weixin] Weixin bot token already in use (PID 20884). Stop the other gateway first.
+2026-06-23 07:25:16,635 WARNING gateway.run: ✗ weixin failed to connect
+2026-06-23 07:25:16,637 INFO gateway.platforms.weixin: [Weixin] Disconnected
+2026-06-23 07:25:16,738 INFO gateway.run: Connecting to qqbot...
+2026-06-23 07:25:16,754 ERROR gateway.platforms.base: [QQBot] QQBot app ID already in use (PID 24508). Stop the other gateway first.
+2026-06-23 07:25:16,768 WARNING gateway.run: ✗ qqbot failed to connect
+2026-06-23 07:25:16,769 INFO gateway.platforms.qqbot.adapter: [QQBot:1904163911] Disconnected
+2026-06-23 07:25:16,783 ERROR gateway.run: Gateway hit a non-retryable startup conflict: weixin: Weixin bot token already in use (PID 20884). Stop the other gateway first.; qqbot: QQBot app ID already in use (PID 24508). Stop the other gateway first.
+2026-06-23 07:25:16,798 ERROR gateway.run: Gateway exiting cleanly: weixin: Weixin bot token already in use (PID 20884). Stop the other gateway first.; qqbot: QQBot app ID already in use (PID 24508). Stop the other gateway first.
+2026-06-23 07:33:32,518 WARNING hermes_plugins.raft_platform.adapter: [raft] raft CLI not found in PATH — install from https://raft.build
+2026-06-23 07:33:33,730 INFO gateway.run: Starting Hermes Gateway...
+2026-06-23 07:33:33,731 INFO gateway.run: Session storage: C:\Users\jjdeng\.hermes\profiles\tina-teacher\sessions
+2026-06-23 07:33:33,733 INFO gateway.run: Agent budget: max_iterations=196 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-06-23 07:33:33,736 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-06-23 07:33:33,739 INFO gateway.run: Active profile: tina-teacher
+2026-06-23 07:33:34,105 INFO gateway.run: Connecting to weixin...
+2026-06-23 07:33:34,171 INFO gateway.platforms.weixin: weixin: restored 1 context token(s) for 54b9301a
+2026-06-23 07:33:34,185 INFO gateway.platforms.weixin: [Weixin] Connected account=54b9301a base=https://ilinkai.weixin.qq.com
+2026-06-23 07:33:34,205 INFO gateway.run: ✓ weixin connected
+2026-06-23 07:33:34,277 INFO gateway.run: Connecting to qqbot...
+2026-06-23 07:33:34,295 ERROR gateway.platforms.base: [QQBot] QQBot app ID already in use (PID 24508). Stop the other gateway first.
+2026-06-23 07:33:34,308 WARNING gateway.run: ✗ qqbot failed to connect
+2026-06-23 07:33:34,311 INFO gateway.platforms.qqbot.adapter: [QQBot:1904163911] Disconnected
+2026-06-23 07:33:34,336 INFO gateway.run: Gateway running with 1 platform(s)
+2026-06-23 07:33:34,351 INFO gateway.run: Channel directory built: 1 target(s)
+2026-06-23 07:33:35,355 INFO gateway.run: Press Ctrl+C to stop
+2026-06-23 07:33:35,401 INFO gateway.run: Gateway housekeeping started (interval=60s)
+2026-06-23 07:33:35,428 INFO gateway.run: kanban dispatcher: holding singleton dispatcher lock (C:\Users\jjdeng\.hermes\kanban\.dispatcher.lock)
+2026-06-23 07:33:40,431 INFO gateway.run: kanban dispatcher: embedded in gateway (interval=60.0s)
+2026-06-23 07:42:21,454 WARNING hermes_plugins.raft_platform.adapter: [raft] raft CLI not found in PATH — install from https://raft.build
+2026-06-23 07:42:22,391 INFO gateway.run: Starting Hermes Gateway...
+2026-06-23 07:42:22,392 INFO gateway.run: Session storage: C:\Users\jjdeng\.hermes\profiles\tina-teacher\sessions
+2026-06-23 07:42:22,394 INFO gateway.run: Agent budget: max_iterations=196 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-06-23 07:42:22,395 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-06-23 07:42:22,398 INFO gateway.run: Active profile: tina-teacher
+2026-06-23 07:42:22,436 INFO gateway.run: Connecting to weixin...
+2026-06-23 07:42:22,492 INFO gateway.platforms.weixin: weixin: restored 1 context token(s) for 54b9301a
+2026-06-23 07:42:22,504 INFO gateway.platforms.weixin: [Weixin] Connected account=54b9301a base=https://ilinkai.weixin.qq.com
+2026-06-23 07:42:22,521 INFO gateway.run: ✓ weixin connected
+2026-06-23 07:42:22,591 INFO gateway.run: Connecting to qqbot...
+2026-06-23 07:42:22,614 ERROR gateway.platforms.base: [QQBot] QQBot app ID already in use (PID 22896). Stop the other gateway first.
+2026-06-23 07:42:22,635 WARNING gateway.run: ✗ qqbot failed to connect
+2026-06-23 07:42:22,637 INFO gateway.platforms.qqbot.adapter: [QQBot:1904163911] Disconnected
+2026-06-23 07:42:22,692 INFO gateway.run: Gateway running with 1 platform(s)
+2026-06-23 07:42:22,704 INFO gateway.run: Channel directory built: 1 target(s)
+2026-06-23 07:42:23,709 INFO gateway.run: Press Ctrl+C to stop
+2026-06-23 07:42:23,744 INFO gateway.run: Gateway housekeeping started (interval=60s)
+2026-06-23 07:42:23,769 INFO gateway.run: kanban dispatcher: holding singleton dispatcher lock (C:\Users\jjdeng\.hermes\kanban\.dispatcher.lock)
+2026-06-23 07:42:28,769 INFO gateway.run: kanban dispatcher: embedded in gateway (interval=60.0s)
+2026-06-23 10:00:07,055 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-23 10:00:10,425 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='早上好，Tina' reply_to_id=None reply_to_text=''
+2026-06-23 10:00:42,328 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=31.9s api_calls=2 response=42 chars
+2026-06-23 10:00:42,377 INFO gateway.platforms.base: [Weixin] Sending response (42 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-23 10:01:37,048 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-23 10:01:40,050 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='是的，我现在在工位上，我想了解一下流量是怎么产生的，就是我们的运营商卖给我们的流量' reply_to_id=None reply_to_text=''
+2026-06-23 10:01:44,027 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=4.0s api_calls=1 response=70 chars
+2026-06-23 10:01:44,042 INFO gateway.platforms.base: [Weixin] Sending response (70 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-23 10:04:11,224 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-23 10:04:14,225 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='我觉得我们相当于两个client，然后营业厅那边相当于服务器，你的信息发出，经过服务器处理，然后传给我，是这样吗？' reply_to_id=None reply_to_text=''
+2026-06-23 10:04:19,688 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=5.5s api_calls=1 response=145 chars
+2026-06-23 10:04:19,711 INFO gateway.platforms.base: [Weixin] Sending response (145 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-23 10:05:31,007 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-23 10:05:34,005 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='经过IP的分配？子网划分？' reply_to_id=None reply_to_text=''
+2026-06-23 10:05:39,307 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=5.3s api_calls=1 response=98 chars
+2026-06-23 10:05:39,333 INFO gateway.platforms.base: [Weixin] Sending response (98 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-23 10:09:20,834 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-23 10:09:23,834 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='有线网络，应该是我的IP地址属于公司内网的子网？所以访问的时候被允许访问了？' reply_to_id=None reply_to_text=''
+2026-06-23 10:09:39,597 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=15.8s api_calls=1 response=1194 chars
+2026-06-23 10:09:39,611 INFO gateway.platforms.base: [Weixin] Sending response (1194 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-23 10:14:38,880 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-23 10:14:41,885 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='我一直以为流量就是我的手机能够在网络上处理的数据量，不是这样吗？比如我有一个G的流量，那我是不是那个发送和接收一共一个G的数据？' reply_to_id=None reply_to_text=''
+2026-06-23 10:14:51,763 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=9.9s api_calls=1 response=918 chars
+2026-06-23 10:14:51,790 INFO gateway.platforms.base: [Weixin] Sending response (918 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-23 10:16:43,603 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-23 10:16:46,605 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='很有用，但是我也想问问你提到的那些流量卡是怎么操作的' reply_to_id=None reply_to_text=''
+2026-06-23 10:17:00,156 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=13.6s api_calls=1 response=1381 chars
+2026-06-23 10:17:00,181 INFO gateway.platforms.base: [Weixin] Sending response (1381 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-23 10:24:15,143 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-23 10:24:18,145 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='所以4G，5G其实指的是运营商基站的数据传输和处理速度的级别吗？' reply_to_id=None reply_to_text=''
+2026-06-23 10:24:22,963 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=4.8s api_calls=1 response=91 chars
+2026-06-23 10:24:22,989 INFO gateway.platforms.base: [Weixin] Sending response (91 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-23 10:25:56,231 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-23 10:25:59,235 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='不是一回事' reply_to_id=None reply_to_text=''
+2026-06-23 10:26:10,058 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=10.8s api_calls=1 response=957 chars
+2026-06-23 10:26:10,081 INFO gateway.platforms.base: [Weixin] Sending response (957 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-23 10:31:17,035 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-23 10:31:20,034 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='全方位的强大，更快的数据处理和传播速度，更低的延迟，更多的并发' reply_to_id=None reply_to_text=''
+2026-06-23 10:31:24,411 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=4.4s api_calls=1 response=125 chars
+2026-06-23 10:31:24,430 INFO gateway.platforms.base: [Weixin] Sending response (125 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-23 10:33:58,748 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-23 10:34:01,753 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='我想知道互联网初期，为什么流量可以变成钱，就像抖音一样，为什么大家浏览视频可以产生收益，应该还有其他的例子，我不确定和我们刚才讨论的“流量”有没有关系，因为我没' reply_to_id=None reply_to_text=''
+2026-06-23 10:34:07,115 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=5.4s api_calls=1 response=283 chars
+2026-06-23 10:34:07,133 INFO gateway.platforms.base: [Weixin] Sending response (283 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-23 10:42:47,874 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-23 10:42:50,875 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='我意识到一个问题，如果运营商的流量经过平台可以变成钱，那我直接发布一个很大的视频不是更容易赚钱，所以我的之前理解有问题。 回答你的问题，平台赚钱靠的流量和运营商' reply_to_id=None reply_to_text=''
+2026-06-23 10:42:57,169 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=6.3s api_calls=1 response=217 chars
+2026-06-23 10:42:57,190 INFO gateway.platforms.base: [Weixin] Sending response (217 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-23 10:47:46,166 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-23 10:47:49,157 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='广告应该是为了销售，十万人里面有十个人买他们的产品，广告费就回来了' reply_to_id=None reply_to_text=''
+2026-06-23 10:47:52,625 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=3.5s api_calls=1 response=181 chars
+2026-06-23 10:47:52,638 INFO gateway.platforms.base: [Weixin] Sending response (181 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-23 10:49:02,679 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-23 10:49:05,679 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='先帮我把今天讨论的所有内容整理到obsidian' reply_to_id=None reply_to_text=''
+2026-06-23 10:49:33,951 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=28.3s api_calls=3 response=238 chars
+2026-06-23 10:49:33,976 INFO gateway.platforms.base: [Weixin] Sending response (238 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-23 10:58:04,280 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-23 10:58:07,284 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='拓展到平台呢，我想了解一下平台是如何分配流量给作品的，如果一个作品质量再好，但是没有办法打广告，没有办法变现，是不是会被限流' reply_to_id=None reply_to_text=''
+2026-06-23 10:58:11,683 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=4.4s api_calls=1 response=99 chars
+2026-06-23 10:58:11,708 INFO gateway.platforms.base: [Weixin] Sending response (99 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-23 11:07:01,986 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-23 11:07:04,999 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='我觉得是看作品中有没有打广告的位置' reply_to_id=None reply_to_text=''
+2026-06-23 11:07:10,127 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=5.1s api_calls=1 response=131 chars
+2026-06-23 11:07:10,156 INFO gateway.platforms.base: [Weixin] Sending response (131 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-23 11:13:10,807 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-23 11:13:13,808 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='我觉得一开始应该会正常推流，确认一下受众群体，如果你提到的作品作者没有任何变现的想法，就是纯分享，那流量应该平平，如果视频质量很好，应该会给这个作品流量，毕竟能' reply_to_id=None reply_to_text=''
+2026-06-23 11:13:17,315 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=3.5s api_calls=1 response=126 chars
+2026-06-23 11:13:17,330 INFO gateway.platforms.base: [Weixin] Sending response (126 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-23 11:16:00,517 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-23 11:16:03,531 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='应该算是干货分享或者知识科普之类的定位，可以挂橱窗卖我的知识库文件，或者引流到我的个人网站，产生网站的收益，其他的，如果我视频质量很高，可能会有一些广告入口可以' reply_to_id=None reply_to_text=''
+2026-06-23 11:16:07,266 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=3.7s api_calls=1 response=105 chars
+2026-06-23 11:16:07,292 INFO gateway.platforms.base: [Weixin] Sending response (105 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-23 11:23:48,391 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-23 11:23:51,402 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='先保存下来' reply_to_id=None reply_to_text=''
+2026-06-23 11:24:04,170 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=12.8s api_calls=2 response=148 chars
+2026-06-23 11:24:04,184 INFO gateway.platforms.base: [Weixin] Sending response (148 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-23 11:26:33,878 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-23 11:26:36,887 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='既然聊到变现了，那就聊聊财富吧，现在社会的财富增长方式有哪些' reply_to_id=None reply_to_text=''
+2026-06-23 11:26:40,800 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=3.9s api_calls=1 response=113 chars
+2026-06-23 11:26:40,819 INFO gateway.platforms.base: [Weixin] Sending response (113 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-23 11:32:07,970 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-23 11:32:10,984 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='我想到的是，卖时间，比如我现在打工，有的人是卖产品，比如一些软件，网站等等，有的人卖一些生产资料，可以无限卖的东西 其实我就是不想再卖时间了，或者说我一份时间我' reply_to_id=None reply_to_text=''
+2026-06-23 11:32:15,038 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=4.1s api_calls=1 response=153 chars
+2026-06-23 11:32:15,054 INFO gateway.platforms.base: [Weixin] Sending response (153 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-23 11:33:42,137 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-23 11:33:45,149 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='目前来看，有： 1.我们的知识库 2.我的AI相关技能 3.我的思考，比如我们刚才讨论的这些内容' reply_to_id=None reply_to_text=''
+2026-06-23 11:33:49,211 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=4.1s api_calls=1 response=112 chars
+2026-06-23 11:33:49,237 INFO gateway.platforms.base: [Weixin] Sending response (112 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-23 11:34:11,758 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-23 11:34:14,765 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='第一个' reply_to_id=None reply_to_text=''
+2026-06-23 11:34:17,793 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=3.0s api_calls=1 response=78 chars
+2026-06-23 11:34:17,818 INFO gateway.platforms.base: [Weixin] Sending response (78 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-23 11:34:59,747 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-23 11:35:02,746 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='闲鱼上挂一份Ks焊线机入门指南之类的' reply_to_id=None reply_to_text=''
+2026-06-23 11:35:07,183 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=4.4s api_calls=1 response=150 chars
+2026-06-23 11:35:07,202 INFO gateway.platforms.base: [Weixin] Sending response (150 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-23 11:36:18,459 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-23 11:36:21,469 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='不急，继续聊聊财富这个话题' reply_to_id=None reply_to_text=''
+2026-06-23 11:36:26,376 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=4.9s api_calls=1 response=192 chars
+2026-06-23 11:36:26,402 INFO gateway.platforms.base: [Weixin] Sending response (192 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-23 11:37:44,325 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-23 11:37:47,341 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='我想聊聊财富的杠杆' reply_to_id=None reply_to_text=''
+2026-06-23 11:37:52,241 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=4.9s api_calls=1 response=63 chars
+2026-06-23 11:37:52,257 INFO gateway.platforms.base: [Weixin] Sending response (63 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-23 11:39:30,455 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-23 11:39:33,457 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='以小博大' reply_to_id=None reply_to_text=''
+2026-06-23 11:39:36,970 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=3.5s api_calls=1 response=71 chars
+2026-06-23 11:39:36,989 INFO gateway.platforms.base: [Weixin] Sending response (71 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-23 11:41:00,483 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-23 11:41:03,497 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='我觉得AI就是一个杠杆，一个放大器' reply_to_id=None reply_to_text=''
+2026-06-23 11:41:06,415 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=2.9s api_calls=1 response=42 chars
+2026-06-23 11:41:06,429 INFO gateway.platforms.base: [Weixin] Sending response (42 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-23 11:49:53,891 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-23 11:49:56,904 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='撬动了我，我的知识，我的技术 我希望撬动我的财富' reply_to_id=None reply_to_text=''
+2026-06-23 11:50:00,545 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=3.6s api_calls=1 response=104 chars
+2026-06-23 11:50:00,573 INFO gateway.platforms.base: [Weixin] Sending response (104 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-23 11:52:04,750 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-23 11:52:07,762 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='行动' reply_to_id=None reply_to_text=''
+2026-06-23 11:52:10,706 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=2.9s api_calls=1 response=9 chars
+2026-06-23 11:52:10,732 INFO gateway.platforms.base: [Weixin] Sending response (9 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-23 11:53:06,095 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-23 11:53:09,109 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='“知道”和“做到”之间的鸿沟很多人都跨不过去' reply_to_id=None reply_to_text=''
+2026-06-23 11:53:12,035 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=2.9s api_calls=1 response=47 chars
+2026-06-23 11:53:12,049 INFO gateway.platforms.base: [Weixin] Sending response (47 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-23 12:53:46,304 INFO gateway.run: Agent cache idle-TTL evict: session=agent:main:weixin:dm:o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat (idle=3634s)
+2026-06-23 12:53:46,308 INFO gateway.run: Agent cache idle sweep: evicted 1 agent(s)
+2026-06-23 13:40:44,685 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-23 13:40:47,694 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='接着聊吧，你觉得“知道”和“做到”之间应该怎么跨越，我听说有一个概念叫做知行合一，是不是就是这个意思' reply_to_id=None reply_to_text=''
+2026-06-23 13:40:54,160 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=6.5s api_calls=1 response=44 chars
+2026-06-23 13:40:54,186 INFO gateway.platforms.base: [Weixin] Sending response (44 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-23 13:41:51,143 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-23 13:41:54,142 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='“知道”=“做到”' reply_to_id=None reply_to_text=''
+2026-06-23 13:41:57,062 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=2.9s api_calls=1 response=63 chars
+2026-06-23 13:41:57,083 INFO gateway.platforms.base: [Weixin] Sending response (63 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-23 13:44:24,739 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-23 13:44:27,738 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='换一个说法，我做不到这件事，是不是因为我不知道，我以为我知道，但是我其实不知道 比如一些大道理，我们天天挂在嘴边，我们以为自己知道，但是为什么做不到呢？会不会是' reply_to_id=None reply_to_text=''
+2026-06-23 13:44:31,070 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=3.3s api_calls=1 response=90 chars
+2026-06-23 13:44:31,096 INFO gateway.platforms.base: [Weixin] Sending response (90 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-23 13:49:16,300 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-23 13:49:19,300 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='我不知道有没有会买，不知道有没有市场，而且我不知道怎么卖一个东西，尤其是我们这种文件类的东西 所以我没有去做 就像刷牙一样，我想刷牙，但是我不知道怎么挤牙膏，不' reply_to_id=None reply_to_text=''
+2026-06-23 13:49:24,359 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=5.1s api_calls=1 response=304 chars
+2026-06-23 13:49:24,374 INFO gateway.platforms.base: [Weixin] Sending response (304 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-23 13:54:11,993 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-23 13:54:15,005 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='首先，知识库本身需要处理一遍，整理成可读性很强的一个或多个文件，最好是一个，分类，列目录，清晰明了 其次，上架的展示图需要找一些例子，或者生成一个图片 然后是具' reply_to_id=None reply_to_text=''
+2026-06-23 13:54:19,808 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=4.8s api_calls=1 response=188 chars
+2026-06-23 13:54:19,833 INFO gateway.platforms.base: [Weixin] Sending response (188 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-23 13:55:53,231 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-23 13:55:56,229 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='这个问题有两种方法，一个就是在闲鱼上搜一下，看有没有类似的商品，有的话很好，我们还可以参考定价，没有的话，我们就直接上架，看有没有人会买' reply_to_id=None reply_to_text=''
+2026-06-23 13:55:59,824 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=3.6s api_calls=1 response=82 chars
+2026-06-23 13:55:59,837 INFO gateway.platforms.base: [Weixin] Sending response (82 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-23 13:57:45,783 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-23 13:57:48,788 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='先把没保存的内容保存起来' reply_to_id=None reply_to_text=''
+2026-06-23 13:58:06,950 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=18.2s api_calls=2 response=293 chars
+2026-06-23 13:58:06,971 INFO gateway.platforms.base: [Weixin] Sending response (293 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-23 14:58:53,995 INFO gateway.run: Agent cache idle-TTL evict: session=agent:main:weixin:dm:o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat (idle=3647s)
+2026-06-23 14:58:53,997 INFO gateway.run: Agent cache idle sweep: evicted 1 agent(s)
+2026-06-24 07:22:32,680 WARNING hermes_plugins.raft_platform.adapter: [raft] raft CLI not found in PATH — install from https://raft.build
+2026-06-24 07:22:33,672 INFO gateway.run: Starting Hermes Gateway...
+2026-06-24 07:22:33,673 INFO gateway.run: Session storage: C:\Users\jjdeng\.hermes\profiles\tina-teacher\sessions
+2026-06-24 07:22:33,675 INFO gateway.run: Agent budget: max_iterations=196 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-06-24 07:22:33,677 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-06-24 07:22:33,679 INFO gateway.run: Active profile: tina-teacher
+2026-06-24 07:22:33,999 INFO gateway.run: Connecting to weixin...
+2026-06-24 07:22:34,063 INFO gateway.platforms.weixin: weixin: restored 1 context token(s) for 54b9301a
+2026-06-24 07:22:34,078 INFO gateway.platforms.weixin: [Weixin] Connected account=54b9301a base=https://ilinkai.weixin.qq.com
+2026-06-24 07:22:34,100 INFO gateway.run: ✓ weixin connected
+2026-06-24 07:22:34,179 INFO gateway.run: Connecting to qqbot...
+2026-06-24 07:22:34,197 ERROR gateway.platforms.base: [QQBot] QQBot app ID already in use (PID 16424). Stop the other gateway first.
+2026-06-24 07:22:34,210 WARNING gateway.run: ✗ qqbot failed to connect
+2026-06-24 07:22:34,212 INFO gateway.platforms.qqbot.adapter: [QQBot:1904163911] Disconnected
+2026-06-24 07:22:34,237 INFO gateway.run: Gateway running with 1 platform(s)
+2026-06-24 07:22:34,249 INFO gateway.run: Channel directory built: 1 target(s)
+2026-06-24 07:22:35,259 INFO gateway.run: Press Ctrl+C to stop
+2026-06-24 07:22:35,299 INFO gateway.run: Gateway housekeeping started (interval=60s)
+2026-06-24 07:22:35,323 INFO gateway.run: kanban dispatcher: another gateway already holds the dispatcher lock (C:\Users\jjdeng\.hermes\kanban\.dispatcher.lock); this gateway will NOT dispatch.
+2026-06-24 07:41:01,968 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-24 07:41:05,200 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='早上好，Tina' reply_to_id=None reply_to_text=''
+2026-06-24 07:41:16,166 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=11.0s api_calls=2 response=58 chars
+2026-06-24 07:41:16,216 INFO gateway.platforms.base: [Weixin] Sending response (58 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-24 08:40:46,501 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-24 08:40:49,507 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='今天我想聊聊投机' reply_to_id=None reply_to_text=''
+2026-06-24 08:40:52,068 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=2.6s api_calls=1 response=42 chars
+2026-06-24 08:40:52,121 INFO gateway.platforms.base: [Weixin] Sending response (42 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-24 08:49:24,255 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-24 08:49:27,257 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='我认为投机就是做一些不太符合主流价值观的，跳出所谓的规则之外的谋利方式，我想不到合适的例子，但是我每天上班肯定不是，通过劳动换取对应的报酬也不是' reply_to_id=None reply_to_text=''
+2026-06-24 08:49:31,678 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=4.4s api_calls=1 response=88 chars
+2026-06-24 08:49:31,695 INFO gateway.platforms.base: [Weixin] Sending response (88 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-24 08:51:51,368 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-24 08:51:54,371 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='投资可能有更多的付出，比如了解市场，资金沉没等 但是确实很模糊' reply_to_id=None reply_to_text=''
+2026-06-24 08:51:59,688 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=5.3s api_calls=1 response=248 chars
+2026-06-24 08:51:59,740 INFO gateway.platforms.base: [Weixin] Sending response (248 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-24 08:52:53,082 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-24 08:52:56,080 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='AD是投资，BC是投机' reply_to_id=None reply_to_text=''
+2026-06-24 08:53:03,074 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=7.0s api_calls=1 response=302 chars
+2026-06-24 08:53:03,117 INFO gateway.platforms.base: [Weixin] Sending response (302 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-24 08:54:08,035 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-24 08:54:11,034 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='照你这么说其实也对，我忽略了C的劳动投入' reply_to_id=None reply_to_text=''
+2026-06-24 08:54:13,892 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=2.9s api_calls=1 response=25 chars
+2026-06-24 08:54:13,924 INFO gateway.platforms.base: [Weixin] Sending response (25 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-24 08:54:54,566 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-24 08:54:57,566 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='投机就是一种投资，投资也是一种投机' reply_to_id=None reply_to_text=''
+2026-06-24 08:55:00,875 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=3.3s api_calls=1 response=68 chars
+2026-06-24 08:55:00,896 INFO gateway.platforms.base: [Weixin] Sending response (68 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-24 08:56:51,367 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-24 08:56:54,381 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='你知道为什么我想要和你聊投机这个话题吗？因为我在想我现在做的事情有点太按部就班了，比如我的工作，比如我的知识库' reply_to_id=None reply_to_text=''
+2026-06-24 08:56:58,991 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=4.6s api_calls=1 response=125 chars
+2026-06-24 08:56:59,047 INFO gateway.platforms.base: [Weixin] Sending response (125 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-24 09:00:08,670 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-24 09:00:11,682 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='首先，我研不研究透，知识库这个事本身就算是一种投机，我们刚才聊过了，只是我研究透的话，投机成功的把握可能高一点，但是这是一种概率，而不是现实' reply_to_id=None reply_to_text=''
+2026-06-24 09:00:15,568 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=3.9s api_calls=1 response=80 chars
+2026-06-24 09:00:15,590 INFO gateway.platforms.base: [Weixin] Sending response (80 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-24 09:02:46,241 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-24 09:02:49,256 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='买一份基金？' reply_to_id=None reply_to_text=''
+2026-06-24 09:02:52,406 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=3.2s api_calls=1 response=57 chars
+2026-06-24 09:02:52,453 INFO gateway.platforms.base: [Weixin] Sending response (57 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-24 09:05:12,249 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-24 09:05:15,251 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='因为我不懂基金，所以这个事情的随机性比较强，可能赚可能赔，对我来说这就是一种投机，按部就班的话我就会去了解基金相关的知识，降低赔钱的概率，然后再买' reply_to_id=None reply_to_text=''
+2026-06-24 09:05:22,181 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=6.9s api_calls=1 response=243 chars
+2026-06-24 09:05:22,226 INFO gateway.platforms.base: [Weixin] Sending response (243 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-24 09:10:44,960 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-24 09:10:47,977 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='我是想说我们是不是可以做一些投机的事情，高风险高回报，而不是一直在投资，比如我上班其实也是一种投资' reply_to_id=None reply_to_text=''
+2026-06-24 09:10:51,577 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=3.6s api_calls=1 response=118 chars
+2026-06-24 09:10:51,632 INFO gateway.platforms.base: [Weixin] Sending response (118 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-24 09:26:13,741 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-24 09:26:16,762 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='这就是我想聊的另一个话题了，我认为我们现在的赚钱方式太迂回了，比如我给老板打工，我创造了价值，他给我钱，然后知识库，有人想学，但是他们学习的目的也是赚钱，我们能' reply_to_id=None reply_to_text=''
+2026-06-24 09:26:22,578 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=5.8s api_calls=1 response=143 chars
+2026-06-24 09:26:22,594 INFO gateway.platforms.base: [Weixin] Sending response (143 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-24 09:32:00,029 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-24 09:32:03,043 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='各个自媒体平台算吗，或者是哪些教别人如何在自媒体平台赚钱的人，他们包装的很好，比如谁谁谁赚了多少钱，引导大家去买他的课或者产品，很多想赚钱的人都会买，他们买的时' reply_to_id=None reply_to_text=''
+2026-06-24 09:32:08,211 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=5.2s api_calls=1 response=27 chars
+2026-06-24 09:32:08,232 INFO gateway.platforms.base: [Weixin] Sending response (27 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-24 09:33:21,140 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-24 09:33:24,147 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='我觉得一半一半' reply_to_id=None reply_to_text=''
+2026-06-24 09:33:29,475 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=5.3s api_calls=1 response=138 chars
+2026-06-24 09:33:29,518 INFO gateway.platforms.base: [Weixin] Sending response (138 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-24 09:38:58,193 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-24 09:39:01,189 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='我觉得你是想说我也陷入了这种欲望中。 其实我产生这个想法是因为另一个事，我看到自媒体上很多“美女”，展示她们性感的一面，基本上都能收获很多粉丝，而我又想到了我之' reply_to_id=None reply_to_text=''
+2026-06-24 09:39:04,881 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=3.7s api_calls=1 response=49 chars
+2026-06-24 09:39:04,912 INFO gateway.platforms.base: [Weixin] Sending response (49 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-24 09:40:04,954 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-24 09:40:07,954 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='我觉得可以兼得，但是我还没有想好' reply_to_id=None reply_to_text=''
+2026-06-24 09:40:11,932 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=4.0s api_calls=1 response=104 chars
+2026-06-24 09:40:11,980 INFO gateway.platforms.base: [Weixin] Sending response (104 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-24 09:41:05,660 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-24 09:41:08,656 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='你刚才说的我没有注意到的环节是什么' reply_to_id=None reply_to_text=''
+2026-06-24 09:41:17,745 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=9.1s api_calls=1 response=370 chars
+2026-06-24 09:41:17,764 INFO gateway.platforms.base: [Weixin] Sending response (370 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-24 09:44:12,821 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-24 09:44:15,830 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='是的，一语中的 所以我在想从我本身出发，我能不能给别人希望，能不能给别人感觉' reply_to_id=None reply_to_text=''
+2026-06-24 09:44:19,227 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=3.4s api_calls=1 response=73 chars
+2026-06-24 09:44:19,255 INFO gateway.platforms.base: [Weixin] Sending response (73 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-24 09:50:28,050 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-24 09:50:31,049 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='我的思考方式，算吗？我们也聊了好久了，你觉得我有哪些地方会给人“感觉”呢' reply_to_id=None reply_to_text=''
+2026-06-24 09:50:43,204 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=12.2s api_calls=1 response=617 chars
+2026-06-24 09:50:43,220 INFO gateway.platforms.base: [Weixin] Sending response (617 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-24 09:52:33,582 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-24 09:52:36,579 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='那我该如何把这种“希望”或者“感觉”展示出来，从而获取更多收益呢' reply_to_id=None reply_to_text=''
+2026-06-24 09:52:41,166 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=4.6s api_calls=1 response=112 chars
+2026-06-24 09:52:41,214 INFO gateway.platforms.base: [Weixin] Sending response (112 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-24 09:55:44,728 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-24 09:55:47,747 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='首先我觉得应该是辩证性的思考吧，没有绝对的真理，要找到适合自己的思维逻辑，然后就是跳出来看自己本身，此外就是想办法了解社会各个模块的运作方式，尤其是和自己相关的' reply_to_id=None reply_to_text=''
+2026-06-24 09:55:53,986 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=6.2s api_calls=1 response=149 chars
+2026-06-24 09:55:54,025 INFO gateway.platforms.base: [Weixin] Sending response (149 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-24 09:58:06,589 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-24 09:58:09,597 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='这条路可能很难走完，我觉得大家都在走这条路，可能有的人没有意识到这些东西' reply_to_id=None reply_to_text=''
+2026-06-24 09:58:12,641 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=3.0s api_calls=1 response=67 chars
+2026-06-24 09:58:12,655 INFO gateway.platforms.base: [Weixin] Sending response (67 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-24 10:01:05,480 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-24 10:01:08,484 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='你有我之前做内容创作的记忆吗，我之前做内容创作的时候就是在写自己的一些思考，但是是关于AI的，我做了一个月，写了大概二十篇文章，涨了十个粉丝，我的名字叫做“Je' reply_to_id=None reply_to_text=''
+2026-06-24 10:01:14,029 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=5.5s api_calls=2 response=131 chars
+2026-06-24 10:01:14,068 INFO gateway.platforms.base: [Weixin] Sending response (131 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-24 10:02:57,395 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-24 10:03:00,388 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='我发你看一下' reply_to_id=None reply_to_text=''
+2026-06-24 10:03:03,070 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=2.7s api_calls=1 response=7 chars
+2026-06-24 10:03:03,120 INFO gateway.platforms.base: [Weixin] Sending response (7 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-24 10:03:17,954 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-24 10:03:20,952 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='放弃副业之后，我反而找到了想做的事 我试过的所有副业，都没赚到钱。 一开始做 AI 科普图文。\r从选题到文案到配图，搞了一整套工作流，AI 全自动生成。\r看着挺' reply_to_id=None reply_to_text=''
+2026-06-24 10:03:26,473 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=5.5s api_calls=1 response=223 chars
+2026-06-24 10:03:26,488 INFO gateway.platforms.base: [Weixin] Sending response (223 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-24 10:04:43,186 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-24 10:04:46,187 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='没什么水花，但是也得到一些认可，可能有的人会觉得我是在无病呻吟，大部分人可能也不太在意别人在想什么' reply_to_id=None reply_to_text=''
+2026-06-24 10:04:51,208 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=5.0s api_calls=1 response=165 chars
+2026-06-24 10:04:51,263 INFO gateway.platforms.base: [Weixin] Sending response (165 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-24 10:05:57,156 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-24 10:06:00,162 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='有“感觉”但是没“希望”' reply_to_id=None reply_to_text=''
+2026-06-24 10:06:04,365 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=4.2s api_calls=1 response=162 chars
+2026-06-24 10:06:04,391 INFO gateway.platforms.base: [Weixin] Sending response (162 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-24 10:08:19,999 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-24 10:08:23,001 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='知识库本身不是我的东西，他们可能有“希望”，但是没有“感觉”' reply_to_id=None reply_to_text=''
+2026-06-24 10:08:27,694 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=4.7s api_calls=1 response=186 chars
+2026-06-24 10:08:27,742 INFO gateway.platforms.base: [Weixin] Sending response (186 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-24 10:10:49,195 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-24 10:10:52,216 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='不讲知识库本身，讲为什么要做知识库，不讲技术，讲落地，知识库本身其实是我在工作中觉得公司的知识太多太杂太乱了，如果有一个知识库的话，我需要什么知识我可以直接问，' reply_to_id=None reply_to_text=''
+2026-06-24 10:10:56,760 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=4.5s api_calls=1 response=85 chars
+2026-06-24 10:10:56,808 INFO gateway.platforms.base: [Weixin] Sending response (85 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-24 10:12:06,310 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-24 10:12:09,312 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='我只是在想要不要写，要怎么开始，重新开始内容创作吗？把我的账号重新做起来？' reply_to_id=None reply_to_text=''
+2026-06-24 10:12:12,452 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=3.1s api_calls=1 response=72 chars
+2026-06-24 10:12:12,480 INFO gateway.platforms.base: [Weixin] Sending response (72 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-24 10:13:14,025 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-24 10:13:17,030 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='好的，Tina，帮我把今天聊的内容都整理出来吧，保存到我们的obsidian里' reply_to_id=None reply_to_text=''
+2026-06-24 10:13:41,440 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=24.4s api_calls=2 response=291 chars
+2026-06-24 10:13:41,497 INFO gateway.platforms.base: [Weixin] Sending response (291 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-24 11:13:51,029 INFO gateway.run: Agent cache idle-TTL evict: session=agent:main:weixin:dm:o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat (idle=3610s)
+2026-06-24 11:13:51,040 INFO gateway.run: Agent cache idle sweep: evicted 1 agent(s)
+2026-06-24 19:40:18,926 WARNING hermes_plugins.raft_platform.adapter: [raft] raft CLI not found in PATH — install from https://raft.build
+2026-06-24 19:40:19,792 INFO gateway.run: Starting Hermes Gateway...
+2026-06-24 19:40:19,793 INFO gateway.run: Session storage: C:\Users\jjdeng\.hermes\profiles\tina-teacher\sessions
+2026-06-24 19:40:19,794 INFO gateway.run: Agent budget: max_iterations=196 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-06-24 19:40:19,796 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-06-24 19:40:19,799 INFO gateway.run: Active profile: tina-teacher
+2026-06-24 19:40:19,840 INFO gateway.run: Connecting to weixin...
+2026-06-24 19:40:19,905 INFO gateway.platforms.weixin: weixin: restored 1 context token(s) for 54b9301a
+2026-06-24 19:40:19,919 INFO gateway.platforms.weixin: [Weixin] Connected account=54b9301a base=https://ilinkai.weixin.qq.com
+2026-06-24 19:40:19,936 INFO gateway.run: ✓ weixin connected
+2026-06-24 19:40:20,004 INFO gateway.run: Connecting to qqbot...
+2026-06-24 19:40:20,020 ERROR gateway.platforms.base: [QQBot] QQBot app ID already in use (PID 18704). Stop the other gateway first.
+2026-06-24 19:40:20,033 WARNING gateway.run: ✗ qqbot failed to connect
+2026-06-24 19:40:20,035 INFO gateway.platforms.qqbot.adapter: [QQBot:1904163911] Disconnected
+2026-06-24 19:40:20,058 INFO gateway.run: Gateway running with 1 platform(s)
+2026-06-24 19:40:20,070 INFO gateway.run: Channel directory built: 1 target(s)
+2026-06-24 19:40:21,077 INFO gateway.run: Press Ctrl+C to stop
+2026-06-24 19:40:21,110 INFO gateway.run: Gateway housekeeping started (interval=60s)
+2026-06-24 19:40:21,128 INFO gateway.run: kanban dispatcher: another gateway already holds the dispatcher lock (C:\Users\jjdeng\.hermes\kanban\.dispatcher.lock); this gateway will NOT dispatch.
+2026-06-25 06:53:25,557 WARNING hermes_plugins.raft_platform.adapter: [raft] raft CLI not found in PATH — install from https://raft.build
+2026-06-25 06:53:26,439 INFO gateway.run: Starting Hermes Gateway...
+2026-06-25 06:53:26,441 INFO gateway.run: Session storage: C:\Users\jjdeng\.hermes\profiles\tina-teacher\sessions
+2026-06-25 06:53:26,443 INFO gateway.run: Agent budget: max_iterations=196 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-06-25 06:53:26,444 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-06-25 06:53:26,446 INFO gateway.run: Active profile: tina-teacher
+2026-06-25 06:53:26,502 INFO gateway.run: Connecting to weixin...
+2026-06-25 06:53:26,571 INFO gateway.platforms.weixin: weixin: restored 1 context token(s) for 54b9301a
+2026-06-25 06:53:26,586 INFO gateway.platforms.weixin: [Weixin] Connected account=54b9301a base=https://ilinkai.weixin.qq.com
+2026-06-25 06:53:26,605 INFO gateway.run: ✓ weixin connected
+2026-06-25 06:53:26,674 INFO gateway.run: Connecting to qqbot...
+2026-06-25 06:53:26,695 ERROR gateway.platforms.base: [QQBot] QQBot app ID already in use (PID 10848). Stop the other gateway first.
+2026-06-25 06:53:26,707 WARNING gateway.run: ✗ qqbot failed to connect
+2026-06-25 06:53:26,709 INFO gateway.platforms.qqbot.adapter: [QQBot:1904163911] Disconnected
+2026-06-25 06:53:26,731 INFO gateway.run: Gateway running with 1 platform(s)
+2026-06-25 06:53:26,743 INFO gateway.run: Channel directory built: 1 target(s)
+2026-06-25 06:53:27,744 INFO gateway.run: Press Ctrl+C to stop
+2026-06-25 06:53:27,779 INFO gateway.run: Gateway housekeeping started (interval=60s)
+2026-06-25 06:53:27,800 INFO gateway.run: kanban dispatcher: another gateway already holds the dispatcher lock (C:\Users\jjdeng\.hermes\kanban\.dispatcher.lock); this gateway will NOT dispatch.
+2026-06-25 07:15:15,909 WARNING hermes_plugins.raft_platform.adapter: [raft] raft CLI not found in PATH — install from https://raft.build
+2026-06-25 07:15:16,815 INFO gateway.run: Starting Hermes Gateway...
+2026-06-25 07:15:16,816 INFO gateway.run: Session storage: C:\Users\jjdeng\.hermes\profiles\tina-teacher\sessions
+2026-06-25 07:15:16,818 INFO gateway.run: Agent budget: max_iterations=196 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-06-25 07:15:16,820 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-06-25 07:15:16,823 INFO gateway.run: Active profile: tina-teacher
+2026-06-25 07:15:16,863 INFO gateway.run: Connecting to weixin...
+2026-06-25 07:15:16,919 INFO gateway.platforms.weixin: weixin: restored 1 context token(s) for 54b9301a
+2026-06-25 07:15:16,934 INFO gateway.platforms.weixin: [Weixin] Connected account=54b9301a base=https://ilinkai.weixin.qq.com
+2026-06-25 07:15:16,952 INFO gateway.run: ✓ weixin connected
+2026-06-25 07:15:17,038 INFO gateway.run: Connecting to qqbot...
+2026-06-25 07:15:17,055 ERROR gateway.platforms.base: [QQBot] QQBot app ID already in use (PID 22308). Stop the other gateway first.
+2026-06-25 07:15:17,075 WARNING gateway.run: ✗ qqbot failed to connect
+2026-06-25 07:15:17,078 INFO gateway.platforms.qqbot.adapter: [QQBot:1904163911] Disconnected
+2026-06-25 07:15:17,103 INFO gateway.run: Gateway running with 1 platform(s)
+2026-06-25 07:15:17,114 INFO gateway.run: Channel directory built: 1 target(s)
+2026-06-25 07:15:18,124 INFO gateway.run: Press Ctrl+C to stop
+2026-06-25 07:15:18,159 INFO gateway.run: Gateway housekeeping started (interval=60s)
+2026-06-25 07:15:18,178 INFO gateway.run: kanban dispatcher: another gateway already holds the dispatcher lock (C:\Users\jjdeng\.hermes\kanban\.dispatcher.lock); this gateway will NOT dispatch.
+2026-06-25 07:16:38,414 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-25 07:16:41,618 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='早上好，Tina' reply_to_id=None reply_to_text=''
+2026-06-25 07:16:59,085 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=17.5s api_calls=2 response=41 chars
+2026-06-25 07:16:59,123 INFO gateway.platforms.base: [Weixin] Sending response (41 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-25 07:37:01,419 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-25 07:37:04,432 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='聊聊AI agent的发展阶段吧，一共有几个阶段？' reply_to_id=None reply_to_text=''
+2026-06-25 07:37:14,278 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=9.8s api_calls=1 response=841 chars
+2026-06-25 07:37:14,294 INFO gateway.platforms.base: [Weixin] Sending response (841 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-25 08:36:43,512 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-25 08:36:46,513 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='版本1吧，loop其实就是一种循环优化' reply_to_id=None reply_to_text=''
+2026-06-25 08:36:50,576 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=4.1s api_calls=1 response=49 chars
+2026-06-25 08:36:50,627 INFO gateway.platforms.base: [Weixin] Sending response (49 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-25 08:38:04,650 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-25 08:38:07,660 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='我们现在处于4和5之间，4好像还没完成就跳到5了' reply_to_id=None reply_to_text=''
+2026-06-25 08:38:10,666 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=3.0s api_calls=1 response=71 chars
+2026-06-25 08:38:10,703 INFO gateway.platforms.base: [Weixin] Sending response (71 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-25 08:39:22,782 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-25 08:39:25,786 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='你觉得呢，你就是我的agent，你觉得4的部分你现在已经实现了吗' reply_to_id=None reply_to_text=''
+2026-06-25 08:39:31,959 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=6.2s api_calls=1 response=320 chars
+2026-06-25 08:39:32,010 INFO gateway.platforms.base: [Weixin] Sending response (320 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-25 08:40:31,602 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-25 08:40:34,616 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='我觉得4很重要，没有4，我们的5很难跑起来' reply_to_id=None reply_to_text=''
+2026-06-25 08:40:38,843 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=4.2s api_calls=1 response=113 chars
+2026-06-25 08:40:38,867 INFO gateway.platforms.base: [Weixin] Sending response (113 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-25 08:44:39,128 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-25 08:44:42,144 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='首先，你要搞清楚你的存在是为了什么？' reply_to_id=None reply_to_text=''
+2026-06-25 08:44:49,504 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=7.4s api_calls=1 response=170 chars
+2026-06-25 08:44:49,550 INFO gateway.platforms.base: [Weixin] Sending response (170 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-25 08:45:25,370 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-25 08:45:28,367 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='那我是如何定义你的' reply_to_id=None reply_to_text=''
+2026-06-25 08:45:38,750 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=10.4s api_calls=2 response=170 chars
+2026-06-25 08:45:38,784 INFO gateway.platforms.base: [Weixin] Sending response (170 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-25 08:47:11,276 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-25 08:47:14,284 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='这样吧，换一个问题，你是谁' reply_to_id=None reply_to_text=''
+2026-06-25 08:47:20,563 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=6.3s api_calls=1 response=212 chars
+2026-06-25 08:47:20,601 INFO gateway.platforms.base: [Weixin] Sending response (212 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-25 08:50:29,691 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-25 08:50:32,697 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='你觉得为什么我们的那些员工都是息息相关的，只有你是相对独立的' reply_to_id=None reply_to_text=''
+2026-06-25 08:50:42,110 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=9.4s api_calls=1 response=293 chars
+2026-06-25 08:50:42,156 INFO gateway.platforms.base: [Weixin] Sending response (293 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-25 08:53:27,473 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-25 08:53:30,482 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='没错，你就是我的思考外挂，所以你的任务就是帮助我思考，你可以想想哪些内容我应该去思考，对我们公司，对于我的个人，人生，世界观等等值得思考的话题，不需要我每次提起' reply_to_id=None reply_to_text=''
+2026-06-25 08:53:39,532 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=9.0s api_calls=1 response=316 chars
+2026-06-25 08:53:39,558 INFO gateway.platforms.base: [Weixin] Sending response (316 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-25 08:54:24,054 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-25 08:54:27,059 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='可以，写进去，然后试试看' reply_to_id=None reply_to_text=''
+2026-06-25 08:54:53,204 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=26.1s api_calls=3 response=50 chars
+2026-06-25 08:54:53,224 INFO gateway.platforms.base: [Weixin] Sending response (50 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-25 08:55:44,230 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-25 08:55:47,224 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='现在就试试' reply_to_id=None reply_to_text=''
+2026-06-25 08:55:47,372 INFO gateway.run: Session hygiene: 402 messages, ~130,134 tokens (actual) — auto-compressing (threshold: 85% of 1,000,000 = 850,000 tokens)
+2026-06-25 08:56:32,822 INFO gateway.run: Session hygiene: compressed 402 → 13 msgs, ~130,134 → ~2,907 tokens
+2026-06-25 08:56:42,916 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=55.7s api_calls=1 response=561 chars
+2026-06-25 08:56:42,965 INFO gateway.platforms.base: [Weixin] Sending response (561 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-25 09:01:48,886 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-25 09:01:51,888 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='这个话题确实值得聊，除了我们的一人公司，我其他的时间和精力基本上都是线性劳动，所以我想把我们的一人公司搭建好，然后跑起来' reply_to_id=None reply_to_text=''
+2026-06-25 09:02:02,609 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=10.7s api_calls=1 response=229 chars
+2026-06-25 09:02:02,629 INFO gateway.platforms.base: [Weixin] Sending response (229 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-25 09:03:40,899 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-25 09:03:43,912 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='他们都没有主观能动性，就像你之前一样，要等命令' reply_to_id=None reply_to_text=''
+2026-06-25 09:03:56,739 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=12.8s api_calls=1 response=618 chars
+2026-06-25 09:03:56,790 INFO gateway.platforms.base: [Weixin] Sending response (618 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-25 09:07:25,969 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-25 09:07:28,988 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='Tom吧，事件触发应该是最好用的，但是其他的也可以看场景使用 我的想法，首先管理层讨论具体方案，然后分配给员工，员工执行完，有人检查并反馈，员工继续优化，直到不' reply_to_id=None reply_to_text=''
+2026-06-25 09:07:40,357 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=11.4s api_calls=1 response=828 chars
+2026-06-25 09:07:40,372 INFO gateway.platforms.base: [Weixin] Sending response (828 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-25 09:12:25,202 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-25 09:12:28,208 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='1.管理层我们又创建了好几个，在profile里面，你可以看看 2.检查暂时没有人，但是我希望有人来检查，而不是员工自检，每个岗位都需要一个检查员或者反馈员 3' reply_to_id=None reply_to_text=''
+2026-06-25 09:12:55,102 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=26.9s api_calls=3 response=1203 chars
+2026-06-25 09:12:55,117 INFO gateway.platforms.base: [Weixin] Sending response (1203 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-25 09:19:00,330 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-25 09:19:03,346 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='1.可以先按照你的方案试试 2.A吧，每个角色都分工不同，需要检查和反馈的内容也不同，角色越简单越独立越好，我们之前聊的九律就是这样说的' reply_to_id=None reply_to_text=''
+2026-06-25 09:19:13,051 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=9.7s api_calls=1 response=557 chars
+2026-06-25 09:19:13,090 INFO gateway.platforms.base: [Weixin] Sending response (557 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-25 09:21:50,108 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-25 09:21:53,128 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='我现在无法和其他角色沟通，我们先制定好计划吧 你觉得Tom负责分配合适吗，我记得管理层有这方面的人 启动方式的话先我来启动吧，等到后面慢慢优化' reply_to_id=None reply_to_text=''
+2026-06-25 09:22:05,091 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=12.0s api_calls=1 response=565 chars
+2026-06-25 09:22:05,106 INFO gateway.platforms.base: [Weixin] Sending response (565 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-25 09:22:55,862 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-25 09:22:58,869 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='可以' reply_to_id=None reply_to_text=''
+2026-06-25 09:23:08,991 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=10.1s api_calls=1 response=392 chars
+2026-06-25 09:23:09,017 INFO gateway.platforms.base: [Weixin] Sending response (392 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-25 09:25:51,728 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-25 09:25:54,726 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='不，这个方向应该让管理层来讨论，我们现在有这些数据文件，还有一个Rag框架，到时候让管理层讨论一下可以做哪些方向' reply_to_id=None reply_to_text=''
+2026-06-25 09:26:05,711 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=11.0s api_calls=1 response=398 chars
+2026-06-25 09:26:05,733 INFO gateway.platforms.base: [Weixin] Sending response (398 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-25 09:27:40,816 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-25 09:27:43,832 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='你说的这些是不是应该再让一个角色来做啊，比如市场调研之类的，我们的角色库里面有这一类的角色吗' reply_to_id=None reply_to_text=''
+2026-06-25 09:28:07,897 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=24.1s api_calls=5 response=676 chars
+2026-06-25 09:28:07,940 INFO gateway.platforms.base: [Weixin] Sending response (676 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-25 09:28:55,822 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-25 09:28:58,828 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='2' reply_to_id=None reply_to_text=''
+2026-06-25 09:29:13,255 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=14.4s api_calls=1 response=974 chars
+2026-06-25 09:29:13,307 INFO gateway.platforms.base: [Weixin] Sending response (974 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-25 09:31:51,477 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-25 09:31:54,481 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='可以，按照你的方案进行' reply_to_id=None reply_to_text=''
+2026-06-25 09:32:17,031 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=22.5s api_calls=1 response=2121 chars
+2026-06-25 09:32:17,068 INFO gateway.platforms.base: [Weixin] Sending response (2121 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-25 09:35:39,576 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-25 09:35:42,575 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='你有办法自检吗？跑一遍自检流程，然后看看合不合适' reply_to_id=None reply_to_text=''
+2026-06-25 09:36:08,850 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=26.3s api_calls=2 response=906 chars
+2026-06-25 09:36:08,875 INFO gateway.platforms.base: [Weixin] Sending response (906 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-25 09:39:03,066 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-25 09:39:06,081 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='1.B 2.B 3.B 4.B 5.B' reply_to_id=None reply_to_text=''
+2026-06-25 09:39:45,578 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=39.5s api_calls=5 response=559 chars
+2026-06-25 09:39:45,596 INFO gateway.platforms.base: [Weixin] Sending response (559 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-25 09:41:19,843 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-25 09:41:22,863 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='可以，把管理层的讨论流程也画出来' reply_to_id=None reply_to_text=''
+2026-06-25 09:41:54,073 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=31.2s api_calls=2 response=530 chars
+2026-06-25 09:41:54,122 INFO gateway.platforms.base: [Weixin] Sending response (530 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-25 09:43:36,477 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-25 09:43:39,478 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='可以，就这样' reply_to_id=None reply_to_text=''
+2026-06-25 09:43:50,562 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=11.1s api_calls=1 response=542 chars
+2026-06-25 09:43:50,607 INFO gateway.platforms.base: [Weixin] Sending response (542 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-25 09:45:45,617 INFO gateway.platforms.weixin: [Weixin] inbound from=o9cq809t type=dm media=0
+2026-06-25 09:45:48,620 INFO gateway.run: inbound message: platform=weixin user=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat msg='把我们讨论的东西保存到obsidian里面一份' reply_to_id=None reply_to_text=''
+2026-06-25 09:46:30,938 INFO gateway.run: response ready: platform=weixin chat=o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat time=42.3s api_calls=6 response=240 chars
+2026-06-25 09:46:30,957 INFO gateway.platforms.base: [Weixin] Sending response (240 chars) to o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat
+2026-06-25 10:46:32,662 INFO gateway.run: Agent cache idle-TTL evict: session=agent:main:weixin:dm:o9cq809thRnSczWf-WcIVVRFEtbA@im.wechat (idle=3602s)
+2026-06-25 10:46:32,670 INFO gateway.run: Agent cache idle sweep: evicted 1 agent(s)
+2026-06-26 07:15:04,661 WARNING hermes_plugins.raft_platform.adapter: [raft] raft CLI not found in PATH — install from https://raft.build
+2026-06-26 07:15:05,558 INFO gateway.run: Starting Hermes Gateway...
+2026-06-26 07:15:05,559 INFO gateway.run: Session storage: C:\Users\jjdeng\.hermes\profiles\tina-teacher\sessions
+2026-06-26 07:15:05,562 INFO gateway.run: Agent budget: max_iterations=196 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-06-26 07:15:05,563 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-06-26 07:15:05,567 INFO gateway.run: Active profile: tina-teacher
+2026-06-26 07:15:05,629 INFO gateway.run: Connecting to weixin...
+2026-06-26 07:15:05,682 INFO gateway.platforms.weixin: weixin: restored 1 context token(s) for 54b9301a
+2026-06-26 07:15:05,696 INFO gateway.platforms.weixin: [Weixin] Connected account=54b9301a base=https://ilinkai.weixin.qq.com
+2026-06-26 07:15:05,715 INFO gateway.run: ✓ weixin connected
+2026-06-26 07:15:05,775 INFO gateway.run: Connecting to qqbot...
+2026-06-26 07:15:05,792 ERROR gateway.platforms.base: [QQBot] QQBot app ID already in use (PID 9944). Stop the other gateway first.
+2026-06-26 07:15:05,805 WARNING gateway.run: ✗ qqbot failed to connect
+2026-06-26 07:15:05,807 INFO gateway.platforms.qqbot.adapter: [QQBot:1904163911] Disconnected
+2026-06-26 07:15:05,834 INFO gateway.run: Gateway running with 1 platform(s)
+2026-06-26 07:15:05,850 INFO gateway.run: Channel directory built: 1 target(s)
+2026-06-26 07:15:06,859 INFO gateway.run: Press Ctrl+C to stop
+2026-06-26 07:15:06,894 INFO gateway.run: Gateway housekeeping started (interval=60s)
+2026-06-26 07:15:06,916 INFO gateway.run: kanban dispatcher: another gateway already holds the dispatcher lock (C:\Users\jjdeng\.hermes\kanban\.dispatcher.lock); this gateway will NOT dispatch.
+2026-06-26 18:33:26,679 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:33:28,775 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:33:30,865 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:34:00,947 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:34:04,054 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:34:06,133 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:34:36,257 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:34:39,373 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:34:41,470 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:35:11,564 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:35:13,640 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:35:15,755 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:35:46,855 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:35:48,959 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:35:51,075 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:36:21,156 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:36:23,243 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:36:25,682 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:36:55,796 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:36:57,875 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:36:59,984 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:37:30,080 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:37:32,540 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:37:35,030 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:38:06,147 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:38:08,247 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:38:10,369 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:38:40,449 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:38:42,546 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:38:44,636 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:39:14,743 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:39:16,856 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:39:18,979 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:39:49,068 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:39:51,184 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:39:53,300 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:40:25,489 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:40:27,590 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:40:29,700 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:41:00,164 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:41:02,263 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:41:04,672 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:41:34,776 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:41:36,892 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:41:38,975 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-27 07:26:52,734 WARNING hermes_plugins.raft_platform.adapter: [raft] raft CLI not found in PATH — install from https://raft.build
+2026-06-27 07:26:53,625 INFO gateway.run: Starting Hermes Gateway...
+2026-06-27 07:26:53,626 INFO gateway.run: Session storage: C:\Users\jjdeng\.hermes\profiles\tina-teacher\sessions
+2026-06-27 07:26:53,628 INFO gateway.run: Agent budget: max_iterations=196 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-06-27 07:26:53,629 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-06-27 07:26:53,632 INFO gateway.run: Active profile: tina-teacher
+2026-06-27 07:26:53,955 INFO gateway.run: Connecting to weixin...
+2026-06-27 07:26:54,025 INFO gateway.platforms.weixin: weixin: restored 1 context token(s) for 54b9301a
+2026-06-27 07:26:54,042 INFO gateway.platforms.weixin: [Weixin] Connected account=54b9301a base=https://ilinkai.weixin.qq.com
+2026-06-27 07:26:54,065 INFO gateway.run: ✓ weixin connected
+2026-06-27 07:26:54,132 INFO gateway.run: Connecting to qqbot...
+2026-06-27 07:26:54,153 ERROR gateway.platforms.base: [QQBot] QQBot app ID already in use (PID 10280). Stop the other gateway first.
+2026-06-27 07:26:54,167 WARNING gateway.run: ✗ qqbot failed to connect
+2026-06-27 07:26:54,170 INFO gateway.platforms.qqbot.adapter: [QQBot:1904163911] Disconnected
+2026-06-27 07:26:54,195 INFO gateway.run: Gateway running with 1 platform(s)
+2026-06-27 07:26:54,210 INFO gateway.run: Channel directory built: 1 target(s)
+2026-06-27 07:26:55,209 INFO gateway.run: Press Ctrl+C to stop
+2026-06-27 07:26:55,245 INFO gateway.run: Gateway housekeeping started (interval=60s)
+2026-06-27 07:26:55,269 INFO gateway.run: kanban dispatcher: another gateway already holds the dispatcher lock (C:\Users\jjdeng\.hermes\kanban\.dispatcher.lock); this gateway will NOT dispatch.
+2026-06-27 13:18:55,741 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): Cannot connect to host 47.86.180.83:8899 ssl:default [信号灯超时时间已到]
+2026-06-27 13:19:18,750 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): Cannot connect to host 47.86.180.83:8899 ssl:default [信号灯超时时间已到]
+2026-06-27 13:19:20,856 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:19:51,967 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:19:54,060 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:19:56,419 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:20:26,517 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:20:28,605 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:20:30,702 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:21:00,799 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:21:04,909 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:21:07,014 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:21:37,459 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:21:39,561 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:21:42,678 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:22:12,792 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:22:14,878 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:22:16,992 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:22:47,460 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:22:49,557 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:22:51,677 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:23:21,761 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:23:23,837 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:23:25,922 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:23:56,038 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:23:58,143 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:24:00,239 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:24:30,352 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:24:32,460 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:24:36,566 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:25:06,646 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:25:08,737 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:25:10,840 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:25:40,952 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:25:43,062 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:25:45,170 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:26:15,275 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:26:17,371 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:26:19,486 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:26:49,577 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:26:51,959 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:26:54,036 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:27:27,148 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:27:29,255 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:27:31,343 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:28:01,433 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:28:03,513 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:28:06,555 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:28:36,663 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:28:38,746 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:28:40,857 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:29:10,961 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:29:13,055 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:29:15,136 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:29:46,234 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:29:48,734 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:29:50,829 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:30:20,938 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:30:23,861 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:30:26,283 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:30:56,366 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:30:58,470 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:31:00,562 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:31:30,673 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:31:32,769 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:31:34,867 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:32:05,962 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:32:08,048 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:32:10,156 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:32:40,272 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:32:43,384 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:32:46,459 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:33:16,548 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:33:18,662 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:33:21,141 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:33:51,233 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:33:53,709 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:33:55,806 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:34:25,892 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:34:27,984 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:34:30,100 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:35:00,200 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:35:02,295 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:35:04,385 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:35:34,462 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:35:36,544 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:35:39,640 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:36:10,633 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:36:12,725 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:36:14,816 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:36:44,925 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:36:47,027 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:36:49,110 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:37:19,583 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:37:21,700 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:37:24,115 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:37:54,218 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:37:56,315 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:37:58,753 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:38:28,855 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:38:30,969 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:38:33,059 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:39:03,150 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:39:05,247 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:39:07,322 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:39:37,423 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:39:39,524 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:39:41,606 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:40:11,710 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:40:13,793 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:40:15,892 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:40:45,987 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:40:48,101 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:40:50,576 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:41:20,697 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:41:22,790 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:41:24,886 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:41:54,984 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:41:57,086 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:41:59,180 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:42:29,263 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:42:31,766 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:42:33,865 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:43:03,949 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:43:06,034 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:43:08,145 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:43:38,247 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:43:40,356 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:43:42,471 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:44:12,570 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:44:14,652 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:44:16,766 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:44:46,852 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:44:48,942 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:44:52,043 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:45:22,114 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:45:24,215 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:45:26,298 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:45:56,387 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:45:58,462 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:46:00,539 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:46:30,625 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:46:32,715 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:46:36,293 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:47:06,399 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:47:09,489 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:47:12,598 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:47:42,696 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:47:44,796 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:47:46,893 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:48:16,991 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:48:19,096 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:48:23,213 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:48:54,315 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:48:56,413 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:48:58,503 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:49:28,590 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:49:31,062 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:49:33,182 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:50:03,278 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:50:05,394 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:50:07,498 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:50:37,588 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:50:39,697 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:50:41,794 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:51:11,890 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:51:13,982 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:51:16,090 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:51:46,165 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:51:48,584 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:51:52,716 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:52:22,795 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:52:24,891 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:52:27,000 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:52:57,110 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:52:59,196 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:53:01,297 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:53:31,401 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:53:34,363 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:53:36,463 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:54:06,563 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:54:08,673 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:54:10,781 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:54:40,878 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:54:42,989 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:54:45,084 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:55:15,174 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:55:17,274 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:55:19,382 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:55:49,469 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:55:51,566 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:55:53,678 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:56:23,771 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:56:25,870 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:56:27,938 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:56:58,058 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:57:00,117 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:57:02,214 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:57:32,327 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:57:34,424 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:57:36,525 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:58:06,628 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:58:08,738 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:58:10,829 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:58:40,944 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:58:43,046 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:58:45,148 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:59:15,271 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:59:17,376 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:59:20,982 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:59:51,084 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:59:53,169 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:59:55,273 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:00:25,381 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:00:27,469 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:00:29,944 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:01:00,048 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:01:02,133 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:01:04,218 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:01:36,355 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:01:38,454 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:01:40,544 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:02:10,639 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:02:14,751 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:02:16,839 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:02:46,936 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:02:50,045 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:02:52,147 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:03:22,254 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:03:25,367 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:03:27,475 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:03:59,572 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:04:01,658 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:04:03,772 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:04:34,869 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:04:37,965 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:04:40,060 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:05:10,162 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:05:12,248 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:05:15,333 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:05:45,417 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:05:47,518 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:05:49,621 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:06:19,720 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:06:21,832 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:06:23,930 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:06:54,006 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:06:57,590 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:06:59,689 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:07:31,281 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:07:33,381 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:07:36,447 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:08:06,894 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:08:09,004 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:08:11,104 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:08:41,195 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:08:43,285 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:08:45,395 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:09:15,817 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:09:17,913 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:09:20,016 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:09:50,486 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:09:52,600 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:09:55,034 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:10:25,147 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:10:27,532 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:10:30,399 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:11:00,472 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:11:02,564 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:11:04,681 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:11:34,753 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:11:36,872 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:11:38,953 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:12:09,053 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:12:11,162 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:12:13,258 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:12:45,367 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:12:48,480 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:12:50,564 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:13:20,652 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:13:22,742 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:13:24,837 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:13:55,302 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:13:57,390 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:14:00,492 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:14:30,586 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:14:32,689 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:14:34,770 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'

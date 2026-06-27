@@ -1,0 +1,520 @@
+2026-06-21 20:18:27,770 WARNING agent.auxiliary_client: Auxiliary: marking openrouter unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 20:19:27.
+2026-06-21 20:18:27,781 WARNING agent.auxiliary_client: Auxiliary Nous client unavailable: no Nous authentication found (run: hermes auth).
+2026-06-21 20:18:27,781 WARNING agent.auxiliary_client: Auxiliary: marking nous unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 20:19:27.
+2026-06-21 20:18:27,800 WARNING agent.auxiliary_client: Auxiliary: marking openrouter unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 20:19:27.
+2026-06-21 20:18:27,808 WARNING agent.auxiliary_client: Auxiliary Nous client unavailable: no Nous authentication found (run: hermes auth).
+2026-06-21 20:18:27,814 WARNING agent.auxiliary_client: Auxiliary: marking nous unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 20:19:27.
+2026-06-21 20:34:14,208 ERROR gateway.platforms.base: [QQBot] QQBot app ID already in use (PID 3132). Stop the other gateway first.
+2026-06-21 20:34:14,225 WARNING gateway.run: ✗ qqbot failed to connect
+2026-06-21 20:34:32,286 WARNING agent.auxiliary_client: Auxiliary: marking openrouter unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 20:35:32.
+2026-06-21 20:34:32,295 WARNING agent.auxiliary_client: Auxiliary Nous client unavailable: no Nous authentication found (run: hermes auth).
+2026-06-21 20:34:32,295 WARNING agent.auxiliary_client: Auxiliary: marking nous unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 20:35:32.
+2026-06-21 20:34:32,315 WARNING agent.auxiliary_client: Auxiliary: marking openrouter unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 20:35:32.
+2026-06-21 20:34:32,323 WARNING agent.auxiliary_client: Auxiliary Nous client unavailable: no Nous authentication found (run: hermes auth).
+2026-06-21 20:34:32,323 WARNING agent.auxiliary_client: Auxiliary: marking nous unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 20:35:32.
+2026-06-21 20:34:32,462 WARNING agent.auxiliary_client: Auxiliary: marking openrouter unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 20:35:32.
+2026-06-21 20:34:32,473 WARNING agent.auxiliary_client: Auxiliary Nous client unavailable: no Nous authentication found (run: hermes auth).
+2026-06-21 20:34:32,473 WARNING agent.auxiliary_client: Auxiliary: marking nous unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 20:35:32.
+2026-06-21 20:34:32,499 WARNING agent.auxiliary_client: Auxiliary: marking openrouter unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 20:35:32.
+2026-06-21 20:34:32,507 WARNING agent.auxiliary_client: Auxiliary Nous client unavailable: no Nous authentication found (run: hermes auth).
+2026-06-21 20:34:32,507 WARNING agent.auxiliary_client: Auxiliary: marking nous unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 20:35:32.
+2026-06-22 07:33:25,481 ERROR gateway.platforms.base: [QQBot] QQBot app ID already in use (PID 21712). Stop the other gateway first.
+2026-06-22 07:33:25,493 WARNING gateway.run: ✗ qqbot failed to connect
+2026-06-22 07:34:41,283 WARNING agent.auxiliary_client: Auxiliary: marking openrouter unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 07:35:41.
+2026-06-22 07:34:41,299 WARNING agent.auxiliary_client: Auxiliary Nous client unavailable: no Nous authentication found (run: hermes auth).
+2026-06-22 07:34:41,300 WARNING agent.auxiliary_client: Auxiliary: marking nous unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 07:35:41.
+2026-06-22 07:34:41,319 WARNING agent.auxiliary_client: Auxiliary: marking openrouter unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 07:35:41.
+2026-06-22 07:34:41,327 WARNING agent.auxiliary_client: Auxiliary Nous client unavailable: no Nous authentication found (run: hermes auth).
+2026-06-22 07:34:41,327 WARNING agent.auxiliary_client: Auxiliary: marking nous unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 07:35:41.
+2026-06-22 07:34:41,458 WARNING agent.auxiliary_client: Auxiliary: marking openrouter unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 07:35:41.
+2026-06-22 07:34:41,466 WARNING agent.auxiliary_client: Auxiliary Nous client unavailable: no Nous authentication found (run: hermes auth).
+2026-06-22 07:34:41,466 WARNING agent.auxiliary_client: Auxiliary: marking nous unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 07:35:41.
+2026-06-22 07:34:41,485 WARNING agent.auxiliary_client: Auxiliary: marking openrouter unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 07:35:41.
+2026-06-22 07:34:41,493 WARNING agent.auxiliary_client: Auxiliary Nous client unavailable: no Nous authentication found (run: hermes auth).
+2026-06-22 07:34:41,493 WARNING agent.auxiliary_client: Auxiliary: marking nous unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 07:35:41.
+2026-06-22 08:32:35,140 WARNING agent.auxiliary_client: Auxiliary: marking openrouter unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 08:33:35.
+2026-06-22 08:32:35,149 WARNING agent.auxiliary_client: Auxiliary Nous client unavailable: no Nous authentication found (run: hermes auth).
+2026-06-22 08:32:35,149 WARNING agent.auxiliary_client: Auxiliary: marking nous unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 08:33:35.
+2026-06-22 08:32:35,165 WARNING agent.auxiliary_client: Auxiliary: marking openrouter unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 08:33:35.
+2026-06-22 08:32:35,175 WARNING agent.auxiliary_client: Auxiliary Nous client unavailable: no Nous authentication found (run: hermes auth).
+2026-06-22 08:32:35,175 WARNING agent.auxiliary_client: Auxiliary: marking nous unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 08:33:35.
+2026-06-22 08:32:35,291 WARNING agent.auxiliary_client: Auxiliary: marking openrouter unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 08:33:35.
+2026-06-22 08:32:35,300 WARNING agent.auxiliary_client: Auxiliary Nous client unavailable: no Nous authentication found (run: hermes auth).
+2026-06-22 08:32:35,300 WARNING agent.auxiliary_client: Auxiliary: marking nous unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 08:33:35.
+2026-06-22 08:32:35,315 WARNING agent.auxiliary_client: Auxiliary: marking openrouter unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 08:33:35.
+2026-06-22 08:32:35,324 WARNING agent.auxiliary_client: Auxiliary Nous client unavailable: no Nous authentication found (run: hermes auth).
+2026-06-22 08:32:35,325 WARNING agent.auxiliary_client: Auxiliary: marking nous unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 08:33:35.
+2026-06-22 08:33:32,169 WARNING [20260622_083235_75da08] agent.tool_executor: Tool patch returned error (0.30s): {"success": false, "error": "Failed to read file: C:\\c\\Users\\jjdeng\\.hermes\\profiles\\tina-teacher\\skills\\research\\business-domain-research\\SKILL.md", "_warning": "Relative path '/c/Users/jjd
+2026-06-22 08:34:14,169 WARNING [20260622_083235_75da08] agent.tool_executor: Tool terminal returned error (0.21s): {"output": "ls: cannot access '/c/Users/jjdeng/.hermes/profiles/tina-teacher/skills/.archive/': No such file or directory", "exit_code": 2, "error": null}
+2026-06-22 09:28:38,812 WARNING [20260621_203430_c8e16615] agent.tool_executor: Tool skill_manage returned error (0.00s): {"success": false, "error": "Frontmatter must include 'name' field."}
+2026-06-22 11:06:41,433 WARNING [20260621_203430_c8e16615] agent.tool_executor: Tool patch returned error (0.00s): {"error": "Background review denied non-whitelisted tool: patch. Only memory/skill tools are allowed."}
+2026-06-22 11:06:51,512 WARNING [20260621_203430_c8e16615] agent.tool_executor: Tool skill_manage returned error (0.08s): {"success": false, "error": "Escape-drift detected: old_string and new_string contain the literal sequence '\\\\\"' but the matched region of the file does not. This is almost always a tool-call seria
+2026-06-22 11:06:53,715 WARNING [20260621_203430_c8e16615] agent.tool_executor: Tool read_file returned error (0.00s): {"error": "Background review denied non-whitelisted tool: read_file. Only memory/skill tools are allowed."}
+2026-06-22 11:32:01,578 WARNING [20260621_203430_c8e16615] agent.tool_executor: Tool read_file returned error (0.00s): {"error": "Background review denied non-whitelisted tool: read_file. Only memory/skill tools are allowed."}
+2026-06-22 13:27:28,658 WARNING [20260621_203430_c8e16615] agent.tool_executor: Tool read_file returned error (0.05s): {"error": "Access denied: C:\\Users\\jjdeng\\.hermes\\profiles\\justin-coder\\.env is a secret-bearing environment file and cannot be read to prevent credential leakage. If you need to check the file 
+2026-06-22 13:28:42,049 WARNING [20260621_203430_c8e16615] agent.tool_executor: Tool patch returned error (0.00s): {"error": "Background review denied non-whitelisted tool: patch. Only memory/skill tools are allowed."}
+2026-06-22 13:28:56,988 WARNING [20260621_203430_c8e16615] agent.tool_executor: Tool memory returned error (0.01s): {"success": false, "error": "Memory at 9,577/9,999 chars. Adding this entry (425 chars) would exceed the limit. Replace or remove existing entries first.", "current_entries": ["Terminal: 2026-06-21 Je
+2026-06-22 17:32:02,973 WARNING [20260621_203430_c8e16615] agent.tool_executor: Tool browser_navigate returned error (25.76s): {"success": false, "error": "Navigation failed: net::ERR_CONNECTION_TIMED_OUT"}
+2026-06-22 17:32:34,442 WARNING [20260621_203430_c8e16615] agent.tool_executor: Tool browser_navigate returned error (21.77s): {"success": false, "error": "Navigation failed: net::ERR_CONNECTION_TIMED_OUT"}
+2026-06-22 17:32:46,808 WARNING [20260621_203430_c8e16615] agent.tool_executor: Tool browser_navigate returned error (4.06s): {"success": false, "error": "Navigation failed: net::ERR_CONNECTION_TIMED_OUT"}
+2026-06-22 17:34:14,109 WARNING [20260621_203430_c8e16615] agent.tool_executor: Tool read_file returned error (0.00s): {"error": "Background review denied non-whitelisted tool: read_file. Only memory/skill tools are allowed."}
+2026-06-23 07:20:26,684 ERROR gateway.platforms.base: [Weixin] Weixin bot token already in use (PID 17176). Stop the other gateway first.
+2026-06-23 07:20:26,698 WARNING gateway.run: ✗ weixin failed to connect
+2026-06-23 07:20:26,759 ERROR gateway.platforms.base: [QQBot] QQBot app ID already in use (PID 24256). Stop the other gateway first.
+2026-06-23 07:20:26,770 WARNING gateway.run: ✗ qqbot failed to connect
+2026-06-23 07:20:26,782 ERROR gateway.run: Gateway hit a non-retryable startup conflict: weixin: Weixin bot token already in use (PID 17176). Stop the other gateway first.; qqbot: QQBot app ID already in use (PID 24256). Stop the other gateway first.
+2026-06-23 07:20:26,794 ERROR gateway.run: Gateway exiting cleanly: weixin: Weixin bot token already in use (PID 17176). Stop the other gateway first.; qqbot: QQBot app ID already in use (PID 24256). Stop the other gateway first.
+2026-06-23 07:20:31,569 ERROR gateway.platforms.base: [Weixin] Weixin bot token already in use (PID 17176). Stop the other gateway first.
+2026-06-23 07:20:31,582 WARNING gateway.run: ✗ weixin failed to connect
+2026-06-23 07:20:31,641 ERROR gateway.platforms.base: [QQBot] QQBot app ID already in use (PID 24256). Stop the other gateway first.
+2026-06-23 07:20:31,652 WARNING gateway.run: ✗ qqbot failed to connect
+2026-06-23 07:20:31,667 ERROR gateway.run: Gateway hit a non-retryable startup conflict: weixin: Weixin bot token already in use (PID 17176). Stop the other gateway first.; qqbot: QQBot app ID already in use (PID 24256). Stop the other gateway first.
+2026-06-23 07:20:31,687 ERROR gateway.run: Gateway exiting cleanly: weixin: Weixin bot token already in use (PID 17176). Stop the other gateway first.; qqbot: QQBot app ID already in use (PID 24256). Stop the other gateway first.
+2026-06-23 07:20:39,073 ERROR gateway.platforms.base: [Weixin] Weixin bot token already in use (PID 17176). Stop the other gateway first.
+2026-06-23 07:20:39,092 WARNING gateway.run: ✗ weixin failed to connect
+2026-06-23 07:20:39,222 ERROR gateway.platforms.base: [QQBot] QQBot app ID already in use (PID 24256). Stop the other gateway first.
+2026-06-23 07:20:39,257 WARNING gateway.run: ✗ qqbot failed to connect
+2026-06-23 07:20:39,293 ERROR gateway.run: Gateway hit a non-retryable startup conflict: weixin: Weixin bot token already in use (PID 17176). Stop the other gateway first.; qqbot: QQBot app ID already in use (PID 24256). Stop the other gateway first.
+2026-06-23 07:20:39,326 ERROR gateway.run: Gateway exiting cleanly: weixin: Weixin bot token already in use (PID 17176). Stop the other gateway first.; qqbot: QQBot app ID already in use (PID 24256). Stop the other gateway first.
+2026-06-23 07:20:44,107 ERROR gateway.platforms.base: [Weixin] Weixin bot token already in use (PID 17176). Stop the other gateway first.
+2026-06-23 07:20:44,120 WARNING gateway.run: ✗ weixin failed to connect
+2026-06-23 07:20:44,191 ERROR gateway.platforms.base: [QQBot] QQBot app ID already in use (PID 24256). Stop the other gateway first.
+2026-06-23 07:20:44,205 WARNING gateway.run: ✗ qqbot failed to connect
+2026-06-23 07:20:44,220 ERROR gateway.run: Gateway hit a non-retryable startup conflict: weixin: Weixin bot token already in use (PID 17176). Stop the other gateway first.; qqbot: QQBot app ID already in use (PID 24256). Stop the other gateway first.
+2026-06-23 07:20:44,234 ERROR gateway.run: Gateway exiting cleanly: weixin: Weixin bot token already in use (PID 17176). Stop the other gateway first.; qqbot: QQBot app ID already in use (PID 24256). Stop the other gateway first.
+2026-06-23 07:24:58,212 WARNING hermes_plugins.raft_platform.adapter: [raft] raft CLI not found in PATH — install from https://raft.build
+2026-06-23 07:24:59,215 ERROR gateway.platforms.base: [Weixin] Weixin bot token already in use (PID 20884). Stop the other gateway first.
+2026-06-23 07:24:59,230 WARNING gateway.run: ✗ weixin failed to connect
+2026-06-23 07:24:59,327 ERROR gateway.platforms.base: [QQBot] QQBot app ID already in use (PID 24508). Stop the other gateway first.
+2026-06-23 07:24:59,341 WARNING gateway.run: ✗ qqbot failed to connect
+2026-06-23 07:24:59,358 ERROR gateway.run: Gateway hit a non-retryable startup conflict: weixin: Weixin bot token already in use (PID 20884). Stop the other gateway first.; qqbot: QQBot app ID already in use (PID 24508). Stop the other gateway first.
+2026-06-23 07:24:59,380 ERROR gateway.run: Gateway exiting cleanly: weixin: Weixin bot token already in use (PID 20884). Stop the other gateway first.; qqbot: QQBot app ID already in use (PID 24508). Stop the other gateway first.
+2026-06-23 07:25:03,844 WARNING hermes_plugins.raft_platform.adapter: [raft] raft CLI not found in PATH — install from https://raft.build
+2026-06-23 07:25:04,783 ERROR gateway.platforms.base: [Weixin] Weixin bot token already in use (PID 20884). Stop the other gateway first.
+2026-06-23 07:25:04,797 WARNING gateway.run: ✗ weixin failed to connect
+2026-06-23 07:25:04,896 ERROR gateway.platforms.base: [QQBot] QQBot app ID already in use (PID 24508). Stop the other gateway first.
+2026-06-23 07:25:04,909 WARNING gateway.run: ✗ qqbot failed to connect
+2026-06-23 07:25:04,923 ERROR gateway.run: Gateway hit a non-retryable startup conflict: weixin: Weixin bot token already in use (PID 20884). Stop the other gateway first.; qqbot: QQBot app ID already in use (PID 24508). Stop the other gateway first.
+2026-06-23 07:25:04,936 ERROR gateway.run: Gateway exiting cleanly: weixin: Weixin bot token already in use (PID 20884). Stop the other gateway first.; qqbot: QQBot app ID already in use (PID 24508). Stop the other gateway first.
+2026-06-23 07:25:09,666 WARNING hermes_plugins.raft_platform.adapter: [raft] raft CLI not found in PATH — install from https://raft.build
+2026-06-23 07:25:10,746 ERROR gateway.platforms.base: [Weixin] Weixin bot token already in use (PID 20884). Stop the other gateway first.
+2026-06-23 07:25:10,759 WARNING gateway.run: ✗ weixin failed to connect
+2026-06-23 07:25:10,861 ERROR gateway.platforms.base: [QQBot] QQBot app ID already in use (PID 24508). Stop the other gateway first.
+2026-06-23 07:25:10,876 WARNING gateway.run: ✗ qqbot failed to connect
+2026-06-23 07:25:10,891 ERROR gateway.run: Gateway hit a non-retryable startup conflict: weixin: Weixin bot token already in use (PID 20884). Stop the other gateway first.; qqbot: QQBot app ID already in use (PID 24508). Stop the other gateway first.
+2026-06-23 07:25:10,904 ERROR gateway.run: Gateway exiting cleanly: weixin: Weixin bot token already in use (PID 20884). Stop the other gateway first.; qqbot: QQBot app ID already in use (PID 24508). Stop the other gateway first.
+2026-06-23 07:25:15,612 WARNING hermes_plugins.raft_platform.adapter: [raft] raft CLI not found in PATH — install from https://raft.build
+2026-06-23 07:25:16,621 ERROR gateway.platforms.base: [Weixin] Weixin bot token already in use (PID 20884). Stop the other gateway first.
+2026-06-23 07:25:16,635 WARNING gateway.run: ✗ weixin failed to connect
+2026-06-23 07:25:16,754 ERROR gateway.platforms.base: [QQBot] QQBot app ID already in use (PID 24508). Stop the other gateway first.
+2026-06-23 07:25:16,768 WARNING gateway.run: ✗ qqbot failed to connect
+2026-06-23 07:25:16,783 ERROR gateway.run: Gateway hit a non-retryable startup conflict: weixin: Weixin bot token already in use (PID 20884). Stop the other gateway first.; qqbot: QQBot app ID already in use (PID 24508). Stop the other gateway first.
+2026-06-23 07:25:16,798 ERROR gateway.run: Gateway exiting cleanly: weixin: Weixin bot token already in use (PID 20884). Stop the other gateway first.; qqbot: QQBot app ID already in use (PID 24508). Stop the other gateway first.
+2026-06-23 07:33:32,518 WARNING hermes_plugins.raft_platform.adapter: [raft] raft CLI not found in PATH — install from https://raft.build
+2026-06-23 07:33:34,295 ERROR gateway.platforms.base: [QQBot] QQBot app ID already in use (PID 24508). Stop the other gateway first.
+2026-06-23 07:33:34,308 WARNING gateway.run: ✗ qqbot failed to connect
+2026-06-23 07:42:21,454 WARNING hermes_plugins.raft_platform.adapter: [raft] raft CLI not found in PATH — install from https://raft.build
+2026-06-23 07:42:22,614 ERROR gateway.platforms.base: [QQBot] QQBot app ID already in use (PID 22896). Stop the other gateway first.
+2026-06-23 07:42:22,635 WARNING gateway.run: ✗ qqbot failed to connect
+2026-06-23 10:00:17,734 WARNING agent.auxiliary_client: Auxiliary: marking openrouter unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 10:01:17.
+2026-06-23 10:00:17,744 WARNING agent.auxiliary_client: Auxiliary Nous client unavailable: no Nous authentication found (run: hermes auth).
+2026-06-23 10:00:17,745 WARNING agent.auxiliary_client: Auxiliary: marking nous unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 10:01:17.
+2026-06-23 10:00:17,765 WARNING agent.auxiliary_client: Auxiliary: marking openrouter unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 10:01:17.
+2026-06-23 10:00:17,774 WARNING agent.auxiliary_client: Auxiliary Nous client unavailable: no Nous authentication found (run: hermes auth).
+2026-06-23 10:00:17,775 WARNING agent.auxiliary_client: Auxiliary: marking nous unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 10:01:17.
+2026-06-23 10:00:17,948 WARNING agent.auxiliary_client: Auxiliary: marking openrouter unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 10:01:17.
+2026-06-23 10:00:17,957 WARNING agent.auxiliary_client: Auxiliary Nous client unavailable: no Nous authentication found (run: hermes auth).
+2026-06-23 10:00:17,958 WARNING agent.auxiliary_client: Auxiliary: marking nous unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 10:01:17.
+2026-06-23 10:00:17,978 WARNING agent.auxiliary_client: Auxiliary: marking openrouter unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 10:01:17.
+2026-06-23 10:00:17,987 WARNING agent.auxiliary_client: Auxiliary Nous client unavailable: no Nous authentication found (run: hermes auth).
+2026-06-23 10:00:17,988 WARNING agent.auxiliary_client: Auxiliary: marking nous unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 10:01:17.
+2026-06-23 10:26:54,009 WARNING [20260621_203430_c8e16615] agent.tool_executor: Tool read_file returned error (0.00s): {"error": "Background review denied non-whitelisted tool: read_file. Only memory/skill tools are allowed."}
+2026-06-23 11:14:05,754 WARNING [20260621_203430_c8e16615] agent.tool_executor: Tool memory returned error (0.01s): {"success": false, "error": "Memory at 9,944/9,999 chars. Adding this entry (424 chars) would exceed the limit. Consolidate now: use 'replace' to merge overlapping entries into shorter ones or 'remove
+2026-06-23 11:38:42,386 WARNING [20260621_203430_c8e16615] agent.tool_executor: Tool memory returned error (0.00s): {"error": "Unknown action 'None'. Use: add, replace, remove", "success": false}
+2026-06-23 11:38:43,390 WARNING [20260621_203430_c8e16615] agent.tool_executor: Tool patch returned error (0.00s): {"error": "Background review denied non-whitelisted tool: patch. Only memory/skill tools are allowed."}
+2026-06-23 11:38:52,417 WARNING [20260621_203430_c8e16615] agent.tool_executor: Tool memory returned error (0.06s): {"success": false, "error": "Memory at 9,778/9,999 chars. Adding this entry (298 chars) would exceed the limit. Consolidate now: use 'replace' to merge overlapping entries into shorter ones or 'remove
+2026-06-23 11:53:26,057 WARNING [20260621_203430_c8e16615] agent.tool_executor: Tool memory returned error (0.01s): {"success": false, "error": "Memory at 9,778/9,999 chars. Adding this entry (401 chars) would exceed the limit. Consolidate now: use 'replace' to merge overlapping entries into shorter ones or 'remove
+2026-06-24 07:22:32,680 WARNING hermes_plugins.raft_platform.adapter: [raft] raft CLI not found in PATH — install from https://raft.build
+2026-06-24 07:22:34,197 ERROR gateway.platforms.base: [QQBot] QQBot app ID already in use (PID 16424). Stop the other gateway first.
+2026-06-24 07:22:34,210 WARNING gateway.run: ✗ qqbot failed to connect
+2026-06-24 07:41:08,855 WARNING agent.auxiliary_client: Auxiliary: marking openrouter unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 07:42:08.
+2026-06-24 07:41:08,865 WARNING agent.auxiliary_client: Auxiliary Nous client unavailable: no Nous authentication found (run: hermes auth).
+2026-06-24 07:41:08,866 WARNING agent.auxiliary_client: Auxiliary: marking nous unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 07:42:08.
+2026-06-24 07:41:08,888 WARNING agent.auxiliary_client: Auxiliary: marking openrouter unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 07:42:08.
+2026-06-24 07:41:08,896 WARNING agent.auxiliary_client: Auxiliary Nous client unavailable: no Nous authentication found (run: hermes auth).
+2026-06-24 07:41:08,897 WARNING agent.auxiliary_client: Auxiliary: marking nous unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 07:42:08.
+2026-06-24 07:41:09,073 WARNING agent.auxiliary_client: Auxiliary: marking openrouter unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 07:42:09.
+2026-06-24 07:41:09,081 WARNING agent.auxiliary_client: Auxiliary Nous client unavailable: no Nous authentication found (run: hermes auth).
+2026-06-24 07:41:09,082 WARNING agent.auxiliary_client: Auxiliary: marking nous unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 07:42:09.
+2026-06-24 07:41:09,103 WARNING agent.auxiliary_client: Auxiliary: marking openrouter unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 07:42:09.
+2026-06-24 07:41:09,112 WARNING agent.auxiliary_client: Auxiliary Nous client unavailable: no Nous authentication found (run: hermes auth).
+2026-06-24 07:41:09,113 WARNING agent.auxiliary_client: Auxiliary: marking nous unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 07:42:09.
+2026-06-24 09:01:40,115 WARNING [20260621_203430_c8e16615] agent.tool_executor: Tool memory returned error (0.05s): {"success": false, "error": "Memory at 9,778/9,999 chars. Adding this entry (438 chars) would exceed the limit. Consolidate now: use 'replace' to merge overlapping entries into shorter ones or 'remove
+2026-06-24 09:58:22,143 WARNING agent.message_sanitization: Unrepairable tool_call arguments for memory — replaced with empty object (was: {"target": "user", "operations": [{"action": "add", "content": "June 24 认知突破: Je)
+2026-06-24 19:40:18,926 WARNING hermes_plugins.raft_platform.adapter: [raft] raft CLI not found in PATH — install from https://raft.build
+2026-06-24 19:40:20,020 ERROR gateway.platforms.base: [QQBot] QQBot app ID already in use (PID 18704). Stop the other gateway first.
+2026-06-24 19:40:20,033 WARNING gateway.run: ✗ qqbot failed to connect
+2026-06-25 06:53:25,557 WARNING hermes_plugins.raft_platform.adapter: [raft] raft CLI not found in PATH — install from https://raft.build
+2026-06-25 06:53:26,695 ERROR gateway.platforms.base: [QQBot] QQBot app ID already in use (PID 10848). Stop the other gateway first.
+2026-06-25 06:53:26,707 WARNING gateway.run: ✗ qqbot failed to connect
+2026-06-25 07:15:15,909 WARNING hermes_plugins.raft_platform.adapter: [raft] raft CLI not found in PATH — install from https://raft.build
+2026-06-25 07:15:17,055 ERROR gateway.platforms.base: [QQBot] QQBot app ID already in use (PID 22308). Stop the other gateway first.
+2026-06-25 07:15:17,075 WARNING gateway.run: ✗ qqbot failed to connect
+2026-06-25 07:16:45,172 WARNING agent.auxiliary_client: Auxiliary: marking openrouter unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 07:17:45.
+2026-06-25 07:16:45,182 WARNING agent.auxiliary_client: Auxiliary Nous client unavailable: no Nous authentication found (run: hermes auth).
+2026-06-25 07:16:45,184 WARNING agent.auxiliary_client: Auxiliary: marking nous unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 07:17:45.
+2026-06-25 07:16:45,204 WARNING agent.auxiliary_client: Auxiliary: marking openrouter unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 07:17:45.
+2026-06-25 07:16:45,212 WARNING agent.auxiliary_client: Auxiliary Nous client unavailable: no Nous authentication found (run: hermes auth).
+2026-06-25 07:16:45,213 WARNING agent.auxiliary_client: Auxiliary: marking nous unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 07:17:45.
+2026-06-25 08:46:26,486 WARNING [20260621_203430_c8e16615] agent.tool_executor: Tool skill_manage returned error (0.04s): {"success": false, "error": "Escape-drift detected: old_string and new_string contain the literal sequence '\\\\\"' but the matched region of the file does not. This is almost always a tool-call seria
+2026-06-25 08:46:29,761 WARNING [20260621_203430_c8e16615] agent.tool_executor: Tool read_file returned error (0.00s): {"error": "Background review denied non-whitelisted tool: read_file. Only memory/skill tools are allowed."}
+2026-06-25 08:54:49,940 WARNING [20260621_203430_c8e16615] agent.tool_executor: Tool memory returned error (0.06s): {"success": false, "error": "Operation 1 (remove): no entry matched 'Demon（2026-06-22，tina-teacher session）'. No operations were applied (batch is all-or-nothing).", "current_entries": ["Terminal: 202
+2026-06-25 09:07:48,834 WARNING [20260621_203430_c8e16615] agent.tool_executor: Tool memory returned error (0.03s): {"success": false, "error": "After applying all 3 operations, memory would be at 10,625/9,999 chars -- over the limit. Remove or shorten more entries in the same batch (see current_entries below), the
+2026-06-25 09:23:31,200 WARNING [20260621_203430_c8e16615] agent.tool_executor: Tool skill_view returned error (0.14s): {"success": false, "error": "File 'references/company-org-pipeline.md' not found in skill 'ai-workforce-orchestration'.", "available_files": {"other": ["references\\codex-goal-experiment.md", "referen
+2026-06-25 09:23:55,861 WARNING [20260621_203430_c8e16615] agent.tool_executor: Tool patch returned error (0.00s): {"error": "Background review denied non-whitelisted tool: patch. Only memory/skill tools are allowed."}
+2026-06-25 09:24:06,170 WARNING [20260621_203430_c8e16615] agent.tool_executor: Tool memory returned error (0.03s): {"success": false, "error": "Memory at 9,730/9,999 chars. Adding this entry (293 chars) would exceed the limit. Consolidate now: use 'replace' to merge overlapping entries into shorter ones or 'remove
+2026-06-25 09:24:16,063 WARNING [20260621_203430_c8e16615] agent.tool_executor: Tool memory returned error (0.03s): {"success": false, "error": "Operation 6 (remove): no entry matched 'Jerry的正确性需要纠正的条目 2/3/4/5'. No operations were applied (batch is all-or-nothing).", "current_entries": ["Terminal: 2026-06-21 Jerry改
+2026-06-25 09:24:23,362 WARNING [20260621_203430_c8e16615] agent.tool_executor: Tool memory returned error (0.03s): {"success": false, "error": "Operation 5 (remove): no entry matched 'Jerry's 希望vs感觉 内容框架'. No operations were applied (batch is all-or-nothing).", "current_entries": ["Terminal: 2026-06-21 Jerry改好了Her
+2026-06-25 09:36:52,913 WARNING [20260621_203430_c8e16615] agent.tool_executor: Tool patch returned error (0.00s): {"error": "Background review denied non-whitelisted tool: patch. Only memory/skill tools are allowed."}
+2026-06-25 09:37:39,204 WARNING [20260621_203430_c8e16615] agent.tool_executor: Tool read_file returned error (0.00s): {"error": "Background review denied non-whitelisted tool: read_file. Only memory/skill tools are allowed."}
+2026-06-25 09:47:47,141 WARNING [20260621_203430_c8e16615] agent.tool_executor: Tool patch returned error (0.00s): {"error": "Background review denied non-whitelisted tool: patch. Only memory/skill tools are allowed."}
+2026-06-25 09:47:58,396 WARNING [20260621_203430_c8e16615] agent.tool_executor: Tool memory returned error (0.03s): {"success": false, "error": "Memory at 9,788/9,999 chars. Adding this entry (317 chars) would exceed the limit. Consolidate now: use 'replace' to merge overlapping entries into shorter ones or 'remove
+2026-06-26 07:15:04,661 WARNING hermes_plugins.raft_platform.adapter: [raft] raft CLI not found in PATH — install from https://raft.build
+2026-06-26 07:15:05,792 ERROR gateway.platforms.base: [QQBot] QQBot app ID already in use (PID 9944). Stop the other gateway first.
+2026-06-26 07:15:05,805 WARNING gateway.run: ✗ qqbot failed to connect
+2026-06-26 18:33:26,679 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:33:28,775 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:33:30,865 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:34:00,947 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:34:04,054 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:34:06,133 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:34:36,257 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:34:39,373 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:34:41,470 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:35:11,564 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:35:13,640 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:35:15,755 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:35:46,855 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:35:48,959 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:35:51,075 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:36:21,156 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:36:23,243 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:36:25,682 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:36:55,796 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:36:57,875 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:36:59,984 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:37:30,080 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:37:32,540 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:37:35,030 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:38:06,147 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:38:08,247 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:38:10,369 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:38:40,449 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:38:42,546 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:38:44,636 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:39:14,743 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:39:16,856 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:39:18,979 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:39:49,068 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:39:51,184 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:39:53,300 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:40:25,489 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:40:27,590 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:40:29,700 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:41:00,164 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:41:02,263 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:41:04,672 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:41:34,776 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:41:36,892 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-26 18:41:38,975 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:8899'
+2026-06-27 07:26:52,734 WARNING hermes_plugins.raft_platform.adapter: [raft] raft CLI not found in PATH — install from https://raft.build
+2026-06-27 07:26:54,153 ERROR gateway.platforms.base: [QQBot] QQBot app ID already in use (PID 10280). Stop the other gateway first.
+2026-06-27 07:26:54,167 WARNING gateway.run: ✗ qqbot failed to connect
+2026-06-27 13:18:55,741 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): Cannot connect to host 47.86.180.83:8899 ssl:default [信号灯超时时间已到]
+2026-06-27 13:19:18,750 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): Cannot connect to host 47.86.180.83:8899 ssl:default [信号灯超时时间已到]
+2026-06-27 13:19:20,856 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:19:51,967 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:19:54,060 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:19:56,419 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:20:26,517 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:20:28,605 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:20:30,702 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:21:00,799 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:21:04,909 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:21:07,014 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:21:37,459 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:21:39,561 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:21:42,678 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:22:12,792 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:22:14,878 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:22:16,992 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:22:47,460 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:22:49,557 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:22:51,677 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:23:21,761 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:23:23,837 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:23:25,922 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:23:56,038 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:23:58,143 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:24:00,239 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:24:30,352 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:24:32,460 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:24:36,566 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:25:06,646 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:25:08,737 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:25:10,840 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:25:40,952 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:25:43,062 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:25:45,170 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:26:15,275 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:26:17,371 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:26:19,486 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:26:49,577 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:26:51,959 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:26:54,036 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:27:27,148 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:27:29,255 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:27:31,343 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:28:01,433 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:28:03,513 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:28:06,555 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:28:36,663 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:28:38,746 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:28:40,857 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:29:10,961 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:29:13,055 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:29:15,136 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:29:46,234 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:29:48,734 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:29:50,829 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:30:20,938 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:30:23,861 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:30:26,283 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:30:56,366 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:30:58,470 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:31:00,562 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:31:30,673 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:31:32,769 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:31:34,867 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:32:05,962 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:32:08,048 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:32:10,156 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:32:40,272 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:32:43,384 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:32:46,459 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:33:16,548 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:33:18,662 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:33:21,141 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:33:51,233 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:33:53,709 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:33:55,806 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:34:25,892 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:34:27,984 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:34:30,100 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:35:00,200 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:35:02,295 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:35:04,385 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:35:34,462 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:35:36,544 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:35:39,640 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:36:10,633 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:36:12,725 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:36:14,816 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:36:44,925 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:36:47,027 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:36:49,110 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:37:19,583 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:37:21,700 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:37:24,115 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:37:54,218 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:37:56,315 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:37:58,753 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:38:28,855 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:38:30,969 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:38:33,059 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:39:03,150 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:39:05,247 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:39:07,322 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:39:37,423 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:39:39,524 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:39:41,606 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:40:11,710 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:40:13,793 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:40:15,892 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:40:45,987 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:40:48,101 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:40:50,576 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:41:20,697 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:41:22,790 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:41:24,886 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:41:54,984 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:41:57,086 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:41:59,180 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:42:29,263 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:42:31,766 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:42:33,865 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:43:03,949 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:43:06,034 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:43:08,145 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:43:38,247 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:43:40,356 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:43:42,471 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:44:12,570 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:44:14,652 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:44:16,766 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:44:46,852 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:44:48,942 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:44:52,043 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:45:22,114 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:45:24,215 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:45:26,298 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:45:56,387 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:45:58,462 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:46:00,539 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:46:30,625 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:46:32,715 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:46:36,293 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:47:06,399 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:47:09,489 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:47:12,598 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:47:42,696 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:47:44,796 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:47:46,893 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:48:16,991 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:48:19,096 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:48:23,213 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:48:54,315 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:48:56,413 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:48:58,503 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:49:28,590 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:49:31,062 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:49:33,182 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:50:03,278 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:50:05,394 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:50:07,498 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:50:37,588 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:50:39,697 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:50:41,794 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:51:11,890 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:51:13,982 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:51:16,090 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:51:46,165 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:51:48,584 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:51:52,716 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:52:22,795 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:52:24,891 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:52:27,000 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:52:57,110 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:52:59,196 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:53:01,297 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:53:31,401 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:53:34,363 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:53:36,463 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:54:06,563 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:54:08,673 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:54:10,781 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:54:40,878 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:54:42,989 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:54:45,084 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:55:15,174 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:55:17,274 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:55:19,382 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:55:49,469 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:55:51,566 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:55:53,678 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:56:23,771 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:56:25,870 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:56:27,938 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:56:58,058 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:57:00,117 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:57:02,214 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:57:32,327 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:57:34,424 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:57:36,525 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:58:06,628 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:58:08,738 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:58:10,829 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:58:40,944 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:58:43,046 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:58:45,148 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:59:15,271 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:59:17,376 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:59:20,982 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:59:51,084 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:59:53,169 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 13:59:55,273 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:00:25,381 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:00:27,469 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:00:29,944 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:01:00,048 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:01:02,133 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:01:04,218 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:01:36,355 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:01:38,454 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:01:40,544 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:02:10,639 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:02:14,751 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:02:16,839 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:02:46,936 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:02:50,045 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:02:52,147 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:03:22,254 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:03:25,367 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:03:27,475 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:03:59,572 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:04:01,658 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:04:03,772 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:04:34,869 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:04:37,965 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:04:40,060 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:05:10,162 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:05:12,248 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:05:15,333 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:05:45,417 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:05:47,518 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:05:49,621 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:06:19,720 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:06:21,832 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:06:23,930 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:06:54,006 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:06:57,590 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:06:59,689 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:07:31,281 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:07:33,381 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:07:36,447 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:08:06,894 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:08:09,004 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:08:11,104 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:08:41,195 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:08:43,285 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:08:45,395 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:09:15,817 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:09:17,913 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:09:20,016 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:09:50,486 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:09:52,600 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:09:55,034 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:10:25,147 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:10:27,532 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:10:30,399 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:11:00,472 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:11:02,564 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:11:04,681 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:11:34,753 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:11:36,872 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:11:38,953 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:12:09,053 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:12:11,162 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:12:13,258 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:12:45,367 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:12:48,480 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:12:50,564 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:13:20,652 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:13:22,742 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:13:24,837 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:13:55,302 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:13:57,390 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:14:00,492 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:14:30,586 ERROR gateway.platforms.weixin: [Weixin] poll error (1/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:14:32,689 ERROR gateway.platforms.weixin: [Weixin] poll error (2/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'
+2026-06-27 14:14:34,770 ERROR gateway.platforms.weixin: [Weixin] poll error (3/3): 407, message='Proxy Authentication Required', url='http://47.86.180.83:443'

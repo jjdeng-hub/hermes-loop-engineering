@@ -1,0 +1,9 @@
+{
+  "last_report_path": "C:\\Users\\jjdeng\\.hermes\\profiles\\tina-teacher\\logs\\curator\\20260622-003228",
+  "last_run_at": "2026-06-22T00:32:28.225139+00:00",
+  "last_run_duration_seconds": 125.584284,
+  "last_run_summary": "auto: no changes; llm: Both consolidations are complete. Here's the summary:\n\n---\n\n## Consolidation Results\n\n### Cluster 1: Parallel Research Skills\n\n**`industry-research` → `business-domain-research`**\n\nBoth describe the same class-level workflow — parallel `del…\narchived 2 skill(s):\n  • industry-research → business-domain-research\n  • loop-engineering-experiment → ai-workforce-orchestration\nfull report: hermes curator status\nkeep an umbrella stable: hermes curator pin ai-workforce-orchestration",
+  "last_run_summary_shown_at": null,
+  "paused": false,
+  "run_count": 1
+}
