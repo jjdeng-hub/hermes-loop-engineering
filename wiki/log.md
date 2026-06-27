@@ -14,3 +14,8 @@
 - concepts/loop-engineering.md — Loop Engineering 核心知识
 - concepts/memory-architecture.md — 记忆架构设计
 - WIKI_PATH set to /root/.hermes/wiki
+
+## [2026-06-27] ingest | agency-agents-zh (266 agents)
+- 克隆到 /opt/agency-agents-zh/
+- 312 个文件，20 个部门
+- 新增 wiki 页面: entities/agency-agents-catalog.md

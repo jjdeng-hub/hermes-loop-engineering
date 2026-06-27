@@ -8,6 +8,7 @@
 - [[hermes-config]] — Hermes Agent 完整配置（模型、代理、QQ Bot、自动更新）
 - [[daily-automation-loop]] — 3 个 cron 任务构成的每日自动化流水线
 - [[cloakbrowser-lupin]] — CloakBrowser + Lupin 网页爬取方案
+- [[agency-agents-catalog]] — 266 个 AI 专家角色目录（agency-agents-zh）
 
 ## Concepts
 
