@@ -1,0 +1,3 @@
+完整中文版橙皮书 PDF 全文提取。源文件: /root/.hermes/skills/research/opc-loop-engineering/references/loop-engineering-橙皮书-中文完整版.txt
+由 hermes update 脚本从 Loop-Engineering橙皮书-v260615.pdf 通过 pdftotext 提取。
+62KB / 1184行，9章完整内容。
