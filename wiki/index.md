@@ -9,6 +9,7 @@
 - [[daily-automation-loop]] — 3 个 cron 任务构成的每日自动化流水线
 - [[cloakbrowser-lupin]] — CloakBrowser + Lupin 网页爬取方案
 - [[agency-agents-catalog]] — 266 个 AI 专家角色目录（agency-agents-zh）
+- [[social-media-research]] — 社交媒体一手调研：AI 变现方向（2026）
 
 ## Concepts
 
