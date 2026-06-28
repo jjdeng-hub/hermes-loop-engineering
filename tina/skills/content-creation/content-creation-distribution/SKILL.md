@@ -333,6 +333,7 @@ B站封面：
 
 - `references/video-script-template.md` — 完整视频脚本模板（含真实会话示例）
 - `references/xiaohongshu-note-template.md` — 小红书图文笔记模板（含封面设计、配图建议、正文结构）
+- `references/hope-and-feeling-framework.md` — 希望vs感觉框架，内容质量核心判据
 - `references/english-to-chinese-adaptation-example.md` — 真实会话示例：英文 AI 自动化咨询文章 → 公众号中文改编，含价格本地化和工具替换对照表
 
 ### 第 6 步：拆解小红书笔记
@@ -568,4 +569,5 @@ B站封面：
 
 ## 参考文件
 
+- `references/hope-and-feeling-framework.md` — 希望vs感觉框架，内容质量核心判据
 - `references/english-to-chinese-adaptation-example.md` — 真实会话示例：英文 AI 自动化咨询文章 → 公众号中文改编，含价格本地化和工具替换对照表

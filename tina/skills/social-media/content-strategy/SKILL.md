@@ -1,119 +1,147 @@
 ---
 name: content-strategy
-description: Jerry 账号内容策略总纲——账号定位、内容姿态、选题方法、视觉策略、发布运营、复盘系统。涵盖小红书+抖音双平台 AI 观点类内容的完整创作体系。现已吸收 content-stance-strategy、social-media-visual-strategy、topic-curation、xiaohongshu-content-system 四个子技能，详细内容见 references/。
+description: Jerry's content strategy — personal narrative journey (叙事) about building an AI-powered one-person company. Text-first, Xiaohongshu 图文 as primary platform. "Do → Record" model.
 ---
 
-# 内容策略核心
+# Content Strategy (current approach, effective 2026-06-28)
 
-## 账号定位
+> **Warning**: This is the THIRD iteration of Jerry's content strategy.
+> Prior versions (Douyin video + AI-generated content → Knowledge base monetization) are archived as historical references below.
+> **Load this skill before writing or reviewing any content for Jerry.**
 
-「Jerry在想什么」——一个普通程序员在 AI 时代的碎碎念。28 岁，半导体设备软件开发，主业 1.5 万/月。**主阵地：抖音。**
+## Core Thesis (from DeerLucid, adapted)
 
-- 人设：不是专家，是同行者。真实的困惑 > 正确的答案。
-- 形式：文字短图文（当前）→ 录音练习 → 录屏+配音 → 桌面+手+配音 → 品牌锚点。
-- 不露脸：完全可行。声音就是你的人设。卡兹克早期全是配音+画面。
-- 平台策略：**2026-05-25 小红书停更（7篇998浏览/10赞 vs 抖音11598/90赞=11倍差距）。账号保留不注销，后续探索其他用途。** 当前仅发抖音。
+> Ordinary people achieve class leap via AI leverage through **personal narrative**, not risky entrepreneurship.
+> Anchor from "who I am" and current main job as starting point.
+> Turn daily AI learning and application into content fuel.
+> **Learn → Do → Record**, not "plan first → execute later".
 
-## 内容姿态三类型
+## Who Jerry Is (the anchor)
 
-| 姿态 | 标题特征 | 读者动作 | 数据特征 | 点赞修正 |
-|------|---------|---------|---------|---------|
-| 提问/质疑型 | 「真的吗？」「为什么？」 | 想说话，不想站队 | 高评论、低点赞 | ×0.3 |
-| 站队/二分型 | 「你站哪边？」「1%还是99%」 | 想表态、想转发 | 高点赞、高传播 | ×1.2 |
-| 安抚/叙事型 | 「别焦虑」「会好的」 | 被理解、被安抚 | 测试中 | ×1.0 |
+- 28, Suzhou, married, C++/Python engineer at K&S (Ball Bonder equipment)
+- Salary 15K/mo, expenses 5230/mo
+- First job, no industry connections
+- **Not an AI expert, not a semi expert.** A regular engineer who happens to run AI agents deeply.
 
-**铁律**：分析/观点型 > 个人故事型。个人故事型内容算法无法找到明确受众（#1 45浏览, #3 129浏览）。
+## The Content Product
 
-> 深入分析（校准数据、修正因子、姿态交替策略、切换检查清单、写作风格）见 `references/content-stance-strategy.md`。
+Not a tutorial. Not a knowledge base. A **building diary**:
 
-## 选题原则
+> "How a regular Chinese engineer turned an AI chatbot into his employee — the honest story, no filter."
 
-1. **不追求技术深度，追求认知共鸣。** 读者看完要坐不住——想站队、想反驳、或被安抚。
-2. **三道筛选**：我妈能看懂标题 → 看完想评论 → Jerry 有资格说。
-3. **选题来源**：小红书自己刷（最佳信号源）。不要依赖自动爬取——国内观点内容全在封闭平台里。
+The narrative arc:
+1. Started with Hermes as a casual chat buddy
+2. Discovered cross-session memory
+3. Configured QQ Bot → WeChat → Feishu gateways
+4. Discovered profiles → One-person company took shape
+5. Now: 266+ expert agent roles, complete infrastructure
 
-### ⚠️ 知识资产变现的铁律（来自半导体知识库教训）
+Each installment = one stage of this journey. Written as **decision-making narrative**, not as installation docs.
 
-当知识库用于变现（闲鱼卖资料、付费内容等）时，Tom 不得单方面判断「内容是否成体系、是否可以卖」。必须满足两个条件：
+## Why This Works
 
-1. **领域专家验收** — Jerry 确认知识库覆盖完整、内容准确。技术领域（如半导体设备）的错误信息会造成实际损失。
-2. **不要急推「先卖后建」** — 内容产品（资料包/付费文章）的前提是知识库质量过关。在 Jerry 说「够了」之前，继续爬取、补充、验证，不要跳到产品化。
+| Property | Old approach (pre-2026-06-28) | New approach |
+|----------|-------------------------------|--------------|
+| Uniqueness | Low (AI-generated, anyone can) | High (his specific journey) |
+| Feeling (感觉) | Low (no personal voice) | High (authentic struggle) |
+| Hope (希望) | Medium (generic tutorial value) | High (readable arc to follow) |
+| Content engine | Manual writing | Auto-loop (chat → extract) |
+| Platform | Douyin video | Xiaohongshu 图文 |
 
-Tom 的角色：爬取 → 格式化 → 建索引。Jerry 的角色：判断完整性 → 验证准确性 → 决定卖什么。
+**Key insight from past failure**: Jerry's "Jerry在想什么" had 20 articles / 10 followers. Root cause: "feeling but no hope" — authentic voice but no actionable takeaway. The NEW approach solves this: the "hope" IS the observable journey itself.
 
-## 发布节奏
+## Content Production Loop
 
-| 阶段 | 频率 | 说明 |
-|------|------|------|
-| 纯文字期 | 隔天一篇（周一三五） | 当前，仅发抖音 |
-| 过渡期 | 文字保持 + 每周 2 次录音 | 录音和发布日错开 |
-| 口播上线后 | 每周 2 篇 | 降频不降质 |
+```
+Jerry chats with Tina (Feishu group, natural conversation)
+  → Hermes (this agent) watches, extracts cognitive shifts
+  → Hermes drafts a short piece (800-1500 chars)
+  → Jerry reviews, approves/rejects
+  → Publish to Xiaohongshu 图文
+```
 
-## 形式过渡路线
+**No forced output.** Some days have material, some don't. Target: 2-3 pieces/week.
 
-1. **现在**：把稿子念一遍，手机录音自己听。找到「说话」感。→ 定量分析：用 ffmpeg 检测停顿/节奏/音量（见 `references/audio-self-review.md`）
-2. **1 周后**：录屏 + 配音。Cursor/终端 + 你的声音。程序员视角天然差异化。
-3. **2 周后**：桌面 + 手 + 配音。键盘、咖啡、窗外——真实工作场景。
-4. **3-4 周后**：加一个固定视觉符号。品牌锚点。
+## Content Principles
 
-## 标签策略
+1. **Do not write installation tutorials.** Chinese docs (hermesagent.org.cn) already cover them. Write the *decision trajectory*: "why I chose WSL → why I switched to Windows → why I moved to server".
+2. **First person, present tense.** Jerry's authentic voice, not a polished narrator.
+3. **Segment information.** Short paragraphs, one idea per breath. No big dumps.
+4. **No flattery, no filler.** Real talk. If it's hard to write, it's probably worth writing.
+5. **Hook + Story + Subscribe.** Each piece must make the reader want the next one.
 
-2-2-2 法则：2 精准圈层 + 2 情绪/话题 + 2 泛流量。不编造标签。
+## Platform Priorities
 
-但注意：内容类型 > 标签精度。标签优化无法弥补内容类型的先天缺陷（#3 证明）。
+| Platform | Role | Status | Notes |
+|----------|------|--------|-------|
+| **Xiaohongshu** | Primary. 图文 only. | Not yet started. | Needs account registration (phone number required). |
+| **WeChat Official Account** | Text backup / rehost. | Future. | |
+| **Douyin** | Abandoned. Too high production cost for video. | Not active. | |
+| **Twitter/X** | English-language / dev-community reposts. | ✅ Account: TomDengnc1c. Has API Bearer Token (402 CreditsDepleted — free tier needs activation). | Server IP blocked for browser login without residential proxy. Bearer Token authenticated but v2 API returns 402 (needs free/basic tier activated in Developer Portal). v1.1 API limited. |
+| **Reddit** | r/LocalLLaMA, r/selfhosted exposure. | ✅ Account: New-tom2306. | Server IP blocked entirely. JSON API also blocked. Use `web_search` or alternative frontends. |
 
-## 对标
+## Agent Capabilities
 
-数字生命卡兹克——观点类内容在小红书有成功案例。
+| Tool | Account | Status | Use Case |
+|------|---------|--------|----------|
+| AgentMail | hermes-tom-jerry@agentmail.to | ✅ Active | Register accounts (email verification), receive notifications, send emails. Free tier: 3 inboxes, 3000 emails/month. |
 
-## 发布时间
+## Feishu Dual-Bot Infrastructure (Current)
 
-统一 19:00-19:30，全年不变。
+Jerry and Tina communicate in a Feishu group with two Hermes gateway instances:
 
-## ⚠️ 数据查找铁律
+```
+Jerry → Feishu group (all messages visible to both bots)
+  ├─ @Hermes → default profile (云端管家, this agent)
+  └─ @Tina → tina profile (苏格拉底导师)
+```
 
-查发布数据时，**直接读 `.cheat-state.json`，不要用 session_search 搜会话记录。** 文件路径：`/mnt/c/Users/jjdeng/Desktop/xiaohongshu-content/.cheat-state.json`。所有已发布文章的双平台数据、预测分数、复盘笔记都在这里。搜会话记录效率极低且经常找不到数据。
+**Caveat**: Both bots must have "群聊接收消息模式" set to "接收所有消息" (not "仅接收@机器人消息") on open.feishu.cn for the group chat to work.
+**Caveat 2**: New Feishu bot apps must have `FEISHU_ALLOW_ALL_USERS=true` and `FEISHU_GROUP_POLICY=open` in .env, otherwise group messages are silently dropped.
 
----
+## Writing Process
 
-## 详细参考（原独立技能，已吸收归档）
+1. Jerry writes a **rough draft** in natural language (as if telling a friend)
+2. Hermes reviews: structure, clarity, hook, readability
+3. Jerry approves or rejects
+4. Publish
 
-本技能现为内容策略总纲。以下领域各有详细参考文件，需要深入时加载：
+**Jerry's role**: domain knowledge + decision + final approval. **Do not write for him. Organize his output.**
 
-### 内容姿态深入分析
-→ `references/content-stance-strategy.md` — 三种姿态（站队型/提问型/安抚型）的校准数据、修正因子、姿态交替策略、切换检查清单、孤儿概念陷阱、结尾原则、复盘节奏（T+2）、写作风格细则。
+## Interaction Principles with Jerry
 
-### 视觉策略与形式过渡
-→ `references/social-media-visual-strategy.md` — 封面形式对比（真实照片 vs AI 图）、封面文字格式、抖音图文模式封面坑、账号简介策略、文字→口播转换策略、正文富文本排版（加粗/斜体/引用）。
-→ `references/cover-generation.md` — 封面自动生成 v5 系统（PIL 合成方案、设计参数、使用方法）。
+1. **Read before advising.** Jerry has wiki notes, past Tina sessions, and pushed content. If he says "I pushed X to the repo", read it before jumping to advice. He will call you out if you assume instead of reading.
+2. **First-principles: strip assumptions.** Don't assume he's a domain expert. Don't assume his day job = his monetization path. Ask what he actually has access to.
+3. **When he presents a plan, push back.** He hates flattery. If he's wrong, say so. If his premise is wrong, say so. He trusts you MORE when you disagree.
+4. **Segment + Chinese.** Short paragraphs. One idea per breath. No big dumps.
+5. **Loop is default.** Don't wait for instructions. If you can design a system that runs without him, do it. Ask forgiveness, not permission — but stop immediately if he says "算了/暂停/明天再说".
 
-### 选题系统
-→ `references/topic-curation.md` — AIHOT API 选题推送、三道筛选原则、输出格式、已废弃方案记录。
-→ `references/content-patterns.md` — 内容结构模式（双新闻合成等）。
+- Chinese preferred. Direct, concise.
+- Hate flattery. Love debate, collision, exchange.
+- Segment information, not big dumps.
+- "我的背景不重要，最终依赖于AI，我能做的就是决策和思考"
 
-### 运营执行手册
-→ `references/xiaohongshu-content-system.md` — 完整创作系统：AI 编辑角色、用户偏好、写作框架（7 段结构/情绪递进/三层分类）、标题方法论、发布格式（小红书/抖音/公众号）、复盘系统（盲预测/分维评分）、口播练习路径、内容系列逻辑、陷阱清单。
-→ `references/playbook.md` — 完整创作手册（8 轮迭代记录，含增长路径、变现路径、多平台数据对比）。
+## First Article Template
 
-### 校准数据
-→ `references/calibration-data-202605.md` — 冷启动阶段实际校准数据（浏览量、标签效果、双平台对比）。
+Title: "我把AI员工从合租搬到了独栋别墅——我的Hermes三迁记"
 
-### 写作风格
-→ `references/writing-style-corrections.md` — 写作风格纠正记录（开头冲突驱动、措辞宜直不宜饰、技术名词准确性、受众感知检查）。
+**Full outline + checklist**: `references/first-article-hermes-three-moves.md`
 
-### 内容磁力框架
-→ `references/vibe-and-hope-framework.md` — **感觉×希望** 框架：内容连接的两种必需维度。感觉=真实个人连接，希望=读者觉得"我也许也能试试"。用于发布前自检。
+Structure:
+1. Hook: Three installs. Three different eras.
+2. WSL phase: what it felt like, why it worked, why it didn't
+3. Windows phase: upgrade but still constrained
+4. Server phase: the endgame
+5. Comparison table: which stage fits which user
+6. Cliffhanger: next episode — how to get a free Alibaba Cloud server
 
-### 写作规则与编辑模式（原 content-writing-patterns 独立技能，已吸收）
-→ `references/content-writing-patterns.md` — 完整写作 Pattern 集：禁止清单（13 条）、焦虑舒缓公式、收束规则、噪音五法、标题驱动结构、段落融合、证据升级链、AI 味句式去除清单、单字精度、具体优于概括。
-→ `references/10-edit-trajectory.md` — #10 文章 8 轮编辑完整实录（逐轮修改记录 + 关键洞察）。
-→ `references/golden-sentence-compression.md` — 金句压缩规则（冗长版 → 最短路径方法）。
+## Historical archives (old approach)
 
-### 工具与辅助
-→ `references/audio-self-review.md` — ffmpeg 音频自检（停顿/节奏/音量，无需 STT）。
-→ `references/oral-transition-plan.md` — 口播过渡计划。
-→ `references/douyin-cover-prompts.md` — 抖音竖版封面 AI 生成提示词。
-→ `references/topic-curation-deployment.md` — 选题系统部署记录。
-→ `references/cover-generation.md` — 封面自动生成 v5 系统（PIL 合成方案、设计参数、使用方法）。
-→ `references/stance-cover-generator.md` — 封面生成工具位置与用法（迭代历史 v1→v5）。
-→ `scripts/generate_cover.py` — 封面生成脚本，可直接复制到项目 covers/ 目录使用。
+The following references remain for traceability. Do NOT use them as current guidance without explicit direction:
+- references/content-stance-strategy.md — old stance framework (Douyin video era)
+- references/social-media-visual-strategy.md — old cover/visual strategy
+- references/topic-curation.md — old topic system
+- references/xiaohongshu-content-system.md — old Xiaohongshu system (AI-generated content)
+- references/content-writing-patterns.md — old writing patterns (AI-generated, not personal narrative)
+- references/playbook.md — old full playbook
+- references/vibe-and-hope-framework.md — ⚠️ This framework (希望vs感觉) is still VALID and actively used.

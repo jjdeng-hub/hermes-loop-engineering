@@ -95,7 +95,30 @@ print(result['markdown'])
 
 **Free tier**: 500 credits/month at https://www.firecrawl.dev
 
-### Option 4: Exa Search API
+### Option 4: Twitter API v2 Bearer Token (Best for cloud servers)
+
+The simplest programmatic access to read tweets — no login session needed. Free tier: 500k tweets/month.
+
+```python
+import urllib.request, json, urllib.parse
+
+token = urllib.parse.unquote("YOUR_BEARER_TOKEN")
+tweet_id = "2070789303978840351"
+url = f"https://api.twitter.com/2/tweets/{tweet_id}?tweet.fields=note_tweet,text"
+
+req = urllib.request.Request(url)
+req.add_header("Authorization", f"Bearer {token}")
+resp = urllib.request.urlopen(req, timeout=15)
+data = json.loads(resp.read())
+```
+
+**Pitfall**: The token from the developer portal often contains URL-encoded characters (`%2B`, `%3D`). Always `unquote()` it first. 401 errors are commonly caused by this, not by invalid tokens.
+
+**Pitfall 2**: If 401 persists after decoding, the app may need a few minutes to propagate, or needs to be activated in developer portal settings.
+
+**Full setup guide + troubleshooting**: `references/twitter-api-bearer-token.md`
+
+### Option 5: Exa Search API
 
 ```python
 from exa_py import Exa
