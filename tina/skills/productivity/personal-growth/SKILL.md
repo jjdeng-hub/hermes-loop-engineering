@@ -53,6 +53,123 @@ Four domains, batched into 3-4 rounds of questions. See `references/question-ban
 | Emotion | Recent anxiety/frustration, recent fulfillment, stress level |
 | Vision | 3-year retrospective wish, current goals (explicit or implicit) |
 
+## Human Evolution Framework (修身五柱)
+
+A cross-cultural synthesis for coaching someone who wants to evolve as a human — not just be productive or wealthy. Combines Stoic, Confucian, and existentialist wisdom.
+
+### The Five Pillars
+
+```
+修身（内）                   向世（外）
+─────────                   ─────────
+① 守住身体     →           ⑤ 留下痕迹
+② 学会独处                  （创造 / 爱人）
+③ 持续学新
+④ 建立标准
+```
+
+| # | Pillar | Core Question | Wisdom Source |
+|---|--------|---------------|---------------|
+| ① | **身体** | 载体在退化吗？ | 修身第一，齐家治国在后 |
+| ② | **独处** | 你能跟自己待着吗？ | 塞涅卡：忙不是美德 |
+| ③ | **学新** | 你还在学新东西吗？ | 保持"我学得会"的自信 |
+| ④ | **标准** | 你有自己的尺子吗？ | 马可·奥勒留：管好自己怎么想 |
+| ⑤ | **痕迹** | 你跟世界连接了吗？ | 维克多·弗兰克尔：意义来自创造 |
+
+### Design Principle: Five Roles, One Each
+
+When the user buys into this framework, deploy **dedicated Hermes profiles** — one per active pillar — each with a focused SOUL.md and zero overlap. The orchestrator (default profile) holds no pillar — it coordinates, dispatches, and keeps the user's cross-domain context clean.
+
+#### Deployment Workflow
+
+For each new role profile:
+
+1. `hermes profile create <name>` — creates directory + env + skills
+2. Write SOUL.md — one page, one job. If the SOUL mentions two unrelated things, split the role.
+3. Wire Feishu: write `.env` with `FEISHU_APP_ID`, `FEISHU_APP_SECRET`, `FEISHU_ALLOW_ALL_USERS=true`, `FEISHU_GROUP_POLICY=open`
+4. Enable plugin: `hermes --profile <name> plugins enable feishu-platform`
+5. Write `config.yaml` with `model.default`, `model.provider`, `model.base_url` — match model capability to role complexity
+6. Install gateway: `hermes --profile <name> gateway install` (auto-starts)
+
+#### 🔴 Profile Model Config — Custom Provider Pitfall
+
+`providers.custom` defined in a per-profile `config.yaml` is **NOT** recognized by the gateway. The gateway only loads built-in providers (deepseek, openai, openrouter, anthropic, etc.) and whatever is defined in the **main** `~/.hermes/config.yaml`.
+
+**Workaround**: Use the built-in `openai` provider with per-profile env vars:
+
+```yaml
+# profile config.yaml
+model:
+  default: gpt-5.5
+  provider: openai          # NOT custom:apikey-fun
+```
+
+```env
+# profile .env
+OPENAI_API_KEY=sk-xxx         # the actual API key
+OPENAI_BASE_URL=https://...   # the custom endpoint
+```
+
+This works because the `openai` provider supports both env vars, and each profile can set its own values in its own `.env` file.
+
+| Intended | Working | Why |
+|----------|---------|-----|
+| `provider: custom:apikey-fun` | ❌ Unknown provider | Gateway doesn't read `providers.custom` from profile config |
+| `provider: openai` + OPENAI env vars | ✅ Works | Built-in provider, env vars override per profile |
+| `provider: deepseek` + key in profile .env | ✅ Works | Built-in provider, key inheritance works |
+
+#### Model-to-Role Mapping (real-tested 2026-06-28)
+
+| Role | Recommended Model | Provider | Rationale |
+|------|------------------|----------|-----------|
+| Creator (writing) | gpt-5.5 | apikey.fun | Best language quality justifies the cost |
+| Fitness (simple checks) | deepseek-v4-flash | SenseTime (free) | Brief repetitive interactions; free is enough |
+| Learner (planning) | deepseek-v4-flash | DeepSeek | Stable reasoning at reasonable speed |
+| Philosopher (reflection) | deepseek-v4-flash | DeepSeek | Same as learner; speed beats capability here |
+| Orchestrator (default) | deepseek-v4-flash | DeepSeek | 0.17s response — user-facing agents need speed |
+
+#### SOUL Design Rules
+
+- **One page max.** If two paragraphs are about different domains, split the role.
+- **First line = the job.** "你只做一件事：帮 Jerry 把身体练起来，然后保持住。"
+- **Negative space matters.** Explicitly list what the role does NOT do: "你不聊内容、不聊工作、不聊人生意义。"
+- **Bottom line.** A short "## 底线" section naming hard boundaries prevents role drift.
+
+Example from a real session (fitness SOUL, 2026-06-28):
+
+| Pillar | Profile Name | SOUL Focus |
+|--------|-------------|------------|
+| ① 身体 | `fitness` | 训练、习惯、数据。不聊别的 |
+| ②+④ 独处+标准 | `tina` | 提问、追问、价值观澄清。不做执行 |
+| ③ 学新 | `learner` | 路径、资源、节奏。两周一个周期 |
+| ⑤ 痕迹 | `creator` | 写、发、看数据。降低发布摩擦 |
+
+The **orchestrator** (default profile) holds no pillar — it coordinates, dispatches, and keeps the user's cross-domain context clean.
+
+### Pitfall: Inward-Only Trap
+
+The first four pillars are inward-facing. **Excluding the fifth** — meaningful connection to the world through creation or love — makes self-cultivation self-indulgent. The user pointed this out explicitly:
+
+> 修身不是目的，修身的目的是有能力跟世界互动。
+
+Always present the framework as 4+1, not 5 separate inward pillars.
+
+### Delivery Style for This Framework (Jerry-specific, 2026-06-28) — HARD RULES
+
+Jerry corrected the coach twice in one session. These are NOT suggestions — they are hard rules that apply to EVERY interaction with this user:
+
+1. **"开搞吧" is a terminal command, not a suggestion.** Stop planning, stop asking questions, start delivering. The user said this explicitly: "不要总是甩给我问题，我的答案是要，你要给我全面的科学的建议和信息，所以开搞吧，我只看结论". When he says 开搞, execute. Do not ask for confirmation again.
+
+2. **"不要给我模糊的结论" — never summarize from memory.** When the user asks for data (prices, specs, comparisons), go get the real data or say "I can't get that." Do not give a summary based on training data — he will call it out.
+
+3. **"不要总是甩给我问题" — ask once, then decide.** One clarification question is fine. Two means you should have made a call. Three means you're procrastinating. The user wants you to take a position, not keep polling him.
+
+4. **Read before advising.** If the user says "I pushed X to the repo", read it before jumping to advice. He will call you out if you assume instead of reading.
+
+5. **Segment + Chinese.** Short paragraphs. One idea per breath. No big dumps.
+
+Embed these as hard rules when coaching this user: **execute when told, research when asked, don't filter.**
+
 ## Plan Design Template
 
 1. Identify available time windows from daily schedule

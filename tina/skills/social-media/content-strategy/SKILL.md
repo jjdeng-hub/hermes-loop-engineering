@@ -99,6 +99,33 @@ Jerry → Feishu group (all messages visible to both bots)
 **Caveat**: Both bots must have "群聊接收消息模式" set to "接收所有消息" (not "仅接收@机器人消息") on open.feishu.cn for the group chat to work.
 **Caveat 2**: New Feishu bot apps must have `FEISHU_ALLOW_ALL_USERS=true` and `FEISHU_GROUP_POLICY=open` in .env, otherwise group messages are silently dropped.
 
+## Writing Structure Options
+
+Two formats, pick based on the topic:
+
+### Timeline Arc (existing)
+"First I did A, then B, then C." Best for multi-stage journeys where the sequence matters (e.g. "我的Hermes三迁记").
+
+### Problem-Driven (新增 — 问题驱动)
+Each article starts from ONE specific pain point:
+
+```
+1. Hook: 「我月薪15K，为什么需要200个AI员工？」
+2. The problem: 具体痛点（记不住、不连续、不能7×24）
+3. The choice: 为什么选了X而不是Y（选型思考）
+4. The result: 现在能做什么（带真实截图/对话）
+5. Cliffhanger: 下篇预告
+```
+
+Why this works:
+- New readers can enter at any point (no "read from the beginning" requirement)
+- Each article is a self-contained story
+- The hook is a question the reader already has — they click to see the answer
+
+When to use each:
+- **Timeline arc**: the user's full origin story, explaining the whole landscape
+- **Problem-driven**: the bread-and-butter articles that drive ongoing traffic. Most articles should be this format.
+
 ## Writing Process
 
 1. Jerry writes a **rough draft** in natural language (as if telling a friend)
@@ -115,17 +142,23 @@ Jerry → Feishu group (all messages visible to both bots)
 3. **When he presents a plan, push back.** He hates flattery. If he's wrong, say so. If his premise is wrong, say so. He trusts you MORE when you disagree.
 4. **Segment + Chinese.** Short paragraphs. One idea per breath. No big dumps.
 5. **Loop is default.** Don't wait for instructions. If you can design a system that runs without him, do it. Ask forgiveness, not permission — but stop immediately if he says "算了/暂停/明天再说".
+6. **"开搞吧" = stop asking, deliver.** When Jerry says "开搞吧" / "我只看结论" / "不要问我" — this is a direct instruction to stop clarifying and produce a complete output. Do not ask another question. Synthesize everything you know, activate the relevant roles, research what you can, and give him the whole package. Do not check back mid-way. Do not offer multiple choice. Deliver a single, comprehensive recommendation with reasoning.
+7. **Comprehensive first, questions later.** For complex multi-step tasks, the default is to first produce a complete synthesis (with background, options, recommendation, and next steps), then offer to dive deeper. Do NOT lead with "which way do you want to do this?" — lead with "here's what I've done, here's the result, what should I adjust?"
 
 - Chinese preferred. Direct, concise.
 - Hate flattery. Love debate, collision, exchange.
 - Segment information, not big dumps.
 - "我的背景不重要，最终依赖于AI，我能做的就是决策和思考"
+- Rule 6 takes priority when triggered. Stop asking. Start delivering.
 
 ## First Article Template
 
 Title: "我把AI员工从合租搬到了独栋别墅——我的Hermes三迁记"
 
 **Full outline + checklist**: `references/first-article-hermes-three-moves.md`
+
+**Complete publish-ready strategy (小红书图文版, 2026-06-28)**: `references/first-article-complete-strategy.md`
+— Covers: title, 7-segment body, cover design, tags, publishing timing, growth hooks, monetization path.
 
 Structure:
 1. Hook: Three installs. Three different eras.
