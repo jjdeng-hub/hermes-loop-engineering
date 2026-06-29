@@ -8,6 +8,7 @@ AI agents: Read this file FIRST before scanning individual notes.
 
 | File | Title | Tags |
 |------|-------|------|
+| [[hermes-agent-complete-guide]] | Hermes Agent 从入门到精通 | hermes, guide, tutorial |
 | [[loop-engineering]] | Loop Engineering | loop-engineering, opc |
 | [[memory-architecture]] | 记忆架构 | memory, hermes |
 

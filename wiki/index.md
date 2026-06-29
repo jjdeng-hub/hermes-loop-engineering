@@ -26,6 +26,7 @@
 ## Inbox (Auto-Captures)
 
 - [[Inbox/auto-2026-06-29-17]] — 多角色会话汇总：群聊→私聊切换、SOUL 2.0、Tina灵魂定义、英语语音、Creator进化、睡眠分析、内容瓶颈
+- [[Inbox/auto-2026-06-30-07]] — Hermes 完整指南入库 / Tina灵魂定位 / Creator进化 / Learner英语Day1扩展 / Fitness睡眠首日确认 / 群聊→私聊架构转向
 
 ## Session Notes
 

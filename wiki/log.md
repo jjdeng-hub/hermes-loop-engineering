@@ -26,6 +26,8 @@
 
 ## [2026-06-29] auto-capture | 五路角色跨 profile 扫描：Tina Soul/Learner SRS+英语/Creator管道/Fitness睡眠诊断/全员进化推动
 
+## [2026-06-30] auto-capture | Hermes 完整指南入库 + Tina灵魂定位 + Creator进化 + Learner英语Day1扩展 + Fitness睡眠首日确认 + 群聊→私聊架构转向
+
 ## [2026-06-29] 修复 | model-sherpa NoneType bug + vault 自动备份
 - 修复 model-sherpa __init__.py:2465 和 2620 两处 `error_message.strip()` 未处理 None 的崩溃
 - 新增 vault 自动备份脚本: ~/.hermes/scripts/vault-backup.sh
