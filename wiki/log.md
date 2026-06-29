@@ -35,7 +35,17 @@
 - Creator SOUL.md 重写：痕迹催化剂定位
 - Learner SOUL.md 重写：AI 原生学习引擎
 - Fitness SOUL.md 重写：身体导师定位
-- Tom SOUL.md 新增「自主进化」章节
+- Tom SOUL.md 新增「自主进化」+「第六感：Vault 更新」章节
 - 技能裁剪：四个角色精简技能栈（Tina: 16删剩1, Creator: 12删剩5, Learner: 14删剩3, Fitness: 16删剩1）
 - Bot 互见：Tom=all / 其他=mentions
 - [[entities/五路并行角色体系]] — 新建角色体系文档
+
+## [2026-06-29] restructure | Vault 升级为 Second Brain
+- 引入 [[AGENTS.md]] — AI 代理操作规范
+- 引入 MANIFEST.md 自动索引系统（scans every directory）
+- 新增 Inbox/ Projects/ Archive/ 目录
+- 合并 entities/ concepts/ comparisons/ 到 Knowledge/
+- 新增 sync-manifests.py 自动生成脚本（cron 每6h同步）
+- vault-backup.sh 集成 MANIFEST 同步步骤
+- [[SCHEMA.md]] 全面更新
+- 所有角色 SOUL 增加 vault 共享路径
