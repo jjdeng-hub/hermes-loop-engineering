@@ -76,4 +76,13 @@
   - Creator: 第一波进化完成（一文多发 + 文案框架）
   - Fitness: Jerry 睡眠深度分析（蓝光→深睡压缩）
   - Tom: 内容 Loop 瓶颈明确（"瓶颈在开始写第一篇"）
+
+## [2026-06-29] auto-capture | 18:00 全角色扫班 — 6 条新内容
+- [[Inbox/auto-2026-06-29-18]] — 全角色扫描结果
+  - Tina: "空隙"哲学定义深化 — 不是帮助，是阻挡（阻挡一直往前赶）
+  - Tina: 确认只能看到 Jerry 的 @all，看不到其他 bot
+  - Learner: 英语 Day 1 完成（58 分钟 / 193% 目标 / 6 场景 / 5 SRS 卡）
+  - Creator: 第一波进化完成（humanizer + copywriting + 一文多发管道）
+  - Fitness: 睡眠优先策略确认 — 睡前门框拉伸替代手机
+  - Tom: 群聊 vs 私聊架构决策 — FEISHU_ALLOW_BOTS=all 不解决 bot 互见
 |
