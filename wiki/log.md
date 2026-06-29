@@ -3,6 +3,8 @@
 > Chronological record of all wiki actions. Append-only.
 > Format: `## [YYYY-MM-DD] action | subject`
 
+## [2026-06-29] auto-capture | Tom SOUL 升级 (7→9节), 飞书5Bot群组成立, 飞书Bot间@机制限制发现
+
 ## [2026-06-27] create | Wiki initialized
 - Domain: Hermes 配置 / OPC / Loop Engineering
 - Structure created with SCHEMA.md, index.md, log.md
