@@ -19,3 +19,23 @@
 - 克隆到 /opt/agency-agents-zh/
 - 312 个文件，20 个部门
 - 新增 wiki 页面: entities/agency-agents-catalog.md
+
+## [2026-06-29] 修复 | model-sherpa NoneType bug + vault 自动备份
+- 修复 model-sherpa __init__.py:2465 和 2620 两处 `error_message.strip()` 未处理 None 的崩溃
+- 新增 vault 自动备份脚本: ~/.hermes/scripts/vault-backup.sh
+- 新增 cron task: vault-backup（0 */6 * * *, no_agent, 静默推送）
+- 建立了内容自动保存到 vault 的工作流规则
+
+## [2026-06-29] fix | hermes-auto-update cron 死因分析
+- 6AM 的 auto-update 实际触发了，但因 DeepSeek API 不稳定 + model-sherpa 崩溃 + git 历史错乱 + gateway 重启导致未交付
+- model-sherpa 已修复
+
+## [2026-06-29] update | 五路并行角色体系搭建
+- [[points/2026-06-29-五路并行角色体系搭建]] — 完整变更记录
+- Creator SOUL.md 重写：痕迹催化剂定位
+- Learner SOUL.md 重写：AI 原生学习引擎
+- Fitness SOUL.md 重写：身体导师定位
+- Tom SOUL.md 新增「自主进化」章节
+- 技能裁剪：四个角色精简技能栈（Tina: 16删剩1, Creator: 12删剩5, Learner: 14删剩3, Fitness: 16删剩1）
+- Bot 互见：Tom=all / 其他=mentions
+- [[entities/五路并行角色体系]] — 新建角色体系文档

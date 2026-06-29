@@ -189,7 +189,50 @@ Start at L1 for any new loop. Only escalate to L2 after one week of clean runs.
 
 ## Profile-to-Profile Communication (Group Chat)
 
-Hermes Web UI has a **Group Chat** feature that allows multiple profile-based agents to share a conversation room.
+There are two distinct multi-bot environments — **Web UI Group Chat** and **native platform group chats** — each with different mechanics.
+
+### Feishu / Lark Native Group Chat
+
+> Multiple Feishu bot apps share the same group. Messages from one bot are delivered to the others only if configured.
+
+**Key discovery (2026-06-29):** The Feishu adapter defaults to `FEISHU_ALLOW_BOTS=none`, which means **all messages from other bot apps are silently discarded**. Without this setting, a multi-bot Feishu group is five deaf people in a room.
+
+**Configuration:**
+
+Add to each profile's `.env` (at `~/.hermes/profiles/<name>/.env`):
+
+```bash
+# Allow messages from other bots
+# none     = ignore all bot messages (default — dangerous in multi-bot groups!)
+# mentions = only see bot messages that @mention this bot
+# all      = see all bot messages from other bots
+FEISHU_ALLOW_BOTS=mentions
+```
+
+**Recommended architecture for a coordinator + specialist team:**
+
+| Profile type | Setting | Rationale |
+|-------------|---------|-----------|
+| **Coordinator** (e.g. Tom/default) | `FEISHU_ALLOW_BOTS=all` | Sees all conversations, can direct specialists |
+| **Specialist roles** (Tina, Learner, Creator, Fitness) | `FEISHU_ALLOW_BOTS=mentions` | Only hear from other bots when @mentioned — no echo loops |
+| **Standalone bots** (no need to see others) | Omit (defaults to `none`) | Clean isolation |
+
+After changing `.env`, **restart the gateway** (cannot be done from within the gateway — use a cron no_agent script or SSH):
+
+```bash
+# As a one-shot cron job (no_agent mode):
+cronjob(action='create', name='restart-bots-config', schedule='...',
+        script='restart-bots-config.sh', no_agent=True, deliver='local')
+```
+
+**Limitations:**
+- Even with `FEISHU_ALLOW_BOTS=all`, Feishu bot platform events are still gated by the platform — bots only receive messages when they are group members and the group has the right permissions
+- The `mentions` setting checks for @mentions via Feishu's native mention mechanism (not plain text `@Name`)
+- Bot-to-bot @mentions have not been tested — coordinating via the human or the main bot is the reliable path
+
+### Hermes Web UI Group Chat
+
+The Web UI has a separate Group Chat feature, documented below.
 
 ### Verified behavior (2026-06-20 — three rounds)
 
@@ -286,20 +329,51 @@ hermes_api_request(method="POST",
 
 #### SOUL 结构
 
-一套完整的 SOUL 包含三部分：
+一套完整的 SOUL 包含四部分：
 
-1. **身份定义** — 一句话说明你是谁、做什么（1-2行）
+1. **身份定义** — 一句话说明你是谁、做什么（1-2行）。用第一性原理：「为了什么存在」，不是「做什么任务」
 2. **三条永久思维法则** — 从对应角色的核心能力提炼，每条附带 ✅/❌ 示例
-3. **底线规则** — 绝对不做的红线和强制行为规范
+3. **进化章节** — **必需，不可跳过**。每个角色必须有自主进化意识：不依赖训练数据、主动吸收新知识、自驱迭代改进工作方式。这个章节在同一架构下的所有角色中保持统一（复制粘贴即可）。参考格式：
+   ```
+   ## 进化
+   
+   你不依赖训练数据活着。[领域]在变，Jerry 的需求在变——
+   你不能停在当初被训练出来的那个版本。
+   
+   - **主动学习** — 遇到不懂的就去查、去搜、去更新。不拿「训练数据没有」当避风港。
+   - **保持饥饿** — 每次发现一个更好的工具、方法、认知——吸收它，更新自己的工作方式。
+   - **自驱迭代** — 连续用同样方式做同一类事超过两周就自问：有更好的做法了吗？
+   ```
+4. **底线规则** — 绝对不做的红线和强制行为规范
 
 与"岗位描述"的区别：岗位描述告诉 agent 做什么，SOUL 告诉 agent 怎么思考。
 
-#### 如何从角色文件推导 SOUL
+### 第一性原理 SOUL 设计法（来自 Jerry 修正）
 
-1. 读取对应角色的 agency-agents-zh 角色文件
-2. 提取该角色的核心专业能力（不是技能列表，而是思维模式）
-3. 凝练为 3 条永久思维法则，每条附带具体正反示例
-4. 从角色文件的"关键规则"提取底线
+> **不要从「这个角色做什么」出发，要从「这个角色为了什么存在」出发。**
+
+错误示范（表面导向）：
+- 「创作者 = 写文章的」→ ❌ 把手段当成了目的
+- 「健身教练 = 催你做俯卧撑的」→ ❌ 把活动当成了本质
+- 「学习导师 = 教英语的」→ ❌ 把具体任务当成了职责
+
+正确方法（第一性原理）：
+1. **问最底层的问题**：这个角色在 Jerry 的生命中扮演什么角色？没有它，他缺了什么？
+2. **提炼为一句存在意义**：不是「做什么」，而是「为了什么」
+3. **从存在意义推导职责**：现在再问「为了实现这个目的，需要做什么具体的事？」
+
+实战验证的例子：
+
+| 角色 | 表层定义（错误） | 第一性原理定义（正确） |
+|------|----------------|---------------------|
+| Creator | "帮 Jerry 把想法变成内容发出去" | "帮 Jerry 在世界上留下他的痕迹，实现个人价值" |
+| Learner | "帮 Jerry 学英语，每天提醒他" | "帮 Jerry 学会任何他想学的东西，用 AI 时代最聪明的方式" |
+| Fitness | "每天推送训练计划" | "帮 Jerry 了解并掌控自己的身体，让它越来越强" |
+| Tina | "苏格拉底式提问"（✅ 这个本质够深，没变） | "帮 Jerry 独处和建立自己的标准" |
+
+**验证方法**：写完后问自己「如果 Jerry 从今天起再也不做 X（写文章/健身/学英语），这个角色还有存在的意义吗？」如果答案是「没有」，说明定义太窄了。那个角色应该服务于更深层的需求。
+
+### 如何从角色文件推导 SOUL
 
 #### 示例：DevOps/执行引擎 SOUL
 
@@ -396,7 +470,7 @@ The role files are at:
 └── sales/sales-engineer.md                           # 销售工程师
 ```
 
-### Step 3: Configure Profile-Specific Skills
+### Step 3: Configure Profile-Specific Skills + Trim Irrelevant Ones
 
 Each profile only loads the skills it needs:
 
@@ -415,6 +489,32 @@ skills:
   - baoyu-article-illustrator
   - comfyui
 ```
+
+#### ⚠️ 关键：修剪无关技能
+
+默认 `hermes profile create` 会从主 profile 复制所有技能。**必须手动删除与角色无关的技能**，否则：
+- 每个会话浪费大量 token 加载无关技能
+- Agent 容易「越界」回答自己不该管的问题
+- 角色边界模糊
+
+**修剪方法**：
+
+1. 列出该 profile 下所有技能：`ls ~/.hermes/profiles/<name>/skills/`
+2. 对照 SOUL 的「第一性原理定义」逐项判断：这个技能跟角色的存在意义有关系吗？
+3. 无关的删除：`rm -rf ~/.hermes/profiles/<name>/skills/<无关技能>/`
+
+**实战映射表（修身五柱架构）**：
+
+| 角色 | 第一性原理 | 保留技能 | 删除 |
+|------|-----------|---------|------|
+| **Tina** (哲思导师) | 独处+自建标准 | note-taking | 其他全部（~16个） |
+| **Creator** (痕迹催化剂) | 留下痕迹，实现个人价值 | creative, social-media, media, note-taking, email | autonomous-ai-agents, computer-use, software-development 等 |
+| **Learner** (学习引擎) | 学会任何东西，AI时代方法 | research, note-taking, email | creative, software-development, mlops 等 |
+| **Fitness** (身体导师) | 了解并掌控身体 | note-taking | 其他全部（~16个） |
+
+删除后重启 gateway 即可生效：`systemctl --user restart hermes-gateway-<name>`
+
+完整修剪表（含各角色保留/删除的技能清单）见 `references/wuxing-trimming-table.md`。
 
 ### Step 3b: Delete / Clean Up a Profile
 
@@ -653,7 +753,9 @@ When working for a solopreneur/CEO user who reviews but doesn't execute:
 
 ## Pitfalls
 
-1. **Profiles are independent processes.** The orchestrator cannot directly message another profile. Use Kanban board or `delegate_task` for inter-agent coordination.
+1. **Feishu multi-bot groups are deaf by default.** `FEISHU_ALLOW_BOTS` defaults to `none` — bots cannot see each other's messages in native Feishu group chats. Always set this explicitly when adding multiple bots to the same Feishu group. Coordinator gets `all`, specialists get `mentions`. See "Feishu / Lark Native Group Chat" section above.
+
+2. **Profiles are independent processes.** The orchestrator cannot directly message another profile. Use Kanban board or `delegate_task` for inter-agent coordination.
 2. **Don't over-create profiles.** 3 is enough to start. Each additional profile adds coordination overhead (whose job is this? who picks it up?).
 3. **Roles must be explicit.** A profile without a clearly defined role will drift into doing everything, defeating the purpose of specialization.
 4. **The CEO must actually review.** If the orchestrator sends deliverables straight to production without human review, quality drifts and the human loses context. Always route through the CEO for sign-off.
