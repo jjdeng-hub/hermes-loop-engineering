@@ -51,4 +51,11 @@
 - vault-backup.sh 集成 MANIFEST 同步步骤
 - [[SCHEMA.md]] 全面更新
 - 所有角色 SOUL 移除 vault 路径（由 Tom 统一管理）
-- 新增 vault-capture cron（每2h自动扫描会话，写入 Inbox/）
+|- 新增 vault-capture cron（每2h自动扫描会话，写入 Inbox/）
+
+## [2026-06-29] auto-capture | 冗余工具卸载 + 最终技能栈确认
+- [[Inbox/auto-2026-06-29-14]] — SkillClaw + sibyl-memory 卸载决策
+- 理由：Hermes 已有 skill_manage / fact_store / memory 等原生等价物
+- 最终技能栈：25 Hermes skills + 3 external (youtube-full, obsidian-cli, avoid-ai-writing)
+- hermes-agent-self-evolution 保留（Nous 官方包，不占资源）
+|
