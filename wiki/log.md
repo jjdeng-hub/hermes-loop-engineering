@@ -64,7 +64,11 @@
 - hermes-agent-self-evolution 保留（Nous 官方包，不占资源）
 
 ## [2026-06-29] auto-capture | 17:00 多角色会话汇总
-- [[Inbox/auto-2026-06-29-17]] — 7 条有价值内容
+| - [[Inbox/auto-2026-06-29-17]] — 7 条有价值内容
+| - [[Inbox/auto-2026-06-29-20]] — 3 条新内容
+  - Learner: Jerry 英语 Day 1 完成（46 分钟 / 3 场景 / 4 SRS 卡 / 语音全通）
+  - Fitness: 今晚睡眠任务（9:30手机→拉伸→10:00关灯）
+  - Office-Mgr: 北部市民中心考勤表 PDF 生成完成
   - Tom: 群聊→私聊架构切换决策
   - Tom: SOUL 2.0 升级（+故障模式工程 + 幕僚长过滤器）
   - Tina: 灵魂定义 — "我是空隙，不是工具"
