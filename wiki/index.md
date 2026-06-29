@@ -1,7 +1,7 @@
 # Wiki Index
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
-> Last updated: 2026-06-29 | Total pages: 9
+> Last updated: 2026-06-29 | Total pages: 10
 
 ## Entities
 
@@ -22,6 +22,10 @@
 
 ## Queries
 <!-- To be populated -->
+
+## Inbox (Auto-Captures)
+
+- [[Inbox/auto-2026-06-29-17]] — 多角色会话汇总：群聊→私聊切换、SOUL 2.0、Tina灵魂定义、英语语音、Creator进化、睡眠分析、内容瓶颈
 
 ## Session Notes
 

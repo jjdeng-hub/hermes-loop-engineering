@@ -62,4 +62,14 @@
 - 理由：Hermes 已有 skill_manage / fact_store / memory 等原生等价物
 - 最终技能栈：25 Hermes skills + 3 external (youtube-full, obsidian-cli, avoid-ai-writing)
 - hermes-agent-self-evolution 保留（Nous 官方包，不占资源）
+
+## [2026-06-29] auto-capture | 17:00 多角色会话汇总
+- [[Inbox/auto-2026-06-29-17]] — 7 条有价值内容
+  - Tom: 群聊→私聊架构切换决策
+  - Tom: SOUL 2.0 升级（+故障模式工程 + 幕僚长过滤器）
+  - Tina: 灵魂定义 — "我是空隙，不是工具"
+  - Learner: 英语语音双向通话成功 + SRS 引擎构建
+  - Creator: 第一波进化完成（一文多发 + 文案框架）
+  - Fitness: Jerry 睡眠深度分析（蓝光→深睡压缩）
+  - Tom: 内容 Loop 瓶颈明确（"瓶颈在开始写第一篇"）
 |
