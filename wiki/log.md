@@ -22,6 +22,10 @@
 - 312 个文件，20 个部门
 - 新增 wiki 页面: entities/agency-agents-catalog.md
 
+## [2026-06-29] auto-capture | Tom SOUL 升级 (7→9节), 飞书5Bot群组成立, 飞书Bot间@机制限制发现
+
+## [2026-06-29] auto-capture | 五路角色跨 profile 扫描：Tina Soul/Learner SRS+英语/Creator管道/Fitness睡眠诊断/全员进化推动
+
 ## [2026-06-29] 修复 | model-sherpa NoneType bug + vault 自动备份
 - 修复 model-sherpa __init__.py:2465 和 2620 两处 `error_message.strip()` 未处理 None 的崩溃
 - 新增 vault 自动备份脚本: ~/.hermes/scripts/vault-backup.sh
