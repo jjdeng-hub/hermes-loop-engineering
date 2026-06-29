@@ -48,4 +48,5 @@
 - 新增 sync-manifests.py 自动生成脚本（cron 每6h同步）
 - vault-backup.sh 集成 MANIFEST 同步步骤
 - [[SCHEMA.md]] 全面更新
-- 所有角色 SOUL 增加 vault 共享路径
+- 所有角色 SOUL 移除 vault 路径（由 Tom 统一管理）
+- 新增 vault-capture cron（每2h自动扫描会话，写入 Inbox/）
