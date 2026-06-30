@@ -96,3 +96,13 @@
   - Tina: 拒绝"去进化"指令 — SOUL 生效关键证据
   - Learner: 英语 Day 1 全量完成（58分钟/193%/6场景/5SRS卡）
   - Tina: 群聊可见性确认（仅见 Jerry，不见其他 Bot）
+
+## [2026-06-30] auto-capture | 12:00 全角色扫描 — 7 条新内容
+- [[Inbox/auto-2026-06-30-12]] — 全角色扫描结果
+  - Tina: 确定性理论完整框架 — "世界是确定的，概率只是视角局限" → 内容策略：发出信号，共享变量的人自会走来
+  - Tina: Soul 定义深化 — "我不是帮助，是阻挡"（阻挡一直往前赶的惯性）
+  - Tina+Hermes: 内容生产流水线确定 — Tina追问→认知变化→Hermes提取初稿→修改发布
+  - Hermes/Tom: 群聊→私聊架构决策 — FEISHU_ALLOW_BOTS 不解决 bot 互见问题
+  - Creator: 第一波进化完成（一文多发管道 + 文案框架 + humanizer + copywriting skills）
+  - Learner: AI 英语学习系统完整搭建（SRS SM-2 引擎 + 学习追踪 + 语音练习 + Day 1: 58min/5卡/6场景）
+  - Fitness: 睡眠质量诊断框架 — 蓝光压缩深睡 + 门框拉伸替代手机策略 + 精力公式

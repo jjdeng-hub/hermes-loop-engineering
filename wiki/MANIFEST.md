@@ -7,7 +7,7 @@
 
 | Directory | Purpose | Status |
 |-----------|---------|--------|
-| **Inbox/** | Quick captures, unprocessed ideas | 📥 7 files |
+| **Inbox/** | Quick captures, unprocessed ideas | 📥 8 files |
 | **Knowledge/** | Permanent knowledge (entities, concepts, comparisons, queries) | 📚 11 files |
 | **Projects/** | Active work items | 🚧 0 files |
 | **Archive/** | Completed/inactive items | 🗂️ 0 files |
