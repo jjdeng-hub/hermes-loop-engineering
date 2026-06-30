@@ -3,6 +3,14 @@
 > Chronological record of all wiki actions. Append-only.
 > Format: `## [YYYY-MM-DD] action | subject`
 
+## [2026-06-30] create | 旧变量与新变量的对抗机制（Tina 哲学对话第二段）
+- Created: points/2026-06-30-旧变量与新变量的对抗机制.md — 先发权理论、Jerry 进化算法、尺子刻度、正念作为第一原理结论
+- Updated: Knowledge/entities/jerry-profile.md — 新增行为特征、认知框架更新章节
+- Updated: Inbox/tina-会话记录-2026-06-29.md — 追加今日对话概要
+- Created: points/2026-06-29-确定性与随机性的自我剖析.md — 完整会话脉络 + 核心洞见 + 追问手法反思
+- Created: Inbox/tina-会话记录-2026-06-29.md — 原始会话一览
+- Updated: Knowledge/entities/jerry-profile.md — 新增哲学框架章节（外部随机×内部确定、增加接触面策略）
+
 ## [2026-06-29] auto-capture | Tom SOUL 升级 (7→9节), 飞书5Bot群组成立, 飞书Bot间@机制限制发现
 
 ## [2026-06-27] create | Wiki initialized

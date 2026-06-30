@@ -7,11 +7,11 @@
 
 | Directory | Purpose | Status |
 |-----------|---------|--------|
-| **Inbox/** | Quick captures, unprocessed ideas | 📥 9 files |
+| **Inbox/** | Quick captures, unprocessed ideas | 📥 10 files |
 | **Knowledge/** | Permanent knowledge (entities, concepts, comparisons, queries) | 📚 11 files |
 | **Projects/** | Active work items | 🚧 0 files |
 | **Archive/** | Completed/inactive items | 🗂️ 0 files |
-| **points/** | Session notes and key decisions by date | 📝 17 files |
+| **points/** | Session notes and key decisions by date | 📝 19 files |
 
 ## Agent Workflow
 
