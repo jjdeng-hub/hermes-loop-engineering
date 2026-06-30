@@ -106,3 +106,11 @@
   - Creator: 第一波进化完成（一文多发管道 + 文案框架 + humanizer + copywriting skills）
   - Learner: AI 英语学习系统完整搭建（SRS SM-2 引擎 + 学习追踪 + 语音练习 + Day 1: 58min/5卡/6场景）
   - Fitness: 睡眠质量诊断框架 — 蓝光压缩深睡 + 门框拉伸替代手机策略 + 精力公式
+
+## [2026-06-30] auto-capture | Tina→Creator 跨角色流水线首次激活 + Tina 拒绝进化 + Fitness 睡眠首日验证 + Learner Day 2 提醒
+  - Tina→Creator: 第一次端到端联动验证 — Tina 对话 → Jerry 整理文档 → Creator 识别为高价值内容并启动生产
+  - 文档 "确定性、随机性，与我的策略" — Jerry 自洽框架：外部随机 + 内部确定但不可知 + 策略是增加接触面
+  - Creator 内容方向确认：半导体工程师 × AI 一人公司 — 99% 同类内容无此视角
+  - Tina 拒绝执行性任务："我不会做这个，这不是我的领域" — 角色边界验证通过
+  - Fitness: 22:15-6:00 睡眠节奏首日验证通过 (~7h45m)
+  - Learner: Day 1 成绩 58min/5卡/6场景，Day 2 待复习提醒已发
