@@ -111,6 +111,7 @@ triggers: '用户提到 一人公司, OPC, Loop Engineering, 循环工程, 1+N, 
   - `references/loop-engineering-orange-book-english.txt` — Orange Book 英文版全文，70KB
   - `references/loop-engineering-social-media.md` — 社交媒体帖子合集（含X/LinkedIn/Medium/知乎摘要）
   - `references/x-article-prajwal-tomar.md`
+  - `references/service-productization-playbook.md` — AI 服务产品化实战：情报系统、AI 员工、定价、交付架构（2026-06-30 验证）
   - `references/jerry-profile.md` — 用户画像与沟通协议（加载本 skill 时必读）
   - `references/agency-agents.md` — 266 个 AI 专家角色库，含中国市场运营角色 — X Article 摘要（Prajwal Tomar 用 Hermes 管理5个业务）
 - **忠告**: 当用户要"干货"时，优先提供橙皮书全文和可获取的原文，而非摘要列表。使用 r.jina.ai 绕过 Cloudflare 获取 Medium/知乎内容（详见 web-research-methodology skill）。
