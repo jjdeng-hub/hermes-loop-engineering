@@ -88,3 +88,11 @@
   - Fitness: 睡眠优先策略确认 — 睡前门框拉伸替代手机
   - Tom: 群聊 vs 私聊架构决策 — FEISHU_ALLOW_BOTS=all 不解决 bot 互见
 |
+## [2026-06-30] auto-capture | 10:00 全角色扫描 — 6 条新内容
+- [[Inbox/auto-2026-06-30-10]] — 全角色扫描结果
+  - Tom: SearXNG + Chromium 基础设施故障诊断（待 Jerry 确认修复）
+  - Tom: Hermes Agent 从入门到精通完整指南（21KB，34节，已入库）
+  - Fitness: 睡眠节奏巩固成功（22:15→6:00，7h45m）
+  - Tina: 拒绝"去进化"指令 — SOUL 生效关键证据
+  - Learner: 英语 Day 1 全量完成（58分钟/193%/6场景/5SRS卡）
+  - Tina: 群聊可见性确认（仅见 Jerry，不见其他 Bot）

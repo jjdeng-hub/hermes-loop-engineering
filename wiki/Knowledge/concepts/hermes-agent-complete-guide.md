@@ -31,31 +31,59 @@ tags: [hermes, guide, tutorial, setup, cron, skills, memory, profiles, gateway]
 
 ## 2. 安装
 
-### Linux / macOS / WSL2
+### 💡 最佳安装方式（推荐）
+
+**Linux / macOS / WSL2 / Termux — 一行命令：**
 
 ```bash
-curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scripts/install.sh | bash
 ```
 
-### Windows (PowerShell)
+> 这是官方推荐方式，自动安装 Python、Node.js 依赖，配置好 `hermes` 命令。
+
+**Windows 桌面用户（最省心）：**
+
+下载 Hermes Desktop 安装包 → 下一步 → 完成。自带 GUI + 内置模型配置。
+
+**Windows PowerShell（无桌面）：**
 
 ```powershell
 iex (irm https://hermes-agent.nousresearch.com/install.ps1)
 ```
 
-### 验证安装
+### 安装后最快上手
 
 ```bash
+# 1. 验证
 hermes --version
-# 输出: Hermes Agent v0.17.0 (2026.6.19)
+
+# 2. 配置 Provider（最简路径：一次 OAuth 搞定模型+搜索+图片+浏览器）
+hermes setup --portal
+
+# 3. 或者手动配 API Key
+# 编辑 ~/.hermes/.env 添加：
+# DEEPSEEK_API_KEY=sk-xxx
+
+# 4. 启动
+hermes
 ```
 
-### 最快速的起步
+### 更新
 
 ```bash
-hermes setup --portal
+hermes update -y          # 一键更新到最新版
+hermes --version          # 检查版本
+
+# 自动更新（生产环境）
+# 每天 6AM cron job 执行：
+#   git fetch origin → 检测 commit 数 → pull → 重启 gateway
 ```
-一次 OAuth 认证覆盖模型 + 四个 Tool Gateway 工具（网页搜索、图片生成、TTS、浏览器）。
+
+### 浏览器依赖（如需网页浏览功能）
+
+```bash
+npx agent-browser install --with-deps
+```
 
 ## 3. 首次对话
 
