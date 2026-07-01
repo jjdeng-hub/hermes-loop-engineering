@@ -64,9 +64,16 @@
 - 新增 sync-manifests.py 自动生成脚本（cron 每6h同步）
 - vault-backup.sh 集成 MANIFEST 同步步骤
 - [[SCHEMA.md]] 全面更新
-- 所有角色 SOUL 移除 vault 路径（由 Tom 统一管理）
+|- 所有角色 SOUL 移除 vault 路径（由 Tom 统一管理）
 |- 新增 vault-capture cron（每2h自动扫描会话，写入 Inbox/）
-
+|
+|## [2026-07-01] update | 角色体系重构 — Maker 加入 + 废弃角色存档
+|- 创建 [[Maker profile]] — 行动引擎角色
+|- 编写 Maker SOUL.md（拆解→启动→跟进→挡完美主义→闭环）
+|- 存档 Creator/Learner/Fitness 角色（网关已停，SOUL保留）
+|- 关闭 creator/learner/fitness 的 gateway 服务
+|- 更新 [[entities/五路并行角色体系]] 文档
+|- 配置 MoA「free」preset（3参考模型+glm-5.2聚合器，全部免费）
 ## [2026-06-29] auto-capture | 冗余工具卸载 + 最终技能栈确认
 - [[Inbox/auto-2026-06-29-14]] — SkillClaw + sibyl-memory 卸载决策
 - 理由：Hermes 已有 skill_manage / fact_store / memory 等原生等价物

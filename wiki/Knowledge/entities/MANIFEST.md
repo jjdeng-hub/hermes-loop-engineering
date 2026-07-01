@@ -12,4 +12,4 @@ AI agents: Read this file FIRST before scanning individual notes.
 | [[hermes-config]] | Hermes Agent 完整配置 | hermes, server |
 | [[jerry-profile]] | Jerry（jjdeng）全面认知 | jerry, user-profile |
 | [[social-media-research]] | social media research |  |
-| [[五路并行角色体系]] | 五路并行角色体系 |  |
+| [[五路并行角色体系]] | 五路并行角色体系（重构版） | role, architecture, maker |
