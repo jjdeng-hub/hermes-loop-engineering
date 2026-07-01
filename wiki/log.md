@@ -3,7 +3,13 @@
 > Chronological record of all wiki actions. Append-only.
 > Format: `## [YYYY-MM-DD] action | subject`
 
-## [2026-06-30] create | 旧变量与新变量的对抗机制（Tina 哲学对话第二段）
+## [2026-07-01] update | 代码模型翻译
+- Updated: points/2026-06-30-旧变量与新变量的对抗机制.md — 新增第五部分（用代码模型映射整框架、default语句/元函数、"框架本身已成为新函数"的自我证明）
+- Updated: Knowledge/entities/jerry-profile.md — 新增代码模型翻译章节
+- Updated: Inbox/tina-会话记录-2026-06-29.md — 追加概要
+- Updated: points/2026-06-30-旧变量与新变量的对抗机制.md — 新增第三部分（内容策略/注意力框架/后验vs先验）和第四部分（停滞/重新定义"有力"）
+- Updated: Knowledge/entities/jerry-profile.md — 新增内容策略与注意力框架章节
+- Updated: Inbox/tina-会话记录-2026-06-29.md — 追加今日对话概要
 - Created: points/2026-06-30-旧变量与新变量的对抗机制.md — 先发权理论、Jerry 进化算法、尺子刻度、正念作为第一原理结论
 - Updated: Knowledge/entities/jerry-profile.md — 新增行为特征、认知框架更新章节
 - Updated: Inbox/tina-会话记录-2026-06-29.md — 追加今日对话概要
