@@ -1,7 +1,7 @@
 # Wiki Index
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
-> Last updated: 2026-07-01 | Total pages: 11
+> Last updated: 2026-07-02 | Total pages: 12
 
 ## Entities
 
@@ -30,6 +30,7 @@
 - [[points/2026-06-29-cron修复与vault自动备份]] — 定时任务故障分析 + Obsidian Vault 自动备份搭建
 - [[points/2026-06-29-五路并行角色体系搭建]] — 修身四柱框架、SOUL重写、技能裁剪、Bot互见配置
 - [[points/2026-07-01-角色体系重构-Maker加入]] — Maker 角色创建、废弃角色存档、MoA 配置
+- [[points/2026-07-02-全量配置审查与profile清理]] — 全量配置审计、4个废弃 role 删除、opencode-go 验证
 
 ## Inbox (Auto-Captures)
 

@@ -135,3 +135,11 @@
   - Tina 拒绝执行性任务："我不会做这个，这不是我的领域" — 角色边界验证通过
   - Fitness: 22:15-6:00 睡眠节奏首日验证通过 (~7h45m)
   - Learner: Day 1 成绩 58min/5卡/6场景，Day 2 待复习提醒已发
+
+## [2026-07-02] review+cleanup | 全量配置审查 + 4个废弃 profile 清理
+  - 全面审查 model/provider/fallback/network/cron/gateway 全部正常
+  - opencode-go 实测 200，sn-sensenova 实测 200
+  - 确认之前路由到 OpenRouter 的原因是 provider 未绑定
+  - 清理 Creator/Fitness/Learner/Office-mgr 4个 profile（用户已不用）
+  - 仅保留 default + Tina + Maker
+  - SOUL.md 引用更新 (Creator→Maker)

@@ -44,15 +44,16 @@ curl -s -o /dev/null -w "%{http_code} %{time_total}s" --connect-timeout 5 \
 
 ## 2. 国内可用模型速查
 
-| 提供商 | API 地址 | 视觉模型 | 延迟 | 免费额度 |
-|--------|----------|---------|------|---------|
-| **智谱** | `open.bigmodel.cn/api/paas/v4` | `glm-4v` | ~160ms | ✅ 新用户送 |
+| 提供商 | API 地址 | 可用模型 (文本) | 延迟 | 免费额度 |
+|--------|----------|----------------|------|---------|
+| **智谱** | `open.bigmodel.cn/api/paas/v4` | `glm-4v` (多模态) | ~160ms | ✅ 新用户送 |
 | 阿里百炼 | `dashscope.aliyuncs.com/compatible-mode/v1` | `qwen-vl-plus` | ~120ms | ✅ 新用户送 |
 | 百度文心 | `aip.baidubce.com` | `ernie-4.0-turbo` | ~200ms | ✅ 有 |
-| **OpenCode Go** | 聚合代理，内部路由⁺ | `deepseek-v4-flash`, `glm-5.2`, `kimi-k2.7-code`, `qwen3.7-max` | ~150ms | ✅ Go套餐 $5-10/月含13模型 |
-| **apikey.fun** | `api.apikey.fun/v1` | `gpt-5.4` (支持视觉) | ~200ms | ✅ 付费按量 |
-| **DeepSeek** | `api.deepseek.com` | — | ✅ | ❌ 不支持多模态 |
-| **Google Gemini** | `generativelanguage.googleapis.com` | `gemini-2.0-flash` | ❌ | 被墙 |
+| **OpenCode Go** | `https://opencode.ai/zen/go/v1` (custom provider) | `deepseek-v4-flash`, `glm-5.2`, `kimi-k2.7-code`, `qwen3.7-max` 等14模型 | ~150ms | ✅ Go套餐 $5首月/$10月，含14模型 |
+| **商汤 Sensenova** | `token.sensenova.cn/v1` (custom provider) | `deepseek-v4-flash` ✅, `glm-5.2` ✅, `sensenova-6.7-flash-lite`, `sensenova-u1-fast` ❌(404) | ~3-4s | ✅ 免费公测 |
+| **apikey.fun** | `api.apikey.fun/v1` (custom provider) | `gpt-5.4` (支持视觉) | ~200ms | ✅ 付费按量 |
+| **DeepSeek** | `api.deepseek.com` | `deepseek-chat` | — | ✅ 无多模态 |
+| **Google Gemini** | `generativelanguage.googleapis.com` | `gemini-2.0-flash` | ❌ 被墙 | — |
 
 ⁺ OpenCode Go 是一个国内可用的模型聚合代理，通过环境变量 `OPENCODE_GO_API_KEY` 配置。它将多个国产模型（DeepSeek、GLM、Kimi、Qwen 等）暴露为统一 OpenAI 兼容 API。Hermes 内置支持（built-in provider），无需在 custom_providers 中注册。
 
@@ -82,6 +83,23 @@ curl -s -o /dev/null -w "%{http_code} %{time_total}s" --connect-timeout 5 \
   api_key: <你的Key>
   model: glm-4v
 ```
+
+### 4.2 注册 OpenCode Go 为自定义提供商
+
+OpenCode Go 不是内置 provider，需要手动注册到 `custom_providers`：
+
+```yaml
+custom_providers:
+  sn-sensenova:
+    ...
+  apikey-fun:
+    ...
+  opencode-go:
+    api_key_env: OPENCODE_GO_API_KEY
+    base_url: https://opencode.ai/zen/go/v1
+```
+
+OpenCode Go 套餐：$5 首月，之后 $10/月，含 14 个国产模型（DeepSeek V4 Pro/Flash、GLM 5.2、Kimi K2.7、Qwen 3.7 Max 等）。适合做 fallback 链的 provider 多样性兜底。
 
 ### 4.2 指定视觉引擎
 
@@ -142,30 +160,62 @@ FB 4~6:   provider-B/C (同模型/不同模型)   ← 不同 provider，provider
 FB 7:     provider-D/premium-model       ← Premium 最终兜底
 ```
 
-### 6.3 实际操作
+### 6.3 ⚠️ 常见陷阱：同 provider 的 fallback 等于没用
 
-通过 Python YAML 直接编辑（`hermes config set` 传 JSON 数组会被存为字符串，导致故障）：
+**症状：** 主模型挂了，fallback 也全部失败，即使链上有三四个模型。
+
+**原因：** fallback 链中前 N 个模型使用同一个 provider。例如：
+
+```
+主模型:   opencode-go/deepseek-v4-flash
+FB 1:     opencode-go/glm-5.2          ← 也走 opencode-go
+FB 2:     opencode-go/kimi-k2.7-code   ← 也走 opencode-go
+FB 3:     opencode-go/qwen3.7-max      ← 也走 opencode-go
+```
+
+当 opencode-go 整体 503（服务不可用）或 429（限流），前三个 fallback 全挂，根本轮不到第四个不同 provider 的 fallback。**这是真实发生过的事故**（2026-07-02 opencode-go 连续 7 小时不可用）。
+
+**修复：** 每个 fallback 都应该来自不同的 provider。至少前 2 个 fallback 必须跨 provider。
+
+### 6.4 实际操作
+
+有两种方式改 fallback 链：
+
+**方式 A：`hermes config set`（单行 JSON 字符串，需注意格式）**
 
 ```bash
-# ❌ 不工作 — JSON 数组被存为字符串
-hermes config set fallback_providers '["m1", "m2", "m3"]'
+# 主模型切换（可用）
+hermes config set model.provider custom:sn-sensenova
+hermes config set model.default custom:sn-sensenova/deepseek-v4-flash
 
-# ✅ 正确 — 直接写 config.yaml
+# fallback 链（`hermes config set` 会存为 YAML 字符串而非数组，不确定是否被正确解析）
+hermes config set fallback_providers '["p1/m1","p2/m2","p3/m3"]'
+```
+
+**方式 B：直接写 config.yaml（推荐，保证解析正确）**
+
+```bash
 python3 -c "
 import yaml
-c = yaml.safe_load(open('/root/.hermes/config.yaml'))
-c['fallback_providers'] = ['m1', 'm2', 'm3']
-yaml.dump(c, open('/root/.hermes/config.yaml', 'w'), default_flow_style=False, sort_keys=False)
+with open('/root/.hermes/config.yaml') as f:
+    c = yaml.safe_load(f)
+c['fallback_providers'] = ['custom:sn-sensenova/glm-5.2', 'custom:sn-sensenova/deepseek-v4-flash', 'custom:apikey-fun/gpt-5.4']
+with open('/root/.hermes/config.yaml', 'w') as f:
+    yaml.dump(c, f, default_flow_style=False, sort_keys=False)
 "
 ```
 
-### 6.4 验证
+> ⚠️ 注意：切换主 provider 后，**当前会话仍然使用旧模型**。需要打 `/new` 重启会话，新会话才走新 provider。
+
+### 6.5 验证
 
 ```bash
 python3 -c "
 import yaml
-c = yaml.safe_load(open('/root/.hermes/config.yaml'))
+with open('/root/.hermes/config.yaml') as f:
+    c = yaml.safe_load(f)
 print('主:', c['model']['default'])
+print('Provider:', c['model']['provider'])
 for i, p in enumerate(c.get('fallback_providers', []), 1):
     print(f'  FB{i}: {p}')
 "

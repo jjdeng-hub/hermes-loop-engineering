@@ -81,9 +81,4 @@ tags: [tag1, tag2]
 This vault is the shared second brain for Jerry's entire AI role system:
 - **Tom** — writes session notes, maintains Knowledge
 - **Tina** — saves philosophical insights from conversations
-- **Creator** — archives content ideas and drafts
-- **Learner** — records learning progress
-- **Fitness** — logs training data and body changes
-
-All roles share the same vault path:
-`/root/.hermes/skills/research/opc-loop-engineering/wiki/`
+- **Maker** — records execution workflows and action plans
