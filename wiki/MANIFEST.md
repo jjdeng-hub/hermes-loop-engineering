@@ -1,6 +1,6 @@
 # Vault Manifest — Jerry's Second Brain
 
-> Root manifest | Generated 2026-07-02
+> Root manifest | Generated 2026-07-03
 > AI agents: READ THIS FIRST to understand the vault structure.
 
 ## Structure
@@ -11,7 +11,7 @@
 | **Knowledge/** | Permanent knowledge (entities, concepts, comparisons, queries) | 📚 11 files |
 | **Projects/** | Active work items | 🚧 0 files |
 | **Archive/** | Completed/inactive items | 🗂️ 0 files |
-| **points/** | Session notes and key decisions by date | 📝 20 files |
+| **points/** | Session notes and key decisions by date | 📝 21 files |
 
 ## Agent Workflow
 
