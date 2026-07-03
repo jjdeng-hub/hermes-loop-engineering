@@ -9,6 +9,7 @@ AI agents: Read this file FIRST before scanning individual notes.
 | File | Title | Tags |
 |------|-------|------|
 | [[hermes-agent-complete-guide]] | Hermes Agent 从入门到精通 | hermes, guide, tutorial |
+| [[jerry-cognitive-framework]] | Jerry 的认知框架：从确定性与随机性到个人进化算法 | jerry, philosophy, framework |
 | [[loop-engineering]] | Loop Engineering | loop-engineering, opc |
 | [[memory-architecture]] | 记忆架构 | memory, hermes |
 

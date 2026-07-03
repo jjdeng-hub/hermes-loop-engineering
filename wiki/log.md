@@ -3,7 +3,14 @@
 > Chronological record of all wiki actions. Append-only.
 > Format: `## [YYYY-MM-DD] action | subject`
 
-## [2026-07-01] update | 代码模型翻译
+## [2026-07-01] create | 认知框架总览
+- Created: Knowledge/concepts/jerry-cognitive-framework.md — 从确定性/随机性到进化算法、代码模型、自媒体策略的完整体系整理（八章：世界观→进化算法→神经链路→注意力框架→代码模型→自媒体设计→连环质疑→关键引用）
+- Updated: points/2026-06-30-旧变量与新变量的对抗机制.md — 新增第六部分（自媒体对接理论、新变量位置、概念/作用/代价、连环质疑回应）
+- Updated: Knowledge/entities/jerry-profile.md — 新增自媒体策略章节、最终姿态
+- Updated: Inbox/tina-会话记录-2026-06-29.md — 追加概要
+- Updated: points/2026-06-30-旧变量与新变量的对抗机制.md — 新增第六部分（自媒体对接理论、新变量位置、概念/作用/代价、连环质疑回应）
+- Updated: Knowledge/entities/jerry-profile.md — 新增自媒体策略章节、最终姿态
+- Updated: Inbox/tina-会话记录-2026-06-29.md — 追加概要
 - Updated: points/2026-06-30-旧变量与新变量的对抗机制.md — 新增第五部分（用代码模型映射整框架、default语句/元函数、"框架本身已成为新函数"的自我证明）
 - Updated: Knowledge/entities/jerry-profile.md — 新增代码模型翻译章节
 - Updated: Inbox/tina-会话记录-2026-06-29.md — 追加概要
