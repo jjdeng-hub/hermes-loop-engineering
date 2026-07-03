@@ -3,6 +3,11 @@
 > Chronological record of all wiki actions. Append-only.
 > Format: `## [YYYY-MM-DD] action | subject`
 
+## [2026-07-01] update | 判定标准与反馈闭环
+- Updated: points/2026-06-30-旧变量与新变量的对抗机制.md — 新增反馈闭环与判定标准章节
+- Updated: Knowledge/entities/jerry-profile.md — 新增判定标准章节
+- Updated: Knowledge/concepts/jerry-cognitive-framework.md — 新增第九章（判定标准与反馈闭环）
+- Updated: Inbox/tina-会话记录-2026-06-29.md — 追加概要
 ## [2026-07-01] create | 认知框架总览
 - Created: Knowledge/concepts/jerry-cognitive-framework.md — 从确定性/随机性到进化算法、代码模型、自媒体策略的完整体系整理（八章：世界观→进化算法→神经链路→注意力框架→代码模型→自媒体设计→连环质疑→关键引用）
 - Updated: points/2026-06-30-旧变量与新变量的对抗机制.md — 新增第六部分（自媒体对接理论、新变量位置、概念/作用/代价、连环质疑回应）
