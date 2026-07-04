@@ -15,6 +15,12 @@
 - cron prompt 新增板块三「🧩 今日热门 Skill」
 - 修复 GitHub API 认证（读取 gh token）
 
+## [2026-07-04] create | 标题公式 skill + 选题库
+- 创建 skill: xiaohongshu-title-formulas（22个已验证标题公式，来源可查）
+- 创建 vault: Projects/content-topic-bank.md（23个初始选题，5个系列）
+- 公式来源：Buffer、Made to Stick、Influence、Copyblogger 等营销经典
+- 数据分析：数字生命卡兹克 B站内容结构拆解
+
 ## [2026-07-01] update | 判定标准与反馈闭环
 - Updated: points/2026-06-30-旧变量与新变量的对抗机制.md — 新增反馈闭环与判定标准章节
 - Updated: Knowledge/entities/jerry-profile.md — 新增判定标准章节

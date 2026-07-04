@@ -9,7 +9,7 @@
 |-----------|---------|--------|
 | **Inbox/** | Quick captures, unprocessed ideas | 📥 10 files |
 | **Knowledge/** | Permanent knowledge (entities, concepts, comparisons, queries) | 📚 12 files |
-| **Projects/** | Active work items | 🚧 0 files |
+| **Projects/** | Active work items | 🚧 1 files |
 | **Archive/** | Completed/inactive items | 🗂️ 0 files |
 | **points/** | Session notes and key decisions by date | 📝 22 files |
 
