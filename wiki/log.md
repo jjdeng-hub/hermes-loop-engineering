@@ -3,6 +3,18 @@
 > Chronological record of all wiki actions. Append-only.
 > Format: `## [YYYY-MM-DD] action | subject`
 
+## [2026-07-04] update | daily-report → GitHub AI trend brief
+- 重写 github-trending-scan.py（替代 HN 脚本）
+- 更新 cron prompt：daily-opportunity-scan → daily-ai-trending
+- 内容：GitHub 日榜 AI 项目 + 新 AI 仓库 + 今日行动
+- 去掉：机器状态、token 用量、推荐行动
+
+## [2026-07-04] update | 新增 skill 榜
+- github-trending-scan.py 新增 search_skills() 函数
+- 搜索 claude-code-skill / hermes-skill / mcp-server / awesome 等
+- cron prompt 新增板块三「🧩 今日热门 Skill」
+- 修复 GitHub API 认证（读取 gh token）
+
 ## [2026-07-01] update | 判定标准与反馈闭环
 - Updated: points/2026-06-30-旧变量与新变量的对抗机制.md — 新增反馈闭环与判定标准章节
 - Updated: Knowledge/entities/jerry-profile.md — 新增判定标准章节

@@ -11,7 +11,7 @@
 | **Knowledge/** | Permanent knowledge (entities, concepts, comparisons, queries) | 📚 12 files |
 | **Projects/** | Active work items | 🚧 0 files |
 | **Archive/** | Completed/inactive items | 🗂️ 0 files |
-| **points/** | Session notes and key decisions by date | 📝 21 files |
+| **points/** | Session notes and key decisions by date | 📝 22 files |
 
 ## Agent Workflow
 
