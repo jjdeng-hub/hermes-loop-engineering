@@ -166,10 +166,18 @@
   - Fitness: 22:15-6:00 睡眠节奏首日验证通过 (~7h45m)
   - Learner: Day 1 成绩 58min/5卡/6场景，Day 2 待复习提醒已发
 
-## [2026-07-02] review+cleanup | 全量配置审查 + 4个废弃 profile 清理
+|## [2026-07-05] update | 选题库升级 - 新增3字段 + 优先级标记
+  - 新增字段: 优先级(🔥本周/⭐优先/正常/💤暂缓) + 添加日期(自动) + 数据(发后回填)
+  - 33条选题按内容分析标记优先级: 5条🔥本周 / 8条⭐优先 / 14条正常 / 6条💤暂缓
+  - 🔥本周候选: 第一次用AI写脚本 / 下班改PPT下班改AI / 加班10点回家还折腾 / 周末做了没用的网页 / 折腾AI因为不想卷了
+  - ⭐优先: 同事问我最近在干嘛 / AI打卡提醒 / 30%岗位替代打工人反应 / 折腾一月最大变化 / Hermes纪律 / 收藏夹更乱了 / 5个文案工具回备忘录 / 有人蹭我服务器
+  - 踩坑即选题 SOP: 对话中自动识别坑→转选题→入库
+  - 标题: MoA 出3个选项→选→发→记数据
+|## [2026-07-02] review+cleanup | 全量配置审查 + 4个废弃 profile 清理
   - 全面审查 model/provider/fallback/network/cron/gateway 全部正常
   - opencode-go 实测 200，sn-sensenova 实测 200
   - 确认之前路由到 OpenRouter 的原因是 provider 未绑定
   - 清理 Creator/Fitness/Learner/Office-mgr 4个 profile（用户已不用）
   - 仅保留 default + Tina + Maker
   - SOUL.md 引用更新 (Creator→Maker)
+|

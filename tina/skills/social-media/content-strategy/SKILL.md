@@ -3,7 +3,44 @@ name: content-strategy
 description: Jerry's content strategy — personal narrative journey (叙事) about building an AI-powered one-person company. Text-first, Xiaohongshu 图文 as primary platform. "Do → Record" model.
 ---
 
-# Content Strategy (current approach, effective 2026-06-28)
+# Content Strategy (current approach, effective 2026-07-05)
+
+## 2026-07-05 Critical Updates
+
+**定位修正 — 自本次session起生效：**
+
+| 旧 | 新 |
+|---|---|
+| 「打工人AI副业实验」 | 「一个28岁普通打工人，下班后和 AI 相处的真实记录」 |
+| 「下班折腾AI」 | 实际从早到晚都在聊，不只下班 |
+| 简介：打工人AI日记 | **简介**：日记里只记两件事：今天试了什么，脑子里想了什么。 |
+| 定位：AI副业/一人公司 | 定位：不教不吓，观点展示，真实故事 |
+
+**三条铁律（新）：**
+1. **「我在」视角** — 永远写我身上发生的事，不加「你应该」
+2. **真实结果** — 好就是好，烂就是烂，不美化
+3. **不教不吓** — 传递感受，不传递方法论和焦虑
+
+**内容一致性规则（新）：**
+- 所有选题必须方向统一，不能前后矛盾
+- 前5篇尤其重要，第一篇立人设，后续验证人设
+- 每篇筛选标准：它跟上一篇说的一样的人做的一样的事吗？
+
+**封面策略（新）：**
+- 标题+封面占80%重要性
+- 小红书3:4竖版，feed里封面只有手机屏幕1/3高
+- 封面必须统一排版模板：大字标题(占1/3)+底部小字「下班折腾AI的日记」
+- 深色底+白字，每篇换背景图但版式不变
+- 文字放正文caption（200-400字），不放图片里（图片文字搜不到）
+- 图2-3张：封面→金句/截图→过程展示，不凑图
+- 第一篇：封面用终端截图+大字标题，图2用真实聊天截图
+
+**前5篇排布（新）：**
+1. 不瞒你说，我折腾AI最开始只是因为不想卷了 — 开场立人设
+2. 第一次用AI助手帮我写了一个完整的脚本 — 具体实验
+3. 折腾AI一个月，发现最大的变化不是效率变高了 — 思考感悟
+4. 下班前改PPT，下班后改AI配置文件 — 日常记录
+5. 同事问我最近在干嘛，我说不清楚 — 社交反应
 
 > **Warning**: This is the THIRD iteration of Jerry's content strategy.
 > Prior versions (Douyin video + AI-generated content → Knowledge base monetization) are archived as historical references below.
@@ -18,10 +55,10 @@ description: Jerry's content strategy — personal narrative journey (叙事) ab
 
 ## Who Jerry Is (the anchor)
 
-- 28, Suzhou, married, C++/Python engineer at K&S (Ball Bonder equipment)
-- Salary 15K/mo, expenses 5230/mo
-- First job, no industry connections
-- **Not an AI expert, not a semi expert.** A regular engineer who happens to run AI agents deeply.
+- 28岁，普通打工人，工厂上班
+- 不是AI专家，不是半导体专家。一个普通人在认真折腾AI工具。
+- 有自己的Hermes Agent全套系统（服务器+飞书Bot+MoA+cron+多profile）
+- 从早到晚都在跟AI聊天（不是只下班）
 
 ## The Content Product
 
@@ -74,7 +111,7 @@ Jerry chats with Tina (Feishu group, natural conversation)
 
 | Platform | Role | Status | Notes |
 |----------|------|--------|-------|
-| **Xiaohongshu** | Primary. 图文 only. | Not yet started. | Needs account registration (phone number required). |
+| **Xiaohongshu** | Primary. 图文 only. | ✅ Account registered. First post in progress. | 昵称已设置，简介：「日记里只记两件事：今天试了什么，脑子里想了什么」 |
 | **WeChat Official Account** | Text backup / rehost. | Future. | |
 | **Douyin** | Abandoned. Too high production cost for video. | Not active. | |
 | **Twitter/X** | English-language / dev-community reposts. | ✅ Account: TomDengnc1c. Has API Bearer Token (402 CreditsDepleted — free tier needs activation). | Server IP blocked for browser login without residential proxy. Bearer Token authenticated but v2 API returns 402 (needs free/basic tier activated in Developer Portal). v1.1 API limited. |
@@ -151,22 +188,27 @@ When to use each:
 - "我的背景不重要，最终依赖于AI，我能做的就是决策和思考"
 - Rule 6 takes priority when triggered. Stop asking. Start delivering.
 
-## First Article Template
+## First Article (2026-07-05)
 
-Title: "我把AI员工从合租搬到了独栋别墅——我的Hermes三迁记"
+**标题：** 不瞒你说，我折腾AI最开始只是因为不想卷了
+**公式：** 情绪留白
+**定位：** 开场立人设
 
-**Full outline + checklist**: `references/first-article-hermes-three-moves.md`
+**内容框架：**
+1. **开头·现状** — 每天重复的生活（1-2句让人代入）
+2. **转折·为什么开始** — 有一天突然意识到除了上班什么都不会
+3. **动作·做了什么** — 没报课没买书，打开电脑开始试
+4. **重点·真实的变化** — 最大的变化不是效率高了，是下班后有事做了
+5. **结尾·账号说明** — 这个号就记两件事：今天试了什么 + 脑子里想了什么
 
-**Complete publish-ready strategy (小红书图文版, 2026-06-28)**: `references/first-article-complete-strategy.md`
-— Covers: title, 7-segment body, cover design, tags, publishing timing, growth hooks, monetization path.
+**配图：**
+- 封面：终端截图做背景 + 大字标题「不想卷了」（占画面1/3）+ 底部小字「下班折腾AI的日记」
+- 图2：真实聊天截图（AI列出最近折腾的内容）
+- 正文：200-400字caption
 
-Structure:
-1. Hook: Three installs. Three different eras.
-2. WSL phase: what it felt like, why it worked, why it didn't
-3. Windows phase: upgrade but still constrained
-4. Server phase: the endgame
-5. Comparison table: which stage fits which user
-6. Cliffhanger: next episode — how to get a free Alibaba Cloud server
+**旧版第一篇文案（已废弃）：**
+- ~~references/first-article-hermes-three-moves.md~~
+- ~~references/first-post-dagongren.md~~
 
 ## Content Pivot 2026-06-30: Semiconductor → 自媒体+AI
 
@@ -205,12 +247,12 @@ Scan 结果推送至飞书 DM（当前对话），产出「今日商机报告」
 
 **⚠️ 关键修正：不要用"一人公司"这个词。**
 
-Jerry 不是全职创业、没有营收，叫"一人公司"不诚实。定位改为：**「打工人 AI 副业实验」**。
+Jerry 不是全职创业、没有营收，叫"一人公司"不诚实。定位改为：**「打工人AI副业实验（注：此定位已于2026-07-05更新——见顶部。以下内容保留仅作追溯）」**。
 
 ### 账号定位卡
 | 维度 | 内容 |
 |------|------|
-| 账号名 | 打工人 AI 副业实验 |
+| 账号名 | 打工人AI副业实验（注：此定位已于2026-07-05更新——见顶部。以下内容保留仅作追溯） |
 | 人设 | 28岁苏州半导体打工人，下班折腾 AI 搭自动化系统 |
 | 平台 | 小红书（图文为主） |
 | 风格 | 真实、实操、不装逼。展示普通上班族怎么用 AI 工具搞副业 |
@@ -232,7 +274,7 @@ Tom 不做内容创作。素材流水线搭好后，内容产出通过 delegate_
 - 工具箱：Hermes Agent + VPS + 飞书Bot + QQ Bot + 商机扫描系统
 - 完整文案见 references/first-post-dagongren.md
 
-## 2026-06-30 内容形式确认：打工人 AI 副业实验
+## 2026-06-30 内容形式确认：打工人AI副业实验（注：此定位已于2026-07-05更新——见顶部。以下内容保留仅作追溯）
 
 Jerry 明确选择了这个方向，并纠正了"一人公司"的说法。
 
