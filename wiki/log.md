@@ -181,3 +181,21 @@
   - 仅保留 default + Tina + Maker
   - SOUL.md 引用更新 (Creator→Maker)
 |
+## [2026-07-06] update | 定位重设 + 选题清理 + 账号搭建
+  - Creator 首次工作会话
+  - 定位从「下班折腾AI的日记」→「展示AI的更多可能性 / 个人思想在AI时代如何落地」
+  - 账号名：Jerry的AI笔记 | 简介：INTJ | 在确定性中找到出口...
+  - 内容准则调整：不教→不端着教，门槛不高→看得懂不一定跟得上
+  - 清理4条不符合新定位的选题（飞书bitable已删）
+  - 选题库从33条→22条待写
+  - points/2026-07-06-定位重设与账号搭建.md — 完整记录
+|
+## [2026-07-06] create | 第一篇内容 + 封面系统搭建
+  - 第一篇定稿：「白嫖了一个月云服务器，AI终于不用靠电脑养着了」
+  - 标题：白嫖了一个月云服务器，AI终于不用靠电脑养着了
+  - 封面：HTML+Playwright截图方案，Minimalist 风格，「白嫖」红字高亮
+  - 附件：飞书文档（Nhuudzl8xopyPFxeQppcG85Wnab）— 白嫖服务器流程，待补截图
+  - 增加质量门禁：每篇写完过 humanizer 扫描
+  - 改造 xiaohongshu-text-image 渲染脚本：支持 **标记做行内高亮、首行大15%层级
+  - 安装 taste-skill 设计体系
+  - 下载 cover-xiaohongshu 封面技能
