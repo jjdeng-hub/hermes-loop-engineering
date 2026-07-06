@@ -1,6 +1,6 @@
 # Vault Manifest — Jerry's Second Brain
 
-> Root manifest | Generated 2026-07-06
+> Root manifest | Generated 2026-07-07
 > AI agents: READ THIS FIRST to understand the vault structure.
 
 ## Structure
